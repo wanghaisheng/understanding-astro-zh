@@ -1,3 +1,8 @@
+---
+title: Chapter 1
+description: Build your first Astro Application
+---
+
 ## Table of contents
 
 # 🚀 Understanding Astro

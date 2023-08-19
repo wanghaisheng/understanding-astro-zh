@@ -1,3 +1,8 @@
+---
+title: Chapter 2
+description: Astro Components In-depth
+---
+
 # 🚀 Understanding Astro
 
 By [Ohans Emmanuel](https://www.ohansemmanuel.com/)

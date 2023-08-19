@@ -1,3 +1,7 @@
+---
+title: 第六章
+description: 第6章Astro中的服务器端渲染（SSR）
+---
 
 [](#-understanding-astro)🚀 Understanding Astro  
 🚀 了解Astro

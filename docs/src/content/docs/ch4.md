@@ -1,3 +1,8 @@
+---
+title: Chapter 4
+description: The Secret Life of Astro Component Islands
+---
+
 # 🚀 Understanding Astro
 
 By [Ohans Emmanuel](https://www.ohansemmanuel.com/)

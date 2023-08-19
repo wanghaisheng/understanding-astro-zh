@@ -1,100 +1,10 @@
+---
+title: 第四章
+description: The Secret Life of Astro Component Islands 
+---
 
 
-Breadcrumbs
------------
 
-1.  [understanding-astro-book](/understanding-astro/understanding-astro-book/tree/master)
-
-/
-
-ch4.md
-======
-
- master
-
-Breadcrumbs
------------
-
-1.  [understanding-astro-book](/understanding-astro/understanding-astro-book/tree/master)
-
-/
-
-ch4.md
-======
-
-t
-
-Blame
-
-Latest commit
--------------
-
-[![ohansemmanuel](https://avatars.githubusercontent.com/u/10930234?s=40&v=4)](/ohansemmanuel)[ohansemmanuel](/understanding-astro/understanding-astro-book/commits?author=ohansemmanuel)
-
-[🐛 fix: resolves syntax autosave error](/understanding-astro/understanding-astro-book/commit/5f7580ec8ca3c5b06f42ce06bc256bee434a9ba6 "🐛 fix: resolves syntax autosave error")
-
-[5f7580e](/understanding-astro/understanding-astro-book/commit/5f7580ec8ca3c5b06f42ce06bc256bee434a9ba6) · 
-
-History
--------
-
-[History](/understanding-astro/understanding-astro-book/commits/master/ch4.md)
-
-[](/understanding-astro/understanding-astro-book/commits/master/ch4.md)
-
-1048 lines (752 loc) · 36.5 KB
-
- master
-
-Breadcrumbs
------------
-
-1.  [understanding-astro-book](/understanding-astro/understanding-astro-book/tree/master)
-
-/
-
-ch4.md
-======
-
-Top
-
-File metadata and controls
---------------------------
-
-*   Preview
-    
-*   Code
-    
-*   Blame
-    
-
-1048 lines (752 loc) · 36.5 KB
-
-[Raw](/understanding-astro/understanding-astro-book/raw/master/ch4.md)
-
-[](https://github.dev/)[](https://github.dev/)
-
-[](/understanding-astro/understanding-astro-book/edit/master/ch4.md)
-
-[](#-understanding-astro)🚀 Understanding Astro  
-🚀 了解Astro
-============================================================
-
-By [Ohans Emmanuel](https://www.ohansemmanuel.com/) 作者：Ohans Emmanuel
-
-  
-  
-  
-
-[![](/understanding-astro/understanding-astro-book/raw/master/images/ch3/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
-
-  
-  
-
-[![](/understanding-astro/understanding-astro-book/raw/master/images/ch3/view-project.png)](https://github.com/understanding-astro/astro-islands-showcase)
-
-  
-  
 
 [](#chapter-4-the-secret-life-of-astro-component-islands)Chapter 4: The Secret Life of Astro Component Islands  
 第四章：天体组件岛的秘密生活

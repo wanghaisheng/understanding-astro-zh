@@ -1,3 +1,8 @@
+---
+title: Chapter 6
+description: Server-side Rendering (SSR) in Astro！
+---
+
 # 🚀 Understanding Astro
 
 By [Ohans Emmanuel](https://www.ohansemmanuel.com/)

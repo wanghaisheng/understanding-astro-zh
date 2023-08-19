@@ -1,3 +1,7 @@
+---
+title: 第七章
+description: Be Audible! (Fullstack Astro Project) 
+---
 
 [](#-understanding-astro)🚀 Understanding Astro  
 🚀 了解Astro

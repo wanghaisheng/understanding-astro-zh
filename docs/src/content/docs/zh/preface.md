@@ -1,3 +1,8 @@
+---
+title: 序
+description: 发现使用 Starlight 构建的网站和扩展 Starlight 的社区工具！
+---
+
 # 🚀 Understanding Astro
 
 By [Ohans Emmanuel](https://www.ohansemmanuel.com/)

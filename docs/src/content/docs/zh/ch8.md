@@ -1,3 +1,7 @@
+---
+title: 第八章
+description: 构建自己的Astro集成
+---
 
 [](#-understanding-astro)🚀 Understanding Astro 了解Astro
 =======================================================

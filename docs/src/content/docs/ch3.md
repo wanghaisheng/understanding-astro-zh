@@ -1,3 +1,8 @@
+---
+title: Chapter 3
+description: Build Your Own Component Island！
+---
+
 # 🚀 Understanding Astro
 
 By [Ohans Emmanuel](https://www.ohansemmanuel.com/)

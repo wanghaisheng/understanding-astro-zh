@@ -1,3 +1,7 @@
+---
+title: 第一章
+description: 第1章：构建第一个Astro应用程序
+---
 
 
 [](#table-of-contents)Table of contents 第一章目录

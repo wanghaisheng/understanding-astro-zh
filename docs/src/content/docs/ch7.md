@@ -1,3 +1,8 @@
+---
+title: Chapter 7
+description: Be Audible! (Fullstack Astro Project)
+---
+
 # 🚀 Understanding Astro
 
 By [Ohans Emmanuel](https://www.ohansemmanuel.com/)

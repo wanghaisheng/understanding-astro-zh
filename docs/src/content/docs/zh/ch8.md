@@ -37,7 +37,7 @@ At the end of this chapter, you’ll join the order of mages who wield great pow
 Before we dive into the beautiful world of Astro integrations, we need to know who’s powering the Astro build ship - and that’s [Vite](https://vitejs.dev/), the build tool all about speed, efficiency and flexibility. Think of Vite as our trusty co-pilot, helping us bundle our web pages and creating a lightning-fast development environment.  
 在我们深入了解Astro集成的美丽世界之前，我们需要知道谁在为Astro构建提供动力-那就是Vite，这是一款关于速度，效率和灵活性的构建工具。把Vite看作是我们值得信赖的副驾驶员，帮助我们捆绑我们的网页，并创建一个闪电般的开发环境。
 
-[![The Astro Vite relationship](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/astro-vite-relationship.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/astro-vite-relationship.png)
+[![The Astro Vite relationship](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/astro-vite-relationship.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/astro-vite-relationship.png)
 
 _The Astro Vite relationship.  
 Astro Vite关系_  
@@ -80,10 +80,10 @@ Hello world.对不起，你好，集成
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)  
+[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)  
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch7/view-project.png)](https://github.com/understanding-astro/hello-astro-integration)
+[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/view-project.png)](https://github.com/understanding-astro/hello-astro-integration)
 
 Let’s get you acquainted with a basic hello world Astro integration. Even though we will be wielding swords and slaying dragons soon, before that, you must get introduced to the tools of the trade.  
 让我们了解一个基本的hello world Astro集成。虽然我们很快就要剑屠龙了，但在此之前，你必须先了解一下贸易工具。
@@ -278,7 +278,7 @@ And voila! 瞧！
 We have our first integration running as expected.  
 我们的第一个集成已经按预期运行。
 
-[![Working integration log printed in the browser console](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.29.53.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.29.53.png)
+[![Working integration log printed in the browser console](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.29.53.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.29.53.png)
 
 _Working integration log printed in the browser console.  
 在浏览器控制台中打印的工作集成日志。_  
@@ -300,7 +300,7 @@ This may be useful for usability or ascertaining that our custom integration wor
 At the moment, here’s the mess my server logs look like:  
 目前，我的服务器日志看起来一团糟：
 
-[![The (messy) Astro server logs](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.33.46.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.33.46.png)
+[![The (messy) Astro server logs](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.33.46.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.33.46.png)
 
 _The (messy) Astro server logs.  
 Astro服务器的日志。_  
@@ -328,7 +328,7 @@ hooks: {
 Restart the server for a clean slate, and we should have the log printed as shown below:  
 重新启动服务器以获得全新的记录，我们应该打印如下所示的日志：
 
-[![The server log from our hello world integration](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.38.59.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.38.59.png)
+[![The server log from our hello world integration](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.38.59.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.38.59.png)
 
 _The server log from our hello world integration.  
 我们的hello world集成的服务器日志。_  
@@ -348,7 +348,7 @@ Once the installation is complete, we should now have a new log in the dev serve
 
 05:41:02 AM \[astro\] update /package\-lock.json
 
-[![Example native astro server log](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.41.12.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.41.12.png)
+[![Example native astro server log](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.41.12.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.41.12.png)
 
 _Example native astro server log.  
 本机astro服务器日志示例。_  
@@ -395,7 +395,7 @@ export default defineConfig({
 Now we should have a beautiful log message that feels native to Astro, i.e., like the other server console logs.  
 现在我们应该有一个漂亮的日志消息，感觉是Astro原生的，即，与其他服务器控制台日志一样。
 
-[![The custom integration 'native feeling' server log](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.47.14.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.47.14.png)
+[![The custom integration 'native feeling' server log](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.47.14.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.47.14.png)
 
 _The custom integration 'native feeling' server log.  
 自定义集成“原生感觉”服务器日志。_  
@@ -536,7 +536,7 @@ One of the first questions I asked myself when I started tinkering with astro in
 Well, the answer to these lies below, but first, consider the following diagram that depicts the order in which the hooks are executed:  
 好吧，这些问题的答案如下，但首先，考虑下图描述了钩子的执行顺序：
 
-[![Execution order of Astro hooks ](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/hooks-lifecycle.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/hooks-lifecycle.png)
+[![Execution order of Astro hooks ](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/hooks-lifecycle.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/hooks-lifecycle.png)
 
 _Execution order of Astro hooks .  
 Astro钩的执行顺序。_  
@@ -782,7 +782,7 @@ export default lifecycleLogs;
 Import `lifecycleLogs` and add it to your project’s integration list, then (re)start your application to see the logs in the console as shown below:  
 导入 `lifecycleLogs` 并将其添加到项目的集成列表中，然后（重新）启动您的应用程序以查看控制台中的日志，如下所示：
 
-[![The dev lifecycle hooks](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-08%20at%2017.13.02.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-08%20at%2017.13.02.png)
+[![The dev lifecycle hooks](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-08%20at%2017.13.02.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-08%20at%2017.13.02.png)
 
 _The dev lifecycle hooks.  
 dev生命周期挂钩。_  
@@ -800,7 +800,7 @@ Here’s an example with two pages:
 *   a server-side rendered `ssr.astro` page  
     服务器端渲染 `ssr.astro` 页面
 
-[![The entire hook lifecycle logged](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-08%20at%2018.16.15.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-08%20at%2018.16.15.png)
+[![The entire hook lifecycle logged](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-08%20at%2018.16.15.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-08%20at%2018.16.15.png)
 
 _The entire hook lifecycle logged.  
 记录整个钩子生命周期。_  
@@ -814,12 +814,12 @@ _The entire hook lifecycle logged.
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch7/view-project.png)](https://github.com/understanding-astro/astro-integration-prerender-by-default)  
+[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/view-project.png)](https://github.com/understanding-astro/astro-integration-prerender-by-default)  
   
 
 When we enable SSR in our project, we can also opt-in to prerendering, i.e., to statically render some files at build time.  
@@ -1229,7 +1229,7 @@ import { log } from "./log";
 Now if we go ahead and build the project with `npm run build`, we should have our integration validation log displayed as shown below:  
 现在，如果我们继续使用 `npm run build` 构建项目，我们应该会显示集成验证日志，如下所示：
 
-[![Validation server log](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2007.01.41.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2007.01.41.png)
+[![Validation server log](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2007.01.41.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2007.01.41.png)
 
 _Validation server log. 验证服务器日志。_  
   
@@ -1497,7 +1497,7 @@ We may now explore the log from`getVitePlugin` by running `npm run build` from t
 Notice how many more files are transformed than just the user’s `.astro` pages.  
 请注意，除了用户的 `.astro` 页面之外，还有多少文件被转换。
 
-[![Exploring the list of transformed files](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2009.18.14.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2009.18.14.png)
+[![Exploring the list of transformed files](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2009.18.14.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2009.18.14.png)
 
 _Exploring the list of transformed files.  
 浏览已转换文件的列表。_  
@@ -1530,7 +1530,7 @@ return {
 Now, rerun the build, and we should have just the user’s `.astro` page files.  
 现在，重新运行构建，我们应该只有用户的 `.astro` 页文件。
 
-[![Logging the project page files](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2009.22.30.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2009.22.30.png)
+[![Logging the project page files](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2009.22.30.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2009.22.30.png)
 
 _Logging the project page files.  
 记录项目页文件。_  
@@ -1742,7 +1742,7 @@ The code block above is annotated. Please take a close look at it. If something 
 We have our solution complete. Now, let’s test it. First, build the project with `npm run build`, and even though we have a `server` output in the Astro config, we now have the `index.astro` page statically built by default!  
 我们已经完成了解决方案。现在我们来测试一下首先，使用 `npm run build` 构建项目，即使我们在Astro配置中有 `server` 输出，我们现在默认静态构建 `index.astro` 页面！
 
-[![Pre-rendering the index.astro static route](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2016.10.58@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2016.10.58@2x.png)
+[![Pre-rendering the index.astro static route](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2016.10.58@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2016.10.58@2x.png)
 
 _Pre-rendering the index.astro static route.  
 预渲染index.astro静态路由。_  
@@ -1773,7 +1773,7 @@ export const prerender \= false;
 Now rerun the build and notice how only the `index.astro` page is pre-rendered.  
 现在重新运行构建并注意到只有 `index.astro` 页面是如何预呈现的。
 
-[![Skipping prerender when export is found](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2016.17.15@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2016.17.15@2x.png)
+[![Skipping prerender when export is found](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2016.17.15@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2016.17.15@2x.png)
 
 _Skipping prerender when export is found.  
 找到导出时跳过预渲染。_  

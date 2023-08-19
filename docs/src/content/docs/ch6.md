@@ -18,12 +18,12 @@ This chapter will guide you on enabling SSR in an Astro project, and we will als
 <br /> 
 <br />
 
-[![](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch1/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch1/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
 <br /> 
 <br />
 
-[![](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch1/view-project.png)](https://github.com/understanding-astro/ssr)
+[![](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch1/view-project.png)](https://github.com/understanding-astro/ssr)
 
 <br /> 
 <br />
@@ -84,7 +84,7 @@ The app should run on a local server with a single `index.astro` page.
 If we build the application for production via `npm build`, we should have the single `index.astro` page pre-rendered, i.e., statically built.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2007.13.56.png" width="70%" alt="Statically rendering the index.astro page." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2007.13.56.png" width="70%" alt="Statically rendering the index.astro page." align="center">
     <figcaption><em>Statically rendering the index.astro page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -118,7 +118,7 @@ SSR requires a server runtime, i.e., the code running within the server that ren
 An adapter allows Astro to do two things. First, determine the server runtime environment. Second, output a script that runs the SSR code on the specified runtime.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/astro_adapter_needs.png" width="70%" alt="The Astro adapter needs.." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/astro_adapter_needs.png" width="70%" alt="The Astro adapter needs.." align="center">
     <figcaption><em>The Astro adapter needs..</em></figcaption>
     <br><br><br>
 </figure>
@@ -177,7 +177,7 @@ It goes without saying that after adding an adapter, the project should be deplo
 Use the correct adapter for your deployment runtime.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/adapter_deploy.png" width="70%" alt="Deploying a Vercel adapter to Netlify is wrong." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/adapter_deploy.png" width="70%" alt="Deploying a Vercel adapter to Netlify is wrong." align="center">
     <figcaption><em>Deploying a Vercel adapter to Netlify is wrong.</em></figcaption>
     <br><br><br>
 </figure>
@@ -191,7 +191,7 @@ For other runtimes, the official Astro [deployment guides](https://docs.astro.bu
 With the `output` configuration property set to `server`, every page in our Astro project will be server-side rendered. However, there’s a great chance we may want one or more pages to be statically generated at build time, i.e., some pages server-side rendered and others pre-rendered.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/hybrid_rendering.png width" width="50%" alt="Having a mix of server and statically rendered pages." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/hybrid_rendering.png width" width="50%" alt="Having a mix of server and statically rendered pages." align="center">
     <figcaption><em>Having a mix of server and statically rendered pages.</em></figcaption>
     <br><br><br>
 </figure>
@@ -228,7 +228,7 @@ With the `prerender` export, the `about` page will be statically rendered at bui
 Run `npm run build` to see this in action.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2008.33.08.png" width="70%" alt="Static and server-side generated pages in the same project." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2008.33.08.png" width="70%" alt="Static and server-side generated pages in the same project." align="center">
     <figcaption><em>Static and server-side generated pages in the same project.</em></figcaption>
     <br><br><br>
 </figure>
@@ -320,7 +320,7 @@ if (isBeta) {
 Instead of returning the `HTML` page, we should now have a simple text response sent to the client.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2010.43.19.png" width="70%" alt="Returning a simple text response to the client." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2010.43.19.png" width="70%" alt="Returning a simple text response to the client." align="center">
     <figcaption><em>Returning a simple text response to the client.</em></figcaption>
     <br><br><br>
 </figure>
@@ -343,7 +343,7 @@ if (isBeta) {
 ```
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2011.28.52.png" width="70%" alt="Error: Astro.response is not a constructor." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2011.28.52.png" width="70%" alt="Error: Astro.response is not a constructor." align="center">
     <figcaption><em>Error: Astro.response is not a constructor.</em></figcaption>
     <br><br><br>
 </figure>
@@ -376,7 +376,7 @@ Astro.response.headers.set("beta_id", "some_header_value");
 The server will return the `HTML` page and our custom `beta_id` header.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2011.31.50.png" width="70%" alt="Setting a custom header on the server response." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2011.31.50.png" width="70%" alt="Setting a custom header on the server response." align="center">
     <figcaption><em>Setting a custom header on the server response.</em></figcaption>
     <br><br><br>
 </figure>
@@ -627,7 +627,7 @@ In this case, `CAT_API_TOKEN` will be available both server-side and client-side
 We don't get Typescript IntelliSense support if we attempt to access `CAT_API_TOKEN` in `pages/index.astro` after creating the `.env` file.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-23%20at%2009.44.07.png" width="70%" alt="No Typescript IntelliSense for our custom environment variable." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-23%20at%2009.44.07.png" width="70%" alt="No Typescript IntelliSense for our custom environment variable." align="center">
     <figcaption><em>No Typescript IntelliSense for our custom environment variable.</em></figcaption>
     <br><br><br>
 </figure>
@@ -654,7 +654,7 @@ interface ImportMetaEnv {
 And voila! Typescript knows our secrets - for the better.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-23%20at%2009.50.10.png" width="70%" alt="Typescript IntelliSense activated." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-23%20at%2009.50.10.png" width="70%" alt="Typescript IntelliSense activated." align="center">
     <figcaption><em>Typescript IntelliSense activated.</em></figcaption>
     <br><br><br>
 </figure>
@@ -717,7 +717,7 @@ Alternatively:
 Now if we visit the `/products/understanding-astro` page, we should have the title of the product displayed.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2010.25.23.png" width="70%" alt="Grabbing dynamic route path values." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2010.25.23.png" width="70%" alt="Grabbing dynamic route path values." align="center">
     <figcaption><em>Grabbing dynamic route path values.</em></figcaption>
     <br><br><br>
 </figure>
@@ -737,7 +737,7 @@ It is also possible to leverage multiple named parameters in the route path, as 
 This will be matched with a URL similar to `/products/understanding-astro_09u34359534530903453450`
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2010.31.22.png" width="70%" alt="Matching multiple route named parameters." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2010.31.22.png" width="70%" alt="Matching multiple route named parameters." align="center">
     <figcaption><em>Matching multiple route named parameters.</em></figcaption>
     <br><br><br>
 </figure>
@@ -812,7 +812,7 @@ if (!relevantPageDetails) {
 ```
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2012.42.28@2x.png" width="70%" alt="Rendering rest parameter routes." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2012.42.28@2x.png" width="70%" alt="Rendering rest parameter routes." align="center">
     <figcaption><em>Rendering rest parameter routes.</em></figcaption>
     <br><br><br>
 </figure>
@@ -882,7 +882,7 @@ Well, Astro needs to make a decision, and that’s following the priority list b
 4. Following the above, any ties will be resolved alphabetically.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/route_priority.png" width="70%" alt="Route priority order from first to last." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/route_priority.png" width="70%" alt="Route priority order from first to last." align="center">
     <figcaption><em>Route priority order from first to last.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1069,7 +1069,7 @@ Another critical point is to notice how the specific id is retrieved from `ctx.p
 If we make a GET request to `api/products/astro-book-001`, we should have some data returned to the client.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.57.00@2x.png" width="70%" alt="Testing the product API on hopscotch.io" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.57.00@2x.png" width="70%" alt="Testing the product API on hopscotch.io" align="center">
     <figcaption><em>Setting a custom header on the server response.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1077,7 +1077,7 @@ If we make a GET request to `api/products/astro-book-001`, we should have some d
 Note how whatever “id” is passed in the request path is rightly retrieved, e.g., `astro-book-001`.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.49.31@2x.png" width="70%" alt="The product ID returned in the JSON response." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.49.31@2x.png" width="70%" alt="The product ID returned in the JSON response." align="center">
     <figcaption><em>The product ID returned in the JSON response.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1140,7 +1140,7 @@ const publishedDate = searchParams.get("publishedDate");
 ```
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2009.13.04@2x.png" width="70%" alt="Retrieving query parameters in a server endpoint." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2009.13.04@2x.png" width="70%" alt="Retrieving query parameters in a server endpoint." align="center">
     <figcaption><em>Retrieving query parameters in a server endpoint.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1249,7 +1249,7 @@ export const post: APIRoute = async (ctx) => {
 Go ahead and give these a try!
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.53.33@2x.png" width="70%" alt="Making a POST request to our server endpoint." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.53.33@2x.png" width="70%" alt="Making a POST request to our server endpoint." align="center">
     <figcaption><em>Making a POST request to our server endpoint.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1278,7 +1278,7 @@ export const all: APIRoute = async (ctx) => {
 This will match unhandled methods in our implementation, such as `PATCH` requests.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.56.25@2x.png" width="70%" alt="Handling unsupported methods in a server endpoint." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.56.25@2x.png" width="70%" alt="Handling unsupported methods in a server endpoint." align="center">
     <figcaption><em>Handling unsupported methods in a server endpoint.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1299,7 +1299,7 @@ In theory, we may break this off into distinct steps:
 - The browser renders the page
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/send_full_page.png" width="70%" alt="Server sending a fully formed page to the client." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/send_full_page.png" width="70%" alt="Server sending a fully formed page to the client." align="center">
     <figcaption><em>Server sending a fully formed page to the client.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1313,7 +1313,7 @@ In most cases, certain parts of the HTML page are static and could be sent from 
 What if the server could transmit the `HTML` to the browser as it creates the page server side?
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/server_send_chunks.png" width="70%" alt="The server sends partial chunks to the browser." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/server_send_chunks.png" width="70%" alt="The server sends partial chunks to the browser." align="center">
     <figcaption><em>The server sends partial chunks to the browser.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1437,7 +1437,7 @@ export const sleep = (delay: number) =>
 Now, go to the Chrome browser and visit the `/streaming` route to view the wonders of streaming.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-26%20at%2011.47.56.png" width="70%" alt="Initial block streamed while awaiting Block #2." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-26%20at%2011.47.56.png" width="70%" alt="Initial block streamed while awaiting Block #2." align="center">
     <figcaption><em>Initial block streamed while awaiting Block #2.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1480,7 +1480,7 @@ When `Block #4` is rendered, `block5Promise` is already fetched as it takes one 
 This can be difficult to grasp via text descriptions.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-05-25%20at%2013.44.47@2x.png" width="70%" alt="Describing the parallelized rendering of each block." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-05-25%20at%2013.44.47@2x.png" width="70%" alt="Describing the parallelized rendering of each block." align="center">
     <figcaption><em>Describing the parallelized rendering of each block.</em></figcaption>
     <br><br><br>
 </figure>

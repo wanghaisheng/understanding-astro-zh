@@ -23,12 +23,12 @@ This chapter will guide you on enabling SSR in an Astro project, and we will als
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch1/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch1/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch1/view-project.png)](https://github.com/understanding-astro/ssr)
+[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch1/view-project.png)](https://github.com/understanding-astro/ssr)
 
   
   
@@ -104,7 +104,7 @@ The app should run on a local server with a single `index.astro` page.
 If we build the application for production via `npm build`, we should have the single `index.astro` page pre-rendered, i.e., statically built.  
 如果我们通过 `npm build` 构建应用程序用于生产，我们应该预先呈现单个 `index.astro` 页面，即，静态构建。
 
-[![Statically rendering the index.astro page.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2007.13.56.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2007.13.56.png)
+[![Statically rendering the index.astro page.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2007.13.56.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2007.13.56.png)
 
 _Statically rendering the index.astro page.  
 静态呈现index.astro页面。_  
@@ -144,7 +144,7 @@ SSR需要服务器运行时，即，在服务器中运行的代码呈现我们�
 An adapter allows Astro to do two things. First, determine the server runtime environment. Second, output a script that runs the SSR code on the specified runtime.  
 适配器允许Astro做两件事。首先，确定服务器运行时环境。其次，输出一个脚本，该脚本在指定的运行时上运行SSR代码。
 
-[![The Astro adapter needs..](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/astro_adapter_needs.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/astro_adapter_needs.png)
+[![The Astro adapter needs..](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/astro_adapter_needs.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/astro_adapter_needs.png)
 
 _The Astro adapter needs..  
 Astro适配器需要。_  
@@ -211,7 +211,7 @@ It goes without saying that after adding an adapter, the project should be deplo
 Use the correct adapter for your deployment runtime.  
 为部署运行时使用正确的适配器。
 
-[![Deploying a Vercel adapter to Netlify is wrong.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/adapter_deploy.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/adapter_deploy.png)
+[![Deploying a Vercel adapter to Netlify is wrong.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/adapter_deploy.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/adapter_deploy.png)
 
 _Deploying a Vercel adapter to Netlify is wrong.  
 将Vercel适配器部署到Netlify错误。_  
@@ -231,7 +231,7 @@ For other runtimes, the official Astro [deployment guides](https://docs.astro.bu
 With the `output` configuration property set to `server`, every page in our Astro project will be server-side rendered. However, there’s a great chance we may want one or more pages to be statically generated at build time, i.e., some pages server-side rendered and others pre-rendered.  
 将 `output` 配置属性设置为 `server` ，Astro项目中的每个页面都将在服务器端呈现。但是，我们很可能希望在构建时静态生成一个或多个页面，即，一些页面是服务器端呈现的，而其他页面是预呈现的。
 
-[![Having a mix of server and statically rendered pages.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/hybrid_rendering.png width)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/hybrid_rendering.png width)
+[![Having a mix of server and statically rendered pages.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/hybrid_rendering.png width)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/hybrid_rendering.png width)
 
 _Having a mix of server and statically rendered pages.  
 混合了服务器和静态呈现的页面。_  
@@ -270,7 +270,7 @@ With the `prerender` export, the `about` page will be statically rendered at bui
 Run `npm run build` to see this in action.  
 运行 `npm run build` 以查看此操作。
 
-[![Static and server-side generated pages in the same project.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2008.33.08.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2008.33.08.png)
+[![Static and server-side generated pages in the same project.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2008.33.08.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2008.33.08.png)
 
 _Static and server-side generated pages in the same project.  
 同一项目中的静态页和服务器端生成的页。_  
@@ -370,7 +370,7 @@ if (isBeta) {
 Instead of returning the `HTML` page, we should now have a simple text response sent to the client.  
 我们现在应该向客户端发送一个简单的文本响应，而不是返回 `HTML` 页面。
 
-[![Returning a simple text response to the client.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2010.43.19.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2010.43.19.png)
+[![Returning a simple text response to the client.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2010.43.19.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2010.43.19.png)
 
 _Returning a simple text response to the client.  
 向客户端返回一个简单的文本响应。_  
@@ -392,7 +392,7 @@ if (isBeta) {
 }
 \--\-
 
-[![Error: Astro.response is not a constructor.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2011.28.52.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2011.28.52.png)
+[![Error: Astro.response is not a constructor.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2011.28.52.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2011.28.52.png)
 
 _Error: Astro.response is not a constructor.  
 错误：Astro.response不是构造函数。_  
@@ -426,7 +426,7 @@ Astro.response.headers.set("beta\_id", "some\_header\_value");
 The server will return the `HTML` page and our custom `beta_id` header.  
 服务器将返回 `HTML` 页面和我们自定义的 `beta_id` 头。
 
-[![Setting a custom header on the server response.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2011.31.50.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-22%20at%2011.31.50.png)
+[![Setting a custom header on the server response.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2011.31.50.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-22%20at%2011.31.50.png)
 
 _Setting a custom header on the server response.  
 在服务器响应上设置自定义标头。_  
@@ -698,7 +698,7 @@ In this case, `CAT_API_TOKEN` will be available both server-side and client-side
 We don't get Typescript IntelliSense support if we attempt to access `CAT_API_TOKEN` in `pages/index.astro` after creating the `.env` file.  
 如果在创建 `.env` 文件后尝试访问 `pages/index.astro` 中的 `CAT_API_TOKEN` ，则不会获得Typescript IntelliSense支持。
 
-[![No Typescript IntelliSense for our custom environment variable.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-23%20at%2009.44.07.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-23%20at%2009.44.07.png)
+[![No Typescript IntelliSense for our custom environment variable.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-23%20at%2009.44.07.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-23%20at%2009.44.07.png)
 
 _No Typescript IntelliSense for our custom environment variable.  
 我们的自定义环境变量没有Typescript IntelliSense。_  
@@ -727,7 +727,7 @@ interface ImportMetaEnv {
 And voila! Typescript knows our secrets - for the better.  
 瞧！Typescript知道我们的秘密-为了更好。
 
-[![Typescript IntelliSense activated.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-23%20at%2009.50.10.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-23%20at%2009.50.10.png)
+[![Typescript IntelliSense activated.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-23%20at%2009.50.10.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-23%20at%2009.50.10.png)
 
 _Typescript IntelliSense activated.  
 Typescript IntelliSense已激活。_  
@@ -790,7 +790,7 @@ Alternatively: 或者：
 Now if we visit the `/products/understanding-astro` page, we should have the title of the product displayed.  
 现在，如果我们访问 `/products/understanding-astro` 页面，我们应该有产品的标题显示。
 
-[![Grabbing dynamic route path values.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2010.25.23.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2010.25.23.png)
+[![Grabbing dynamic route path values.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2010.25.23.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2010.25.23.png)
 
 _Grabbing dynamic route path values.  
 获取动态路由路径值。_  
@@ -813,7 +813,7 @@ It is also possible to leverage multiple named parameters in the route path, as 
 This will be matched with a URL similar to `/products/understanding-astro_09u34359534530903453450`  
 这将与类似于 `/products/understanding-astro_09u34359534530903453450` 的URL匹配
 
-[![Matching multiple route named parameters.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2010.31.22.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2010.31.22.png)
+[![Matching multiple route named parameters.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2010.31.22.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2010.31.22.png)
 
 _Matching multiple route named parameters.  
 匹配多个路由命名参数。_  
@@ -890,7 +890,7 @@ if (!relevantPageDetails) {
 // render the title of the page
 <h1\>{relevantPageDetails.title}</h1\>
 
-[![Rendering rest parameter routes.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2012.42.28@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-24%20at%2012.42.28@2x.png)
+[![Rendering rest parameter routes.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2012.42.28@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-24%20at%2012.42.28@2x.png)
 
 _Rendering rest parameter routes.  
 渲染剩余参数管线。_  
@@ -975,7 +975,7 @@ Well, Astro needs to make a decision, and that’s following the priority list b
 4.  Following the above, any ties will be resolved alphabetically.  
     按照上述步骤，任何领带将按字母顺序解决。
 
-[![Route priority order from first to last.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/route_priority.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/route_priority.png)
+[![Route priority order from first to last.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/route_priority.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/route_priority.png)
 
 _Route priority order from first to last.  
 从第一个到最后一个路由优先级顺序。_  
@@ -1210,7 +1210,7 @@ Another critical point is to notice how the specific id is retrieved from `ctx.p
 If we make a GET request to `api/products/astro-book-001`, we should have some data returned to the client.  
 如果我们向 `api/products/astro-book-001` 发出GET请求，我们应该有一些数据返回给客户端。
 
-[![Testing the product API on hopscotch.io](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.57.00@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.57.00@2x.png)
+[![Testing the product API on hopscotch.io](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.57.00@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.57.00@2x.png)
 
 _Setting a custom header on the server response.  
 在服务器响应上设置自定义标头。_  
@@ -1220,7 +1220,7 @@ _Setting a custom header on the server response.
 Note how whatever “id” is passed in the request path is rightly retrieved, e.g., `astro-book-001`.  
 注意在请求路径中传递的任何“id”如何被正确地检索，例如，#0号。
 
-[![The product ID returned in the JSON response.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.49.31@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.49.31@2x.png)
+[![The product ID returned in the JSON response.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.49.31@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.49.31@2x.png)
 
 _The product ID returned in the JSON response.  
 JSON响应中返回的产品ID。_  
@@ -1285,7 +1285,7 @@ const searchParams \= ctx.url.searchParams;
 const version \= searchParams.get("version");
 const publishedDate \= searchParams.get("publishedDate");
 
-[![Retrieving query parameters in a server endpoint.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2009.13.04@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2009.13.04@2x.png)
+[![Retrieving query parameters in a server endpoint.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2009.13.04@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2009.13.04@2x.png)
 
 _Retrieving query parameters in a server endpoint.  
 正在服务器终结点中检索查询参数。_  
@@ -1402,7 +1402,7 @@ export const post: APIRoute \= async (ctx) \=> {
 Go ahead and give these a try!  
 来吧，给予看！
 
-[![Making a POST request to our server endpoint.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.53.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.53.33@2x.png)
+[![Making a POST request to our server endpoint.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.53.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.53.33@2x.png)
 
 _Making a POST request to our server endpoint.  
 向服务器端点发出POST请求。_  
@@ -1432,7 +1432,7 @@ export const all: APIRoute \= async (ctx) \=> {
 This will match unhandled methods in our implementation, such as `PATCH` requests.  
 这将匹配我们实现中未处理的方法，例如 `PATCH` 请求。
 
-[![Handling unsupported methods in a server endpoint.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.56.25@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-25%20at%2008.56.25@2x.png)
+[![Handling unsupported methods in a server endpoint.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.56.25@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-25%20at%2008.56.25@2x.png)
 
 _Handling unsupported methods in a server endpoint.  
 处理服务器端点中不支持的方法。_  
@@ -1463,7 +1463,7 @@ In theory, we may break this off into distinct steps:
 *   The browser renders the page  
     浏览器呈现页面
 
-[![Server sending a fully formed page to the client.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/send_full_page.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/send_full_page.png)
+[![Server sending a fully formed page to the client.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/send_full_page.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/send_full_page.png)
 
 _Server sending a fully formed page to the client.  
 服务器正在向客户端发送完整格式的页。_  
@@ -1482,7 +1482,7 @@ In most cases, certain parts of the HTML page are static and could be sent from 
 What if the server could transmit the `HTML` to the browser as it creates the page server side?  
 如果服务器可以在创建页面服务器端时将 `HTML` 发送到浏览器，会怎么样？
 
-[![The server sends partial chunks to the browser.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/server_send_chunks.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/server_send_chunks.png)
+[![The server sends partial chunks to the browser.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/server_send_chunks.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/server_send_chunks.png)
 
 _The server sends partial chunks to the browser.  
 服务器向浏览器发送部分块。_  
@@ -1621,7 +1621,7 @@ export const sleep \= (delay: number) \=>
 Now, go to the Chrome browser and visit the `/streaming` route to view the wonders of streaming.  
 现在，转到Chrome浏览器并访问 `/streaming` 路由，以查看流媒体的奇妙之处。
 
-[![Initial block streamed while awaiting Block #2.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-26%20at%2011.47.56.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-04-26%20at%2011.47.56.png)
+[![Initial block streamed while awaiting Block #2.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-26%20at%2011.47.56.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-04-26%20at%2011.47.56.png)
 
 _Initial block streamed while awaiting Block #2.  
 在等待块#2时流式传输初始块。_  
@@ -1669,7 +1669,7 @@ When `Block #4` is rendered, `block5Promise` is already fetched as it takes one 
 This can be difficult to grasp via text descriptions.  
 这可能很难通过文本描述来理解。
 
-[![Describing the parallelized rendering of each block.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-05-25%20at%2013.44.47@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch6/CleanShot%202023-05-25%20at%2013.44.47@2x.png)
+[![Describing the parallelized rendering of each block.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-05-25%20at%2013.44.47@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch6/CleanShot%202023-05-25%20at%2013.44.47@2x.png)
 
 _Describing the parallelized rendering of each block.  
 描述每个块的并行渲染。_  

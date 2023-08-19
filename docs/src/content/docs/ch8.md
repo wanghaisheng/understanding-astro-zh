@@ -26,7 +26,7 @@ At the end of this chapter, you’ll join the order of mages who wield great pow
 Before we dive into the beautiful world of Astro integrations, we need to know who’s powering the Astro build ship - and that’s [Vite](https://vitejs.dev/), the build tool all about speed, efficiency and flexibility. Think of Vite as our trusty co-pilot, helping us bundle our web pages and creating a lightning-fast development environment.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/astro-vite-relationship.png" width="70%" alt="The Astro Vite relationship" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/astro-vite-relationship.png" width="70%" alt="The Astro Vite relationship" align="center">
     <figcaption><em>The Astro Vite relationship.</em></figcaption>
     <br><br><br>
 </figure>
@@ -54,11 +54,11 @@ Let’s get started with a contrived Astro integration.
 <br /> 
 <br />
 
-[![](/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 <br />
 <br />
 
-[![](/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch7/view-project.png)](https://github.com/understanding-astro/hello-astro-integration)
+[![](/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/view-project.png)](https://github.com/understanding-astro/hello-astro-integration)
 
 Let’s get you acquainted with a basic hello world Astro integration. Even though we will be wielding swords and slaying dragons soon, before that, you must get introduced to the tools of the trade.
 
@@ -244,7 +244,7 @@ And voila!
 We have our first integration running as expected.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.29.53.png" width="70%" alt="Working integration log printed in the browser console" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.29.53.png" width="70%" alt="Working integration log printed in the browser console" align="center">
     <figcaption><em>Working integration log printed in the browser console.</em></figcaption>
     <br><br><br>
 </figure>
@@ -260,7 +260,7 @@ This may be useful for usability or ascertaining that our custom integration wor
 At the moment, here’s the mess my server logs look like:
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.33.46.png" width="70%" alt="The (messy) Astro server logs" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.33.46.png" width="70%" alt="The (messy) Astro server logs" align="center">
     <figcaption><em>The (messy) Astro server logs.</em></figcaption>
     <br><br><br>
 </figure>
@@ -286,7 +286,7 @@ hooks: {
 Restart the server for a clean slate, and we should have the log printed as shown below:
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.38.59.png" width="70%" alt="The server log from our hello world integration" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.38.59.png" width="70%" alt="The server log from our hello world integration" align="center">
     <figcaption><em>The server log from our hello world integration.</em></figcaption>
     <br><br><br>
 </figure>
@@ -306,7 +306,7 @@ Once the installation is complete, we should now have a new log in the dev serve
 ```
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.41.12.png" width="70%" alt="Example native astro server log" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.41.12.png" width="70%" alt="Example native astro server log" align="center">
     <figcaption><em>Example native astro server log.</em></figcaption>
     <br><br><br>
 </figure>
@@ -350,7 +350,7 @@ export default defineConfig({
 Now we should have a beautiful log message that feels native to Astro, i.e., like the other server console logs.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-06%20at%2005.47.14.png" width="70%" alt="The custom integration 'native feeling' server log" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-06%20at%2005.47.14.png" width="70%" alt="The custom integration 'native feeling' server log" align="center">
     <figcaption><em>The custom integration 'native feeling' server log.</em></figcaption>
     <br><br><br>
 </figure>
@@ -474,7 +474,7 @@ One of the first questions I asked myself when I started tinkering with astro in
 Well, the answer to these lies below, but first, consider the following diagram that depicts the order in which the hooks are executed:
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/hooks-lifecycle.png" width="70%" alt="Execution order of Astro hooks " align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/hooks-lifecycle.png" width="70%" alt="Execution order of Astro hooks " align="center">
     <figcaption><em>Execution order of Astro hooks .</em></figcaption>
     <br><br><br>
 </figure>
@@ -620,7 +620,7 @@ export default lifecycleLogs;
 Import `lifecycleLogs` and add it to your project’s integration list, then (re)start your application to see the logs in the console as shown below:
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-08%20at%2017.13.02.png" width="70%" alt="The dev lifecycle hooks" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-08%20at%2017.13.02.png" width="70%" alt="The dev lifecycle hooks" align="center">
     <figcaption><em>The dev lifecycle hooks.</em></figcaption>
     <br><br><br>
 </figure>
@@ -633,7 +633,7 @@ Here’s an example with two pages:
 - a server-side rendered `ssr.astro` page
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-08%20at%2018.16.15.png" width="70%" alt="The entire hook lifecycle logged" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-08%20at%2018.16.15.png" width="70%" alt="The entire hook lifecycle logged" align="center">
     <figcaption><em>The entire hook lifecycle logged.</em></figcaption>
     <br><br><br>
 </figure>
@@ -643,12 +643,12 @@ Here’s an example with two pages:
 <br /> 
 <br />
 
-[![](/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
 <br /> 
 <br />
 
-[![](/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch7/view-project.png)](https://github.com/understanding-astro/astro-integration-prerender-by-default)
+[![](/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/view-project.png)](https://github.com/understanding-astro/astro-integration-prerender-by-default)
 <br />
 <br />
 
@@ -1002,7 +1002,7 @@ import { log } from "./log";
 Now if we go ahead and build the project with `npm run build`, we should have our integration validation log displayed as shown below:
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2007.01.41.png" width="70%" alt="Validation server log" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2007.01.41.png" width="70%" alt="Validation server log" align="center">
     <figcaption><em>Validation server log.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1266,7 +1266,7 @@ We may now explore the log from`getVitePlugin` by running `npm run build` from t
 Notice how many more files are transformed than just the user’s `.astro` pages.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2009.18.14.png" width="70%" alt="Exploring the list of transformed files" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2009.18.14.png" width="70%" alt="Exploring the list of transformed files" align="center">
     <figcaption><em>Exploring the list of transformed files.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1297,7 +1297,7 @@ return {
 Now, rerun the build, and we should have just the user’s `.astro` page files.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2009.22.30.png" width="70%" alt="Logging the project page files" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2009.22.30.png" width="70%" alt="Logging the project page files" align="center">
     <figcaption><em>Logging the project page files.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1507,7 +1507,7 @@ The code block above is annotated. Please take a close look at it. If something 
 We have our solution complete. Now, let’s test it. First, build the project with `npm run build`, and even though we have a `server` output in the Astro config, we now have the `index.astro` page statically built by default!
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2016.10.58@2x.png" width="70%" alt="Pre-rendering the index.astro static route" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2016.10.58@2x.png" width="70%" alt="Pre-rendering the index.astro static route" align="center">
     <figcaption><em>Pre-rendering the index.astro static route.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1536,7 +1536,7 @@ export const prerender = false;
 Now rerun the build and notice how only the `index.astro` page is pre-rendered.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch8/CleanShot%202023-04-12%20at%2016.17.15@2x.png" width="70%" alt="Skipping prerender when export is found" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch8/CleanShot%202023-04-12%20at%2016.17.15@2x.png" width="70%" alt="Skipping prerender when export is found" align="center">
     <figcaption><em>Skipping prerender when export is found.</em></figcaption>
     <br><br><br>
 </figure>

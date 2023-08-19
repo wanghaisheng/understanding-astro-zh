@@ -388,7 +388,7 @@ interface HeadConfig {
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg',
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg',
 }),
 ```
 
@@ -396,14 +396,14 @@ starlight({
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg'.
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg'.
   head: [
     // 为 Safari 添加 ICO favicon 回退。
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/../../images/favicon.ico',
+        href:'/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.ico',
         sizes: '32x32',
       },
     },

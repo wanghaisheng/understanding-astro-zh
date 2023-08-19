@@ -390,7 +390,7 @@ Set the path of the default favicon for your website which should be located in 
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg',
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg',
 }),
 ```
 
@@ -398,14 +398,14 @@ If you need to set additional variants or fallback favicons, you can add tags us
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg'.
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg'.
   head: [
     // Add ICO favicon fallback for Safari.
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/../../images/favicon.ico',
+        href:'/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.ico',
         sizes: '32x32',
       },
     },

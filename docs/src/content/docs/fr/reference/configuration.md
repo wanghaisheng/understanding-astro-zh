@@ -389,7 +389,7 @@ Définnissez le chemin de l'icône par défaut pour votre site Web qui doit êtr
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg',
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg',
 }),
 ```
 
@@ -397,14 +397,14 @@ Si vous avez besoin de définir des variantes supplémentaires ou des icônes de
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg'.
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg'.
   head: [
     // Ajouter une icône ICO de secours pour Safari.
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/../../images/favicon.ico',
+        href:'/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.ico',
         sizes: '32x32',
       },
     },

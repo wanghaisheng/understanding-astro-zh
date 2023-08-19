@@ -390,7 +390,7 @@ Legt den Pfad des Standard-Favicons für deine Website fest. Dieses sollte sich 
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg',
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg',
 }),
 ```
 
@@ -398,14 +398,14 @@ Wenn du zusätzliche Varianten oder Fallback-Favicons festlegen musst, kannst du
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg'.
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg'.
   head: [
     // ICO-Favicon als Fallback für Safari hinzufügen
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/../../images/favicon.ico',
+        href:'/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.ico',
         sizes: '32x32',
       },
     },

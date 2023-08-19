@@ -21,12 +21,12 @@ In this chapter, I’ll employ you to see beyond static apps and build fullstack
 <br /> 
 <br />
 
-[![](/../../images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
 <br /> 
 <br />
 
-[![](/../../images/ch7/view-project.png)]([https://github.com/understanding-astro/fullstack-astro])
+[![](/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/view-project.png)]([https://github.com/understanding-astro/fullstack-astro])
 
 ## What you’ll learn
 
@@ -65,7 +65,7 @@ npm install && npm run start
 The application should successfully run on one of the local server ports.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x.png" width="70%" alt="The BeAudible app initialised" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2011.59.17@2x.png" width="70%" alt="The BeAudible app initialised" align="center">
     <figcaption><em>The BeAudible app initialised.</em></figcaption>
     <br><br><br>
 </figure>
@@ -77,7 +77,7 @@ Our application is for a hypothetical startup, BeAudible, whose mission is to di
 In technical terms, BeAudible lets authorised users create audio recordings, upload them to their servers, and have a timeline where people can listen to everyone’s recordings.
 
 <figure>
-    <img src="../../images/ch7/beaudible-overview.png" width="70%" alt="An overview of the BeAudible application" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/beaudible-overview.png" width="70%" alt="An overview of the BeAudible application" align="center">
     <figcaption><em>An overview of the BeAudible application.</em></figcaption>
     <br><br><br>
 </figure>
@@ -91,7 +91,7 @@ Let’s explore the pages in the project.
 Firstly, consider the homepage, i.e., the base route `/`.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x-1.png" width="70%" alt="The sections of the BeAudible application" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2011.59.17@2x-1.png" width="70%" alt="The sections of the BeAudible application" align="center">
     <figcaption><em>The sections of the BeAudible application.</em></figcaption>
     <br><br><br>
 </figure>
@@ -106,7 +106,7 @@ Firstly, consider the homepage, i.e., the base route `/`.
 If you click “Record” from the navigation bar, you will be navigated to the `/record` route where a user can record their audio.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2012.24.30.png" width="70%" alt="The record page" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2012.24.30.png" width="70%" alt="The record page" align="center">
     <figcaption><em>The record page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -118,7 +118,7 @@ A React component hydrated in the Astro application powers the recording user in
 Now, go to the `/signup` route.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2012.22.45.png" width="70%" alt="The sign up page" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2012.22.45.png" width="70%" alt="The sign up page" align="center">
     <figcaption><em>The sign up page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -130,7 +130,7 @@ This is the page to sign up users to BeAudible!
 Finally, visit the `/signin` route.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2012.21.59.png" width="70%" alt="The signin page" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2012.21.59.png" width="70%" alt="The signin page" align="center">
     <figcaption><em>The signin page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -159,7 +159,7 @@ Let’s point our attention to setting up our backend server. Remember, we will 
 Go to the [Firebase homepage]([https://firebase.google.com/]) and visit the Firebase console.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2012.35.06@2x.png" width="70%" alt="The Firebase homepage" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2012.35.06@2x.png" width="70%" alt="The Firebase homepage" align="center">
     <figcaption><em>The Firebase homepage.</em></figcaption>
     <br><br><br>
 </figure>
@@ -169,7 +169,7 @@ The process is much smoother if you have (and are signed in to) a Google account
 Next, create a new Firebase project.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2012.36.54@2x.png" width="70%" alt="Creating a new Firebase project" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2012.36.54@2x.png" width="70%" alt="Creating a new Firebase project" align="center">
     <figcaption><em>Creating a new Firebase project.</em></figcaption>
     <br><br><br>
 </figure>
@@ -177,7 +177,7 @@ Next, create a new Firebase project.
 Name the project `BeAudible` and choose whether to use Google Analytics in the project.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2012.41.10@2x.png" width="70%" alt="Choosing Google analytics and creating the project" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2012.41.10@2x.png" width="70%" alt="Choosing Google analytics and creating the project" align="center">
     <figcaption><em>Choosing Google analytics and creating the project.</em></figcaption>
     <br><br><br>
 </figure>
@@ -185,7 +185,7 @@ Name the project `BeAudible` and choose whether to use Google Analytics in the p
 After successfully creating the project, add a web application to the Firebase project.
 
 <figure>
-    <img src="../../images/ch7/Adding a web application to the Firebase project" width="70%" alt="Adding a web application to the Firebase project" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/Adding a web application to the Firebase project" width="70%" alt="Adding a web application to the Firebase project" align="center">
     <figcaption><em>Adding a web application to the Firebase project.</em></figcaption>
     <br><br><br>
 </figure>
@@ -193,7 +193,7 @@ After successfully creating the project, add a web application to the Firebase p
 Now, continue the web app set-up process by choosing a name (preferably the same as before), setup Firebase hosting and registering the web application.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2012.53.46@2x.png" width="70%" alt="Continuing the application set-up" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2012.53.46@2x.png" width="70%" alt="Continuing the application set-up" align="center">
     <figcaption><em>Continuing the application set-up.</em></figcaption>
     <br><br><br>
 </figure>
@@ -203,7 +203,7 @@ The next step is critical.
 **Copy your web app’s Firebase configuration**. We’ll use that to initialise the Firebase application client side.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x.png" width="70%" alt="Copying the Firebase configuration for the client SDK" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2012.59.41@2x.png" width="70%" alt="Copying the Firebase configuration for the client SDK" align="center">
     <figcaption><em>Copying the Firebase configuration for the client SDK.</em></figcaption>
     <br><br><br>
 </figure>
@@ -211,7 +211,7 @@ The next step is critical.
 The next steps are optional. Follow the guided prompt from Firebase and continue to the Firebase console.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2013.02.36@2x.png" width="70%" alt="Following the guided prompt from Firebase" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2013.02.36@2x.png" width="70%" alt="Following the guided prompt from Firebase" align="center">
     <figcaption><em>Following the guided prompt from Firebase.</em></figcaption>
     <br><br><br>
 </figure>
@@ -221,13 +221,13 @@ Upon completion, we’ll be redirected to the Firebase application dashboard.
 Go to the project settings, find the service account section and generate a new private key we’ll leverage in our server application.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-27%20at%2011.26.30.png" width="70%" alt="Project overview > Project settings" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-27%20at%2011.26.30.png" width="70%" alt="Project overview > Project settings" align="center">
     <figcaption><em>Project overview > Project settings.</em></figcaption>
     <br><br><br>
 </figure>
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-27%20at%2011.28.49.png" width="70%" alt="Generating a new private key" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-27%20at%2011.28.49.png" width="70%" alt="Generating a new private key" align="center">
     <figcaption><em>Generating a new private key.</em></figcaption>
     <br><br><br>
 </figure>
@@ -241,7 +241,7 @@ Generally speaking, authentication is serious business and can take different fo
 Firebase provides an authentication service, so we will leverage its client libraries to authenticate the user client-side.
 
 <figure>
-    <img src="../../images/ch7/simple-auth-flow.png" width="70%" alt="Simplified authentication process" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/simple-auth-flow.png" width="70%" alt="Simplified authentication process" align="center">
     <figcaption><em>Simplified authentication process.</em></figcaption>
     <br><br><br>
 </figure>
@@ -253,7 +253,7 @@ First, set up the Firebase application to receive client authentication requests
 Return to the Firebase console and set up authentication.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2015.13.50@2x.png" width="70%" alt="Select authentication from the list of provided services" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2015.13.50@2x.png" width="70%" alt="Select authentication from the list of provided services" align="center">
     <figcaption><em>Select authentication from the list of provided services.</em></figcaption>
     <br><br><br>
 </figure>
@@ -261,7 +261,7 @@ Return to the Firebase console and set up authentication.
 Firebase provides different sign-in methods. Let’s keep this simple. Enable the Email and password method from the Firebase console.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2015.15.36@2x.png" width="70%" alt="Selecting the email / password sign-in method" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2015.15.36@2x.png" width="70%" alt="Selecting the email / password sign-in method" align="center">
     <figcaption><em>Selecting the email / password sign-in method.</em></figcaption>
     <br><br><br>
 </figure>
@@ -269,7 +269,7 @@ Firebase provides different sign-in methods. Let’s keep this simple. Enable th
 Make sure to enable the option and hit save.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2015.16.33@2x.png" width="70%" alt="Enabling and saving the Email / Password sign-in method" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2015.16.33@2x.png" width="70%" alt="Enabling and saving the Email / Password sign-in method" align="center">
     <figcaption><em>Enabling and saving the Email / Password sign-in method.</em></figcaption>
     <br><br><br>
 </figure>
@@ -292,7 +292,7 @@ The script exports the initialised application via `app` and the authentication 
 We must now replace the `firebaseConfig` variable with the object copied while initialising the firebase application.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x-1.png" width="70%" alt="The firebase client configuration" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2012.59.41@2x-1.png" width="70%" alt="The firebase client configuration" align="center">
     <figcaption><em>The firebase client configuration.</em></figcaption>
     <br><br><br>
 </figure>
@@ -304,7 +304,7 @@ Once this is done, we should have the Firebase client rightly initialised.
 Talking to the production firebase services while testing and developing locally is rather silly.
 
 <figure>
-    <img src="../../images/ch7/talk-to-prod-firebase.png" width="70%" alt="Sending requests to the production Firebase servers while developing locally" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/talk-to-prod-firebase.png" width="70%" alt="Sending requests to the production Firebase servers while developing locally" align="center">
     <figcaption><em>Sending requests to the production Firebase servers while developing locally.</em></figcaption>
     <br><br><br>
 </figure>
@@ -328,7 +328,7 @@ npm run emulators
 This will start the authentication and storage emulators with a user interface running on `localhost:4001`. We can view the development data in the emulator user interface, e.g., application user signups and uploaded recordings.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2015.06.19.png" width="70%" alt="Starting the Firebase emulators" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2015.06.19.png" width="70%" alt="Starting the Firebase emulators" align="center">
     <figcaption><em>Starting the Firebase emulators.</em></figcaption>
     <br><br><br>
 </figure>
@@ -340,7 +340,7 @@ So, how are we going to handle user signups?
 Please consider the overall flow diagram below:
 
 <figure>
-    <img src="../../images/ch7/sign-up-flow.png" width="70%" alt="The signup flow" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/sign-up-flow.png" width="70%" alt="The signup flow" align="center">
     <figcaption><em>The signup flow.</em></figcaption>
     <br><br><br>
 </figure>
@@ -591,7 +591,7 @@ I have loosely referred to this as auth tokens. We will use this ID token to rec
 Consider the flow below:
 
 <figure>
-    <img src="../../images/ch7/protected-route-flow.png" width="70%" alt="The protected route flow" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/protected-route-flow.png" width="70%" alt="The protected route flow" align="center">
     <figcaption><em>The protected route flow.</em></figcaption>
     <br><br><br>
 </figure>
@@ -653,7 +653,7 @@ try {
 ```
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2015.41.52.png" width="70%" alt="The token cookie set in the browser response" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2015.41.52.png" width="70%" alt="The token cookie set in the browser response" align="center">
     <figcaption><em>The token cookie set in the browser response.</em></figcaption>
     <br><br><br>
 </figure>
@@ -712,7 +712,7 @@ When we sign out a user using the Firebase client SDK, the issued client `token`
 So, consider the flow for our solution below:
 
 <figure>
-    <img src="../../images/ch7/sign-out-flow.png" width="50%" alt="The user sign out flow." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/sign-out-flow.png" width="50%" alt="The user sign out flow." align="center">
     <figcaption><em>The user sign out flow..</em></figcaption>
     <br><br><br>
 </figure>
@@ -796,7 +796,7 @@ Let’s fix this by setting up cloud storage to save user recordings on the serv
 Go to the Firebase console and click “See all build features” to find the cloud storage service.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2015.33.40@2x.png" width="70%" alt="Viewing all build features on the Firebase console" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2015.33.40@2x.png" width="70%" alt="Viewing all build features on the Firebase console" align="center">
     <figcaption><em>Viewing all build features on the Firebase console.</em></figcaption>
     <br><br><br>
 </figure>
@@ -804,7 +804,7 @@ Go to the Firebase console and click “See all build features” to find the cl
 Next, select the Storage service.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2015.33.58@2x.png" width="70%" alt="Selecting the storage service" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2015.33.58@2x.png" width="70%" alt="Selecting the storage service" align="center">
     <figcaption><em>Selecting the storage service.</em></figcaption>
     <br><br><br>
 </figure>
@@ -812,7 +812,7 @@ Next, select the Storage service.
 Then begin the setup.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2015.34.29@2x.png" width="70%" alt="Clicking get started on the Storage service page" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2015.34.29@2x.png" width="70%" alt="Clicking get started on the Storage service page" align="center">
     <figcaption><em>Clicking get started on the Storage service page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -820,7 +820,7 @@ Then begin the setup.
 Keep the storage rules as-is:
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2015.34.40@2x.png" width="70%" alt="The default storage rule" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2015.34.40@2x.png" width="70%" alt="The default storage rule" align="center">
     <figcaption><em>The default storage rule.</em></figcaption>
     <br><br><br>
 </figure>
@@ -830,7 +830,7 @@ Then select a server location.
 BeAudible is a hypothetical US startup, so I’ll choose a US location here.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-26%20at%2015.35.33@2x.png" width="70%" alt="Selecting a Storage location" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-26%20at%2015.35.33@2x.png" width="70%" alt="Selecting a Storage location" align="center">
     <figcaption><em>Selecting a Storage location.</em></figcaption>
     <br><br><br>
 </figure>
@@ -838,7 +838,7 @@ BeAudible is a hypothetical US startup, so I’ll choose a US location here.
 Once the setup is complete, visit the Storage page and copy the bucket name in the form `gs://{name-of-project}.appspot.com.`
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-27%20at%2016.43.07.png" width="70%" alt="The Storage bucket name" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-27%20at%2016.43.07.png" width="70%" alt="The Storage bucket name" align="center">
     <figcaption><em>The Storage bucket name.</em></figcaption>
     <br><br><br>
 </figure>
@@ -870,7 +870,7 @@ Open the `Recorder` component and consider the `onAudioDownload` callback.
 After a user completes the recording, this callback will be invoked. Our first task is to go ahead and upload the audio blob to the server.
 
 <figure>
-    <img src="../../images/ch7/upload-flow.png" width="70%" alt="Sending audio blob to a server endpoint" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/upload-flow.png" width="70%" alt="Sending audio blob to a server endpoint" align="center">
     <figcaption><em>Sending audio blob to a server endpoint.</em></figcaption>
     <br><br><br>
 </figure>
@@ -882,7 +882,7 @@ Let’s go ahead and create the API endpoint that’ll receive the audio blob fr
 Consider the flow for our solution below:
 
 <figure>
-    <img src="../../images/ch7/save-audio-recording-flow.png" width="70%" alt="The save recording endpoint flow diagram" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/save-audio-recording-flow.png" width="70%" alt="The save recording endpoint flow diagram" align="center">
     <figcaption><em>The save recording endpoint flow diagram.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1134,7 +1134,7 @@ export const Recorder = (props: Props) => {
 Now, a user should be able to record in the browser, and we will go ahead and save the recording on our backend!
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2019.15.22@2x.png" width="70%" alt="Viewing saved recordings in the Firebase emulator" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2019.15.22@2x.png" width="70%" alt="Viewing saved recordings in the Firebase emulator" align="center">
     <figcaption><em>Viewing saved recordings in the Firebase emulator.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1224,7 +1224,7 @@ Now update the component template section to render the “audibles”. We’ll 
 In the code above, we display an `Empty` user interface empty if there are no audibles. Otherwise, we render a sorted list of audibles.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2019.06.31@2x.png" width="70%" alt="Rendering the sorted list of audio recordings" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2019.06.31@2x.png" width="70%" alt="Rendering the sorted list of audio recordings" align="center">
     <figcaption><em>Rendering the sorted list of audio recordings.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1277,7 +1277,7 @@ if (Astro.request.method === "POST") {
 I’m keeping this simple by just logging the feedback on the server. However, we could save this value to a database in the real world. The crux here is receiving the form values, as shown above.
 
 <figure>
-    <img src="../../images/ch7/CleanShot%202023-05-29%20at%2019.14.07@2x.png" width="70%" alt="The logged feedback data" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch7/CleanShot%202023-05-29%20at%2019.14.07@2x.png" width="70%" alt="The logged feedback data" align="center">
     <figcaption><em>The logged feedback data.</em></figcaption>
     <br><br><br>
 </figure>

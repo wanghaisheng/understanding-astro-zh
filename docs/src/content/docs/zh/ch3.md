@@ -26,7 +26,7 @@ Astro的快速叙述依赖于组件岛，这允许在我们的Astro应用程序�
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
   
   
@@ -71,7 +71,7 @@ In simple terms, there are two main actors in serving an application to a user:
 To display a website, a user requests a resource from an application server.  
 为了显示网站，用户从应用服务器请求资源。
 
-[![The web browser requesting article.html from an application server.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/a.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/a.png)
+[![The web browser requesting article.html from an application server.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a.png)
 
 _The web browser requesting article.html from an application server.  
 Web浏览器从应用服务器请求article.html。_  
@@ -89,7 +89,7 @@ Let’s briefly explore both options.
 ### [](#client-side-rendering-csr)Client-side rendering (CSR)  
 客户端渲染（CSR）
 
-[![Choosing client side rendering.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/1.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/1.png)
+[![Choosing client side rendering.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/1.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/1.png)
 
 _Choosing client side rendering.  
 选择客户端渲染。_  
@@ -99,7 +99,7 @@ _Choosing client side rendering.
 By definition, a client-side rendered application renders pages directly in the browser using Javascript. All logic, data-fetching, templating and routing are handled on the client (the user’s browser).  
 根据定义，客户端呈现的应用程序使用JavaScript直接在浏览器中呈现页面。所有逻辑、数据获取、模板和路由都在客户端（用户的浏览器）上处理。
 
-[![An overview of a client-side rendered application.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/a-1.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/a-1.png)
+[![An overview of a client-side rendered application.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-1.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-1.png)
 
 _An overview of a client-side rendered application.  
 客户端呈现的应用程序的概述。_  
@@ -112,7 +112,7 @@ The past years saw the rise of client-side rendering, particularly among single-
 For a practical overview, consider the webpage for a blog article with a like count and a comment section below the initial viewport.  
 对于一个实用的概述，考虑一个博客文章的网页，该博客文章具有点赞计数和在初始视口下方的评论部分。
 
-[![A blog article with a dynamic sidebar and a comment section below the article.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/a-2.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/a-2.png)
+[![A blog article with a dynamic sidebar and a comment section below the article.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-2.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-2.png)
 
 _A blog article with a dynamic sidebar and a comment section below the article.  
 一个博客文章，带有动态侧边栏和文章下方的评论部分。_  
@@ -135,7 +135,7 @@ If this application was entirely client-side rendered, the simplified rendering 
 6.  A fully interactive page is shown to the user.  
     向用户显示完全交互的页面。
 
-[![Visualising the rendering process from a user's perspective.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/a-3.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/a-3.png)
+[![Visualising the rendering process from a user's perspective.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-3.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-3.png)
 
 _Visualising the rendering process from a user's perspective.  
 从用户的角度可视化渲染过程。_  
@@ -170,7 +170,7 @@ _Visualising the rendering process from a user's perspective.
 
 ### [](#server-side-rendering)Server-side rendering 服务器端渲染
 
-[![Choosing server-side rendering.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/choosing-ssr.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/choosing-ssr.png)
+[![Choosing server-side rendering.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/choosing-ssr.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/choosing-ssr.png)
 
 _Choosing server-side rendering.  
 选择服务器端渲染。_  
@@ -198,7 +198,7 @@ In our example, here’s what a simplified flow would look like:
 4.  The server sends the client a fully formed `HTML` page.  
     服务器向客户端发送完整格式的 `HTML` 页面。
 
-[![Visualising the rendering process from a user's perspective.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/aa.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/aa.png)
+[![Visualising the rendering process from a user's perspective.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/aa.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/aa.png)
 
 _Visualising the rendering process from a user's perspective.  
 从用户的角度可视化渲染过程。_  
@@ -234,7 +234,7 @@ NB: it is assumed that the server sends a mostly static `HTML` page with minimal
 We’ve explored rendering on both sides of the application rendering pole. However, what if there was a way to use server and client-side rendering? Some strategy right in the middle of the hypothetic rendering pole?  
 我们已经在应用程序渲染极的两侧探索了渲染。但是，如果有一种方法可以使用服务器端和客户端渲染呢？在假设的渲染极中间的一些策略？
 
-[![Choosing SSR with client-side hydration.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/ssr-with-client-rehydration.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/ssr-with-client-rehydration.png)
+[![Choosing SSR with client-side hydration.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/ssr-with-client-rehydration.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/ssr-with-client-rehydration.png)
 
 _Choosing SSR with client-side hydration.  
 选择SSR与客户端水合。_  
@@ -267,7 +267,7 @@ In our example, here’s what a simplified flow would look like:
 Making an otherwise static page interactive (e.g., attaching event listeners) is called hydration.  
 使原本静态的页面成为交互式的（例如，附加事件监听器）被称为水合。
 
-[![Visualising the rendering process from a user's perspective.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/ssr-csr-hydrate-flow.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/ssr-csr-hydrate-flow.png)
+[![Visualising the rendering process from a user's perspective.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/ssr-csr-hydrate-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/ssr-csr-hydrate-flow.png)
 
 _Visualising the rendering process from a user's perspective.  
 从用户的角度可视化渲染过程。_  
@@ -306,7 +306,7 @@ Combining server-side rendering with client-side hydration has the potential to 
 One way to tackle the heavy delay in time to interactivity (TTI) seems obvious. Instead of hydrating the entire application, why not hydrate only the interactive bits?  
 解决交互时间（TTI）严重延迟的一种方法似乎显而易见。与其对整个应用程序进行补水，为什么不只对交互位进行补水呢？
 
-[![Partial hydration vs full-page hydration.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/p-hydration.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/p-hydration.png)
+[![Partial hydration vs full-page hydration.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/p-hydration.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/p-hydration.png)
 
 _Partial hydration vs full-page hydration.  
 部分水合vs全页水合。_  
@@ -325,7 +325,7 @@ We may also take partial hydration further and implement what’s known as lazy 
 In this case, we may hydrate the like button when the page is loaded and hydrate the comment section only when the user scrolls below the initial viewport.  
 在这种情况下，我们可以在页面加载时使用“like”按钮，并且仅在用户滚动到初始视口下方时使用“注释”部分。
 
-[![Hydrate the comment section at a later time.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/a-4.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/a-4.png)
+[![Hydrate the comment section at a later time.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-4.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-4.png)
 
 _Hydrate the comment section at a later time.  
 稍后再添加评论部分。_  
@@ -354,7 +354,7 @@ Talk about flexibility! 谈论灵活性！
 The island architecture is built upon the foundation of partial hydration. Essentially, the islands architecture refers to having “islands of interactivity” on an otherwise static `HTML` page.  
 岛屿建筑是建立在部分水化的基础上的。本质上，岛架构指的是在其他静态的 `HTML` 页面上具有“交互岛”。
 
-[![Islands of interactivity on an otherwise static webpage.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/independent-islands.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/independent-islands.png)
+[![Islands of interactivity on an otherwise static webpage.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/independent-islands.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/independent-islands.png)
 
 _Islands of interactivity on an otherwise static webpage.  
 静态网页上的互动孤岛。_  
@@ -616,7 +616,7 @@ To view this via a local web server, run the following command from the project 
 By default, this should start a local static web server on port `8000`. We may now view the initial demo page on `http://localhost:8000/demos/initial.html`  
 默认情况下，这应该在端口 `8000` 上启动本地静态Web服务器。我们现在可以在 `http://localhost:8000/demos/initial.html` 上查看初始演示页面
 
-[![The initial demo page.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/CleanShot%202023-05-14%20at%2007.29.14.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/CleanShot%202023-05-14%20at%2007.29.14.png)
+[![The initial demo page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.29.14.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.29.14.png)
 
 _The initial demo page.  
 初始演示页面。_  
@@ -638,7 +638,7 @@ Let’s confirm that our custom element `mini-island` is registered rendering th
 This will render the custom element and the `Hello future island` paragraph as expected:  
 这将按照预期呈现自定义元素和 `Hello future island` 段落：
 
-[![Rendering the custom element with a child element.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/CleanShot%202023-05-14%20at%2007.27.26.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/CleanShot%202023-05-14%20at%2007.27.26.png)
+[![Rendering the custom element with a child element.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.27.26.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.27.26.png)
 
 _Rendering the custom element with a child element.  
 使用子元素呈现自定义元素。_  
@@ -660,7 +660,7 @@ Now, let’s go ahead and add some Javascript within `<mini-island>` as shown be
 If you refresh the page and check the browser console, we should see the warning logged.  
 如果刷新页面并检查浏览器控制台，我们应该会看到记录的警告。
 
-[![Console warning from the island.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/CleanShot%202023-05-14%20at%2007.32.44.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/CleanShot%202023-05-14%20at%2007.32.44.png)
+[![Console warning from the island.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.32.44.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.32.44.png)
 
 _Console warning from the island.  
 从岛上发出控制台警告。_  
@@ -863,7 +863,7 @@ Note that the `<template>` element has the `data-island` attribute. This is how 
 Now, refresh your browser and notice how the `console.warn` is triggered.  
 现在，刷新您的浏览器并注意 `console.warn` 是如何触发的。
 
-[![Hydrated island script.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/CleanShot%202023-05-15%20at%2007.10.42.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/CleanShot%202023-05-15%20at%2007.10.42.png)
+[![Hydrated island script.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.10.42.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.10.42.png)
 
 _Hydrated island script. 水化物岛文字。_  
   
@@ -872,7 +872,7 @@ _Hydrated island script. 水化物岛文字。_
 If you also inspect the elements, you’ll notice that the `<template>` has been replaced with its live child content.  
 如果您还检查这些元素，您会注意到 `<template>` 已被其活动子内容替换。
 
-[![Replaced island <template> element.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/CleanShot%202023-05-15%20at%2007.11.54.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/CleanShot%202023-05-15%20at%2007.11.54.png)
+[![Replaced island <template> element.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.11.54.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.11.54.png)
 
 _Replaced island template element.  
 已替换岛模板元素。_  
@@ -927,7 +927,7 @@ Update the `initial.html` document to consider our first use case. Here’s the 
   </body\>
 </html\>
 
-[![The client:visible demo.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/CleanShot%202023-05-15%20at%2007.18.38.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/CleanShot%202023-05-15%20at%2007.18.38.png)
+[![The client:visible demo.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.18.38.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.18.38.png)
 
 _The client:visible demo.  
 客户端：visible demo。_  
@@ -943,7 +943,7 @@ With the `client:visible` attribute on the `<mini-island>`, we should not hydrat
 However, test this in your browser.  
 不过，请在浏览器中测试。
 
-[![The island is hydrated before being in view](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/CleanShot%202023-05-15%20at%2007.20.43.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/CleanShot%202023-05-15%20at%2007.20.43.png)
+[![The island is hydrated before being in view](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.20.43.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.20.43.png)
 
 _The island is hydrated before being in view.  
 这个岛在进入视野之前已经被水化了。_  
@@ -996,7 +996,7 @@ if ("customElements" in window) {
 Within `Conditions`, we will introduce a static property that’s a key-value representation of the `client:` attribute and async methods.  
 在 `Conditions` 中，我们将引入一个静态属性，它是 `client:` 属性和异步方法的键值表示。
 
-[![An object with key-value corresponding to attribute and promise condition.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/attr-promise.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/attr-promise.png)
+[![An object with key-value corresponding to attribute and promise condition.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/attr-promise.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/attr-promise.png)
 
 _An object with key-value corresponding to attribute and promise condition.  
 一个对象，键值对应于属性和promise条件。_  
@@ -1413,7 +1413,7 @@ Now, go to the `initial.html` demo file and update the file as shown below:
   </body\>
 </html\>
 
-Note that we’ve introduced a large `34MB` image from [Effigis](https://effigis.com/en/solutions/satellite-../../images/satellite-image-samples/) and passed a `client:idle` attribute to `<mini-island>`.  
+Note that we’ve introduced a large `34MB` image from [Effigis](https://effigis.com/en/solutions/satellite-https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagessatellite-image-samples/) and passed a `client:idle` attribute to `<mini-island>`.  
 请注意，我们从Efigis引入了一个大的 `34MB` 映像，并将 `client:idle` 属性传递给 `<mini-island>` 。
 
 > Consider downloading the large image and referencing it locally instead of hitting the GitHub servers repeatedly.  
@@ -1422,7 +1422,7 @@ Note that we’ve introduced a large `34MB` image from [Effigis](https://effigis
 The large image will keep the browser busy for some time. Before testing this in the browser, I suggest disabling the browser cache via developer tools.  
 大图像将使浏览器忙碌一段时间。在浏览器中测试之前，我建议通过开发者工具禁用浏览器缓存。
 
-[![The disable cache property in Firefox.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch3/CleanShot%202023-05-15%20at%2011.43.31.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch3/CleanShot%202023-05-15%20at%2011.43.31.png)
+[![The disable cache property in Firefox.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2011.43.31.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2011.43.31.png)
 
 _The disable cache property in Firefox.  
 Firefox中的disable cache属性。_  

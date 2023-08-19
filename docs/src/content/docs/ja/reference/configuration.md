@@ -384,7 +384,7 @@ interface HeadConfig {
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg',
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg',
 }),
 ```
 
@@ -392,14 +392,14 @@ starlight({
 
 ```js
 starlight({
-  favicon: '/../../images/favicon.svg'.
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg'.
   head: [
     // Safari用にICOファビコンのフォールバックを追加します。
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/../../images/favicon.ico',
+        href:'/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.ico',
         sizes: '32x32',
       },
     },

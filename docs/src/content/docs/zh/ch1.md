@@ -29,17 +29,17 @@ Get started with the basics of Astro by building a practical application: a pers
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/view-project@3x.png)](https://astro-beginner-project.vercel.app/)
+[![](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/view-project@3x.png)](https://astro-beginner-project.vercel.app/)
 
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/view-project.png)](https://github.com/understanding-astro/astro-beginner-project)
+[![](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/view-project.png)](https://github.com/understanding-astro/astro-beginner-project)
 
   
   
@@ -85,7 +85,7 @@ Firstly, make sure you have nodejs installed.
 If unsure, run `node --version` in your terminal. You will get back a node version if you have nodejs installed.  
 如果不确定，请在终端中运行 `node --version` 。如果你安装了nodejs，你会得到一个节点版本。
 
-[![Get NodeJS version from the CLI.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-29%20at%2011.11.18@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-29%20at%2011.11.18@2x.png)
+[![Get NodeJS version from the CLI.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2011.11.18@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2011.11.18@2x.png)
 
 _Get NodeJS version from the CLI.  
 从CLI获取NodeJS版本。_  
@@ -95,7 +95,7 @@ _Get NodeJS version from the CLI.
 Don’t have nodejs installed? Then, visit the official [download](https://nodejs.org/en/download) page and install the necessary package for your operating system. It’s as easy as installing any other computer program. Click, click, click!  
 没有安装nodejs？然后，访问官方下载页面并为您的操作系统安装必要的软件包。它就像安装任何其他计算机程序一样简单。咔嗒咔嗒！
 
-[![The NodeJS download page.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-28%20at%2010.44.30@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-28%20at%2010.44.30@2x.png)
+[![The NodeJS download page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2010.44.30@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2010.44.30@2x.png)
 
 _The NodeJS download page.  
 NodeJS下载页面_  
@@ -117,7 +117,7 @@ You can develop Astro applications with any code editor, but VSCode is also the 
 If you’re building with VSCode[1](#user-content-fn-1-aa56f548e078749351c130450542ff17), install the official [Astro extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode). This helps with syntax and semantic highlighting, diagnostic messages, IntelliSense, and more.  
 如果你使用VSCode [1](#user-content-fn-1-aa56f548e078749351c130450542ff17) 编译，请安装官方的Astro扩展。这有助于语法和语义突出显示、诊断消息、智能感知等。
 
-[![The official Astro VSCode extension.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.03.36@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.03.36@2x.png)
+[![The official Astro VSCode extension.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.03.36@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.03.36@2x.png)
 
 _The official Astro VSCode extension.  
 官方Astro VSCode扩展_  
@@ -141,7 +141,7 @@ pnpm create astro@latest
 # using yarn
 yarn create astro
 
-[![Starting a new project with the Astro CLI wizard extension.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.15.44@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.15.44@2x.png)
+[![Starting a new project with the Astro CLI wizard extension.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.15.44@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.15.44@2x.png)
 
 _Starting a new project with the Astro CLI wizard extension.  
 使用Astro CLI向导扩展启动新项目。_  
@@ -160,7 +160,7 @@ Alternatively, we could have run the `npm create astro@latest` command in our de
 When asked, “How would you like to start your new project?” go ahead and choose “Empty”.  
 当被问到“你想如何开始你的新项目？“然后选择“空”。
 
-[![Answering the template CLI prompt.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.20.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.20.54@2x.png)
+[![Answering the template CLI prompt.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.20.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.20.54@2x.png)
 
 _Answering the template CLI prompt.  
 回答模板CLI提示符。_  
@@ -173,7 +173,7 @@ We want a fresh start to explore Astro from the ground up.
 Now, we will be asked whether to install dependencies or not. Select yes and hit enter to continue the installation.  
 现在，我们将被询问是否安装依赖项。选择是并按回车键继续安装。
 
-[![Installing dependencies in the CLI prompt.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.22.21@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.22.21@2x.png)
+[![Installing dependencies in the CLI prompt.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.22.21@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.22.21@2x.png)
 
 _Installing dependencies in the CLI prompt.  
 在CLI提示符中安装依赖项。_  
@@ -186,7 +186,7 @@ Once the dependencies are installed, answer the “Do you plan to write TypeScri
 We want strong type safety.  
 我们需要强大的类型安全。
 
-[![Choosing Typescript in the CLI prompt.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.24.22@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.24.22@2x.png)
+[![Choosing Typescript in the CLI prompt.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.24.22@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.24.22@2x.png)
 
 _Choosing Typescript in the CLI prompt.  
 在CLI提示符下选择Typescript。_  
@@ -196,7 +196,7 @@ _Choosing Typescript in the CLI prompt.
 Afterwards, answer the “Initialise a new git repository?” question with whatever works for you. I’ll go with a yes here and hit enter.  
 然后，回答“初始化一个新的git仓库？“问什么适合你。我会选择通过然后按回车键。
 
-[![Initialising git in the CLI prompt.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.25.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.25.33@2x.png)
+[![Initialising git in the CLI prompt.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.25.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.25.33@2x.png)
 
 _Initialising git in the CLI prompt.  
 在CLI提示符下初始化git。_  
@@ -219,7 +219,7 @@ npm run start
 This will start the live application on an available local port 🚀  
 这将在可用的本地端口 🚀 上启动实时应用程序
 
-[![The basic Astro project running on localhost:3000.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.29.57@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-28%20at%2011.29.57@2x.png)
+[![The basic Astro project running on localhost:3000.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.29.57@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-28%20at%2011.29.57@2x.png)
 
 _The basic Astro project running on localhost:3000.  
 运行在localhost：3000上的基本Astro项目。_  
@@ -369,7 +369,7 @@ Also, notice what’s written within the `<body>` tag. An `<h1>` element with th
 If we visit the running application in the browser, we have the `<h1>` rendered.  
 如果我们在浏览器中访问正在运行的应用程序，我们会呈现 `<h1>` 。
 
-[![The rendered page heading.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-11%20at%2014.18.20@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-11%20at%2014.18.20@2x.png)
+[![The rendered page heading.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2014.18.20@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2014.18.20@2x.png)
 
 _The rendered page heading.  
 呈现的页标题。_  
@@ -379,7 +379,7 @@ _The rendered page heading.
 Now change the text to read `<h1>Hello world</h1>` and notice how the page is updated in the browser!  
 现在将文本更改为 `<h1>Hello world</h1>` ，并注意页面在浏览器中是如何更新的！
 
-[![The updated page heading.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-11%20at%2014.19.41@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-11%20at%2014.19.41@2x.png)
+[![The updated page heading.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2014.19.41@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2014.19.41@2x.png)
 
 _The updated page heading.  
 更新的页面标题。_  
@@ -399,7 +399,7 @@ Astro利用基于文件的路由系统，并通过使用 `src/pages` 目录中�
 For example, the `src/pages/index.astro` file corresponds to the `index` page served in the browser.  
 例如， `src/pages/index.astro` 文件对应于浏览器中提供的 `index` 页面。
 
-[![The project’s index page.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-29%20at%2009.49.26@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-29%20at%2009.49.26@2x.png)
+[![The project’s index page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2009.49.26@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2009.49.26@2x.png)
 
 _The project’s index page.  
 项目的索引页。_  
@@ -434,7 +434,7 @@ Let’s go ahead and create an `src/pages/about.astro` page with similar content
 Now, if we navigate to `/about` in the browser, we should have the new page rendered.  
 现在，如果我们在浏览器中导航到 `/about` ，我们应该已经呈现了新页面。
 
-[![The “About us” page.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-29%20at%2009.50.13@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-29%20at%2009.50.13@2x.png)
+[![The “About us” page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2009.50.13@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2009.50.13@2x.png)
 
 _The “About us” page.  
 关于我们页面_  
@@ -450,7 +450,7 @@ We’ve defined Astro pages as files in the `src/pages/`directory. Unfortunately
 For example, if we duplicate the `favicon.svg` file in `public/favicon.svg` into the `pages` directory, does this represent a `favicon` page?  
 例如，如果我们将 `public/favicon.svg` 中的 `favicon.svg` 文件复制到 `pages` 目录中，这是否表示 `favicon` 页面？
 
-[![Duplicating the favicon in the pages directory.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-29%20at%2009.55.21.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-29%20at%2009.55.21.png)
+[![Duplicating the favicon in the pages directory.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2009.55.21.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2009.55.21.png)
 
 _Duplicating the favicon in the pages directory.  
 复制pages目录中的favicon。_  
@@ -460,7 +460,7 @@ _Duplicating the favicon in the pages directory.
 Even though `index.astro` and `about.astro` correspond to our website’s index and about pages, `/favicon` will return a `404: Not found` error.  
 即使 `index.astro` 和 `about.astro` 对应于我们网站的索引和关于页面， `/favicon` 也会返回 `404: Not found` 错误。
 
-[![The /favicon route.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-29%20at%2009.56.51@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-29%20at%2009.56.51@2x.png)
+[![The /favicon route.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2009.56.51@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2009.56.51@2x.png)
 
 _The /favicon route. /favicon路由。_  
   
@@ -581,7 +581,7 @@ Note that the `profilePicture` variable is referenced using curly braces `{ }`. 
 Now we should have the image rendered on the home page:  
 现在我们应该在主页上呈现图像：
 
-[![Rendering the user profile photo.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-04-29%20at%2010.30.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-04-29%20at%2010.30.54@2x.png)
+[![Rendering the user profile photo.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2010.30.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-04-29%20at%2010.30.54@2x.png)
 
 _Rendering the user profile photo.  
 正在渲染用户配置文件照片。_  
@@ -623,7 +623,7 @@ As you might have noticed, we’re writing `HTML` looking syntax in the componen
 Now we should have the user photo and their bio rendered in the browser as follows:  
 现在，我们应该在浏览器中渲染用户照片和他们的个人信息，如下所示：
 
-[![The user profile photo and bio.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-10%20at%2014.07.31@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-10%20at%2014.07.31@2x.png)
+[![The user profile photo and bio.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2014.07.31@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2014.07.31@2x.png)
 
 [](#component-styles)Component styles 组件样式
 ------------------------------------------
@@ -678,7 +678,7 @@ Add a `<style>` tag, and write CSS as usual!
 The user details should now be styled as expected.  
 现在，用户详细信息的样式应该符合预期。
 
-[![Applying styles to the index.astro page component.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-01%20at%2008.42.27@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-01%20at%2008.42.27@2x.png)
+[![Applying styles to the index.astro page component.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2008.42.27@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2008.42.27@2x.png)
 
 _Applying styles to the index.astro page component.  
 将样式应用于index.astro页面组件。_  
@@ -733,7 +733,7 @@ This will ensure all other `h1` in our project remains the same, and this style 
 Please look at the pages of our completed application, and realise how they all have identical forms.  
 请看我们填写的申请表，并意识到它们都有相同的表格。
 
-[![A breakdown of the application page structure.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-01%20at%2009.10.55.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-01%20at%2009.10.55.png)
+[![A breakdown of the application page structure.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2009.10.55.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2009.10.55.png)
 
 _A breakdown of the application page structure.  
 应用程序页面结构的细分。_  
@@ -849,7 +849,7 @@ const profilePicture \= "https://i.imgur.com/JPGFE75.jpg";
 If we checked our app, we’d have a blank `index` page.  
 如果我们检查我们的应用程序，我们会有一个空白的 `index` 页面。
 
-[![Blank application page.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-10%20at%2017.18.07.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-10%20at%2017.18.07.png)
+[![Blank application page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2017.18.07.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2017.18.07.png)
 
 _Blank application page. 空白申请页。_  
   
@@ -871,7 +871,7 @@ The `<Main>` layout component is rendered, and nothing else. The child component
 To render the child elements of an Astro component, we must specify where to render these using a `<slot />` element.  
 要渲染Astro组件的子元素，我们必须使用 `<slot />` 元素指定渲染位置。
 
-[![Injecting child elements into a slot.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/a.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/a.png)
+[![Injecting child elements into a slot.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/a.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/a.png)
 
 _Injecting child elements into a slot.  
 将子元素注入到插槽中。_  
@@ -889,7 +889,7 @@ Let’s add a `<slot>` within `Main.astro` :
   </main\>
 </body\>
 
-[![Page refactored to use a reusable layout component.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-10%20at%2017.19.59.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-10%20at%2017.19.59.png)
+[![Page refactored to use a reusable layout component.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2017.19.59.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2017.19.59.png)
 
 _Page refactored to use a reusable layout component.  
 页面重构以使用可重用的布局组件。_  
@@ -959,7 +959,7 @@ The `Main` layout is in place but doesn’t add much to our page. Let’s start 
 With this, we’ll have the `main` element centred, but the headers, `h1` and `h2` remain unstyled.  
 这样，我们将以 `main` 元素为中心，但标题 `h1` 和 `h2` 保持未样式化。
 
-[![A comparison of the changes before and after the layout component style.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-10%20at%2017.21.33.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-10%20at%2017.21.33.png)
+[![A comparison of the changes before and after the layout component style.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2017.21.33.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2017.21.33.png)
 
 _A comparison of the changes before and after the layout component style.  
 布局构件样式前后的更改比较。_  
@@ -997,7 +997,7 @@ For example, to break out of the default locally scoped `<style>` behaviour, we 
 This will remove the local CSS scoping and make the styles available globally.  
 这将删除本地CSS范围，并使样式在全局可用。
 
-[![The page with global fonts and styles.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-01%20at%2011.06.50.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-01%20at%2011.06.50.png)
+[![The page with global fonts and styles.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2011.06.50.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2011.06.50.png)
 
 _The page with global fonts and styles.  
 具有全局字体和样式的页面。_  
@@ -1068,7 +1068,7 @@ body {
 And boom! We have sorted global fonts.  
 砰！我们对全局字体进行了排序。
 
-[![The page with global fonts and styles.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-10%20at%2017.41.13.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-10%20at%2017.41.13.png)
+[![The page with global fonts and styles.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2017.41.13.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-10%20at%2017.41.13.png)
 
 _The page with global fonts and styles.  
 具有全局字体和样式的页面。_  
@@ -1176,7 +1176,7 @@ import NavigationBar from "../components/NavigationBar.astro";
   <Footer /\>
 </main>
 
-[![Navigation bar and footer rendered.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-01%20at%2015.17.48@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-01%20at%2015.17.48@2x.png)
+[![Navigation bar and footer rendered.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2015.17.48@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2015.17.48@2x.png)
 
 _Navigation bar and footer rendered.  
 导航栏和页脚呈现。_  
@@ -1216,7 +1216,7 @@ So, where’s the log?
 Astro runs on the server. In our case, this represents our local development server. So, the `console.log` will appear in the terminal where Astro serves our local application.  
 Astro在服务器上运行。在我们的例子中，这代表我们的本地开发服务器。因此， `console.log` 将出现在Astro为本地应用程序提供服务的终端中。
 
-[![Astro server logs.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-01%20at%2017.55.33.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-01%20at%2017.55.33.png)
+[![Astro server logs.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2017.55.33.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2017.55.33.png)
 
 _Astro server logs. 天文服务器日志。_  
   
@@ -1228,7 +1228,7 @@ When we eventually build our application for production with `npm run build`, As
 In this example, the `Hello world!` message will be logged but not get into the compiled `HTML` pages.  
 在本例中， `Hello world!` 消息将被记录，但不会进入编译的 `HTML` 页面。
 
-[![Logs during building the production application.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-01%20at%2018.02.53.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-01%20at%2018.02.53.png)
+[![Logs during building the production application.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2018.02.53.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2018.02.53.png)
 
 _Logs during building the production application.  
 生成生产应用程序期间的日志。_  
@@ -1253,7 +1253,7 @@ For example, let’s move the `console.log` from the frontmatter to the markup v
 We should have `Hello world!` logged in the browser console!  
 我们应该有 `Hello world!` 登录浏览器控制台！
 
-[![The browser “Hello world” log.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-01%20at%2018.07.13@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-01%20at%2018.07.13@2x.png)
+[![The browser “Hello world” log.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2018.07.13@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-01%20at%2018.07.13@2x.png)
 
 _The browser “Hello world” log.  
 浏览器“Hello world”日志。_  
@@ -1314,7 +1314,7 @@ import ThemeToggler from "./ThemeToggler.astro";
   <ThemeToggler /\>
 </nav\>
 
-[![The sun and moon icons rendered in the toggle button.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-02%20at%2006.43.28.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-02%20at%2006.43.28.png)
+[![The sun and moon icons rendered in the toggle button.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2006.43.28.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2006.43.28.png)
 
 _The sun and moon icons rendered in the toggle button.  
 在切换按钮中渲染的太阳和月亮图标。_  
@@ -1354,7 +1354,7 @@ Let’s add some `<style>` to `ThemeToggler`:
 Now, we should have a decent-looking theme toggler.  
 现在，我们应该有一个体面的主题切换器。
 
-[![A styled theme toggle button](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-02%20at%2006.50.49.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-02%20at%2006.50.49.png)
+[![A styled theme toggle button](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2006.50.49.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2006.50.49.png)
 
 _A styled theme toggle button  
 一个样式化的主题切换按钮_  
@@ -1370,7 +1370,7 @@ Let’s take a moment to consider the strategy we’ll use for toggling the them
 We’ll toggle a CSS class on the root element whenever a user clicks the toggle.  
 每当用户单击切换时，我们都会在根元素上切换CSS类。
 
-[![Adding a new “dark” class on toggle](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/embed.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/embed.png)
+[![Adding a new “dark” class on toggle](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/embed.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/embed.png)
 
 _Adding a new “dark” class on toggle  
 在切换时添加一个新的“黑暗”类_  
@@ -1410,7 +1410,7 @@ Here’s how we’d achieve this:
 To see this at work, inspect the page via the developer tools, and add a `dark` class to the root element. The toggle icon will be appropriately changed.  
 要了解这一点，请通过开发人员工具检查页面，并向根元素添加一个 `dark` 类。切换图标将被适当更改。
 
-[![Inspecting icon change with a root dark class](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-02%20at%2007.03.08.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-02%20at%2007.03.08.png)
+[![Inspecting icon change with a root dark class](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2007.03.08.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2007.03.08.png)
 
 _Inspecting icon change with a root dark class  
 检查图标变化与根黑暗类_  
@@ -1505,7 +1505,7 @@ body {
 With this seemingly simple change, we should now have the text and background colour of the `body` react to clicking the toggle.  
 通过这个看似简单的更改，我们现在应该让 `body` 的文本和背景颜色对单击切换做出反应。
 
-[![Dark mode activated](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-02%20at%2007.51.51.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-02%20at%2007.51.51.png)
+[![Dark mode activated](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2007.51.51.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2007.51.51.png)
 
 _Dark mode activated 黑暗模式启动_  
   
@@ -1529,7 +1529,7 @@ Finally, update the navigation links in `NavigationBar` to reflect theme prefere
   }
 </style\>
 
-[![Navigation links styled for dark mode](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-02%20at%2007.55.56.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-02%20at%2007.55.56.png)
+[![Navigation links styled for dark mode](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2007.55.56.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2007.55.56.png)
 
 _Navigation links styled for dark mode  
 为暗模式设计的导航链接_  
@@ -1717,7 +1717,7 @@ In the real world, we quickly realise that the defaults don’t always satisfy e
 For example, consider the unstyled flash of content when we refresh our home page. For a user who chose the dark theme previously, refreshing the page shows light-themed rendered content before changing to dark after the script is parsed.  
 例如，当我们刷新我们的主页时，考虑一下无样式的内容。对于之前选择了深色主题的用户，刷新页面时会显示浅色主题的渲染内容，然后在脚本解析后更改为深色。
 
-[![Transitioning light themed content viewed on Regular 3G throttling.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-03%20at%2003.24.42.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-03%20at%2003.24.42.png)
+[![Transitioning light themed content viewed on Regular 3G throttling.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2003.24.42.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2003.24.42.png)
 
 _Transitioning light themed content viewed on Regular 3G throttling.  
 在常规3G节流上观看的过渡灯光主题内容。_  
@@ -1771,7 +1771,7 @@ Be careful with `is:inline` as it removes the default non-blocking nature of scr
 Open your developer tools and throttle the network. Then go ahead and refresh after toggling dark mode. We should have eradicated the flash of unstyled content!  
 打开你的开发者工具，控制网络。然后继续并刷新后切换黑暗模式。我们应该根除无风格内容的闪光！
 
-[![Throttling the network via the chrome developer tools.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-11%20at%2007.30.21@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-11%20at%2007.30.21@2x.png)
+[![Throttling the network via the chrome developer tools.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2007.30.21@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2007.30.21@2x.png)
 
 _Throttling the network via the chrome developer tools.  
 通过chrome开发者工具限制网络。_  
@@ -1806,7 +1806,7 @@ This will be selected if we add a random button somewhere on the page before our
 
 //...
 
-[![The donate to charity button.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-03%20at%2003.38.21.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-03%20at%2003.38.21.png)
+[![The donate to charity button.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2003.38.21.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2003.38.21.png)
 
 _The donate to charity button.  
 捐赠给慈善机构的按钮。_  
@@ -1856,7 +1856,7 @@ It’s no surprise Astro supports creating pages via markdown. So, let’s put t
 We’ll create two new pages to replace our dead `Philosophies` and `Beyond technology` navigation links.  
 我们将创建两个新页面来替换我们已经失效的 `Philosophies` 和 `Beyond technology` 导航链接。
 
-[![The dead navigation links.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-02%20at%2010.50.19@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-02%20at%2010.50.19@2x.png)
+[![The dead navigation links.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2010.50.19@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-02%20at%2010.50.19@2x.png)
 
 _The dead navigation links.  
 死亡的导航链接_  
@@ -1887,7 +1887,7 @@ These files are written in markdown syntax[6](#user-content-fn-6-aa56f548e078749
 As with Astro component pages, markdown pages eventually get compiled to standard `HTML` pages rendered in the browser. The same file-based routing is also used. For example, to access the `philosophies` and `beyond-tech` pages, visit the `/philosophies` and `/beyond-tech`  routes, respectively.  
 与Astro组件页面一样，markdown页面最终会被编译成标准的 `HTML` 页面在浏览器中呈现。也使用相同的基于文件的路由。例如，要访问 `philosophies` 和 `beyond-tech` 页面，请分别访问 `/philosophies` 和 `/beyond-tech`  路由。
 
-[![The philosophies page.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-03%20at%2002.42.23.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-03%20at%2002.42.23.png)
+[![The philosophies page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2002.42.23.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2002.42.23.png)
 
 _The philosophies page. 哲学页_  
   
@@ -1965,7 +1965,7 @@ layout: ../layouts/Main.astro
 The markdown pages should now reuse our existing layout with the theming, navigation and footer all set in place!  
 markdown页面现在应该重新使用我们现有的布局，主题，导航和页脚都设置好了！
 
-[![Using the Main layout in the markdown pages.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-03%20at%2004.40.15.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-03%20at%2004.40.15.png)
+[![Using the Main layout in the markdown pages.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2004.40.15.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2004.40.15.png)
 
 _Using the Main layout in the markdown pages.  
 在markdown页面中使用Main布局。_  
@@ -1989,7 +1989,7 @@ li {
   margin: 1rem 0;
 }
 
-[![Global list styles are now applied to the Markdown pages.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-11%20at%2007.51.10@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-11%20at%2007.51.10@2x.png)
+[![Global list styles are now applied to the Markdown pages.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2007.51.10@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2007.51.10@2x.png)
 
 _Global list styles are now applied to the Markdown pages.  
 全局列表样式现在应用于Markdown页面。_  
@@ -2095,7 +2095,7 @@ const { title } \= Astro.props;
 With the type declared, we’ll have Typescript error(s) in files where we’ve used `<Main>` without the required `title` prop.  
 声明了类型后，我们在使用 `<Main>` 而没有需要的 `title` prop的文件中会出现Typescript错误。
 
-[![Invalid title props error.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-03%20at%2006.01.52.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-03%20at%2006.01.52.png)
+[![Invalid title props error.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2006.01.52.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2006.01.52.png)
 
 _Invalid title props error.  
 标题道具无效错误。_  
@@ -2127,7 +2127,7 @@ Update the markdown pages to now include these properties, as shown below.
 
 \---
 layout: ../layouts/Blog.astro
-poster: "/../../images/road-trip.jpg"
+poster: "/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesroad-trip.jpg"
 title: "Beyond Technology"
 subtitle: "Humans are multi-faceted. Beyond tech, I indulge in the following:"
 \---
@@ -2138,15 +2138,15 @@ subtitle: "Humans are multi-faceted. Beyond tech, I indulge in the following:"
 
 \---
 layout: ../layouts/Blog.astro
-poster: "/../../images/philosophies.jpg"
+poster: "/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesphilosophies.jpg"
 title: "My Guiding Philosophies"
 subtitle: "These are the philosophies that guide every decision and action I make."
 \---
 
 ...
 
-Note that `poster` points to image paths. These paths reference the `public` directory. So `/../../images/philosophies.jpg` points to an image in `public/../../images/philosophies.jpg`.  
-请注意， `poster` 指向图像路径。这些路径引用 `public` 目录。 `/../../images/philosophies.jpg` 指向 `public/../../images/philosophies.jpg` 中的图像。
+Note that `poster` points to image paths. These paths reference the `public` directory. So `/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesphilosophies.jpg` points to an image in `public/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesphilosophies.jpg`.  
+请注意， `poster` 指向图像路径。这些路径引用 `public` 目录。 `/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesphilosophies.jpg` 指向 `public/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesphilosophies.jpg` 中的图像。
 
 If you’re coding along, feel free to download any image from Unsplash and move them to the `public` directory.  
 如果您正在编写代码，请随时从Unsplash下载任何图像并将其移动到 `public` 目录。
@@ -2188,7 +2188,7 @@ const { poster, title, subtitle } \= Astro.props.frontmatter;
 *   The final line deconstructs the properties from `Astro.props.frontmatter` with full Typescript support.  
     最后一行用完全Typescript支持解构 `Astro.props.frontmatter` 的属性。
 
-[![Typescript support in the Markdown layout.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-03%20at%2005.16.20.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-03%20at%2005.16.20.png)
+[![Typescript support in the Markdown layout.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2005.16.20.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2005.16.20.png)
 
 _Typescript support in the Markdown layout.  
 Markdown布局中的Typescript支持。_  
@@ -2244,7 +2244,7 @@ Most of the markup is arguably standard. However, note the `title.toLowerCase()`
 Our markdown pages will now have styled titles, subtitles and poster images! With all this handled in one place — the markdown layout.  
 我们的降价页面现在将有风格的标题，字幕和海报图像！所有这些都在一个地方处理-markdown布局。
 
-[![The fully formed Markdown page.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-03%20at%2005.19.26.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-03%20at%2005.19.26.png)
+[![The fully formed Markdown page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2005.19.26.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2005.19.26.png)
 
 _The fully formed Markdown page.  
 完整的Markdown页面。_  
@@ -2295,7 +2295,7 @@ Finally, add the relevant style for the active tag:
 Viola! We should now have the active anchor tag styled differently.  
 维奥拉我们现在应该有不同样式的活动锚标记。
 
-[![Active anchor tag styles.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-03%20at%2009.44.02.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-03%20at%2009.44.02.png)
+[![Active anchor tag styles.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2009.44.02.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-03%20at%2009.44.02.png)
 
 _Active anchor tag styles.  
 活动锚标记样式。_  
@@ -2311,7 +2311,7 @@ Our first look at component composition was with the `Main` and `Blog` layouts. 
 Our goal is to create a set of different yet identical cards. Each card acts as a link to a blog and will have a title and some background gradient.  
 我们的目标是创建一组不同但相同的卡片。每张卡片作为一个博客的链接，并将有标题和一些背景渐变。
 
-[![The eventual card layout we will build.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-04%20at%2009.44.58.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-04%20at%2009.44.58.png)
+[![The eventual card layout we will build.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-04%20at%2009.44.58.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-04%20at%2009.44.58.png)
 
 _The eventual card layout we will build.  
 我们将构建的最终卡片布局。_  
@@ -2321,7 +2321,7 @@ _The eventual card layout we will build.
 To achieve this, we’ll have a `Cards.astro` component that renders multiple `Card.astro` components.  
 为了实现这一点，我们将有一个 `Cards.astro` 组件来渲染多个 `Card.astro` 组件。
 
-[![The card composition visualised.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/b.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/b.png)
+[![The card composition visualised.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/b.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/b.png)
 
 _The card composition visualised.  
 卡片组成可视化。_  
@@ -2470,7 +2470,7 @@ import Cards from "../components/Cards.astro";
   /\>
 </Main\>
 
-[![The rendered cards.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-04%20at%2010.18.23.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-04%20at%2010.18.23.png)
+[![The rendered cards.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-04%20at%2010.18.23.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-04%20at%2010.18.23.png)
 
 _The rendered cards. 渲染的卡片。_  
   
@@ -2485,7 +2485,7 @@ Let’s not forget to add the new `work-summary.md` page:
 // 📂 src/pages/work-summary.md
 \--\-
 layout: ../layouts/Blog.astro
-poster: "/../../images/work-summary.jpg"
+poster: "/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imageswork-summary.jpg"
 title: "Work summary"
 subtitle: "A summary of my work:"
 \--\-
@@ -2590,7 +2590,7 @@ And voila! 瞧！
 Our cards are now more beautiful than ever.  
 我们的卡片现在比以往任何时候都漂亮。
 
-[![Applying dynamic gradients to the cards.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-04%20at%2010.45.36.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-04%20at%2010.45.36.png)
+[![Applying dynamic gradients to the cards.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-04%20at%2010.45.36.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-04%20at%2010.45.36.png)
 
 _Applying dynamic gradients to the cards.  
 将动态渐变应用到卡片上。_  
@@ -2622,7 +2622,7 @@ In `Card.astro` go ahead and add a `<script>` with the `define:vars` directive a
 Inspect the elements via the developer tools. You’ll notice that the `<script>` is inlined and unprocessed, i.e., just as we’ve written it, apart from being wrapped in an immediately invoked function execution (IIFE).  
 通过开发工具检查元件。您会注意到 `<script>` 是内联的且未处理的，即：就像我们写的一样，除了包装在立即调用函数执行（IIFE）中。
 
-[![The inlined scripts.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-04%20at%2012.07.32.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-04%20at%2012.07.32.png)
+[![The inlined scripts.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-04%20at%2012.07.32.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-04%20at%2012.07.32.png)
 
 _The inlined scripts. 内联脚本。_  
   
@@ -2666,7 +2666,7 @@ Let’s go ahead and create a new `blog` directory to hold some more markdown pa
 
 \---
 layout: "../../layouts/Blog.astro"
-poster: "/../../images/adventure.jpg"
+poster: "/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesadventure.jpg"
 title: "Why Rust is the Future of Javascript Tooling"
 subtitle: "How to create fast, speedy developer experiences."
 \---
@@ -2680,7 +2680,7 @@ subtitle: "How to create fast, speedy developer experiences."
 
 \---
 layout: "../../layouts/Blog.astro"
-poster: "/../../images/sleeping-cat.jpg"
+poster: "/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagessleeping-cat.jpg"
 title: "Why you should sleep more"
 subtitle: "Sleep is great for you. Here's why:"
 \---
@@ -2693,7 +2693,7 @@ subtitle: "Sleep is great for you. Here's why:"
 
 \---
 layout: "../../layouts/Blog.astro"
-poster: "/../../images/coding.jpg"
+poster: "/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagescoding.jpg"
 title: "Typescript is the new Javascript"
 subtitle: "Typescript is becoming a standard for web development these days:"
 \---
@@ -2784,7 +2784,7 @@ Then update our component styles:
 This isn’t necessarily a wrong approach to getting this done. We will now have a list of the blogs, as expected.  
 这并不一定是一个错误的方法来完成这件事。我们现在将有一个博客列表，正如预期的。
 
-[![The rendered blog list.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-11%20at%2012.52.18@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-11%20at%2012.52.18@2x.png)
+[![The rendered blog list.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2012.52.18@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2012.52.18@2x.png)
 
 _The rendered blog list.  
 渲染的博客列表。_  
@@ -2866,7 +2866,7 @@ Deploying a static website is relatively the same regardless of the technology u
 At the end of your deployment build, we’ll have static assets to deploy to any service we choose.  
 在部署构建结束时，我们将有静态资产部署到我们选择的任何服务。
 
-[![Generating production builds.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/generate-prod-build.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/generate-prod-build.png)
+[![Generating production builds.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/generate-prod-build.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/generate-prod-build.png)
 
 _Generating production builds.  
 正在生成生产构建。_  
@@ -2910,7 +2910,7 @@ Choosing a web server will come down to your choice. I’ll go ahead and explain
 Go over to Netlify and create an account.  
 转到Netlify并创建一个帐户。
 
-[![The Netlify homepage.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-01-25%20at%2004.51.46@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-01-25%20at%2004.51.46@2x.png)
+[![The Netlify homepage.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2004.51.46@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2004.51.46@2x.png)
 
 _The Netlify homepage. Netlify主页。_  
   
@@ -2919,7 +2919,7 @@ _The Netlify homepage. Netlify主页。_
 Once you create an account and sign in, you’ll find a manual section to deploy a site.  
 创建帐户并登录后，您将找到用于部署站点的手册部分。
 
-[![The Netlify dashboard.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-01-25%20at%2004.56.37@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-01-25%20at%2004.56.37@2x.png)
+[![The Netlify dashboard.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2004.56.37@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2004.56.37@2x.png)
 
 _The Netlify dashboard. Netlify仪表板。_  
   
@@ -2931,7 +2931,7 @@ Now, click `browse to upload` and upload the `dist` folder containing our static
 Once the upload is completed, you’ll have your site deployed with a random public URL, as shown below:  
 上传完成后，您将使用随机的公共URL部署您的站点，如下所示：
 
-[![Deployed Netlify site URL.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-01-25%20at%2004.57.57@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-01-25%20at%2004.57.57@2x.png)
+[![Deployed Netlify site URL.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2004.57.57@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2004.57.57@2x.png)
 
 _Deployed Netlify site URL.  
 已部署Netlify站点URL。_  
@@ -2954,7 +2954,7 @@ However, in the real world, you may find this less optimal.
 The main challenge here is that every change made to your website requires you to build the application and re-upload it to your server manually.  
 这里的主要挑战是，对您的网站所做的每一次更改都需要您构建应用程序并手动重新上传到您的服务器。
 
-[![Manually redeploying after new changes.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/manual-redeployment.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/manual-redeployment.png)
+[![Manually redeploying after new changes.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/manual-redeployment.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/manual-redeployment.png)
 
 _Manually redeploying after new changes.  
 在新更改后手动重新部署。_  
@@ -2977,7 +2977,7 @@ Automating the deployment of a static website looks something like this:
 To see this process in practice with Netlify, go over [to your dashboard](https://app.netlify.com/start) and connect a Git provider (step 1).  
 要在Netlify的实践中看到这个过程，请转到您的仪表板并连接Git提供程序（步骤1）。
 
-[![Netlify: connecting a Git provider.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-01-25%20at%2005.46.08@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-01-25%20at%2005.46.08@2x.png)
+[![Netlify: connecting a Git provider.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2005.46.08@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2005.46.08@2x.png)
 
 _Netlify: connecting a Git provider.  
 Netlify：连接Git提供程序。_  
@@ -2987,7 +2987,7 @@ Netlify：连接Git提供程序。_
 I’ll go ahead to select Github, authorise Netlify and select the GitHub project (step 2).  
 我将继续选择Github，授权Netlify并选择GitHub项目（步骤2）。
 
-[![Netlify: selecting the Github project.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-01-25%20at%2005.47.23@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-01-25%20at%2005.47.23@2x.png)
+[![Netlify: selecting the Github project.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2005.47.23@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2005.47.23@2x.png)
 
 _Netlify: selecting the Github project.  
 Netlify：选择Github项目。_  
@@ -2997,7 +2997,7 @@ Netlify：选择Github项目。_
 Once that’s selected, provide the settings for your application deployment (Step 3). By default, Netlify will suggest the `build` and `publish directory`. Check these to make sure there are no errors.  
 选择后，提供应用程序部署的设置（步骤3）。默认情况下，Netlify会建议使用 `build` 和 `publish directory` 。检查这些以确保没有错误。
 
-[![Netlify: suggested build command and publish directory.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-01-25%20at%2005.49.46@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-01-25%20at%2005.49.46@2x.png)
+[![Netlify: suggested build command and publish directory.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2005.49.46@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-01-25%20at%2005.49.46@2x.png)
 
 _Netlify: suggested build command and publish directory.  
 Netlify：建议的构建命令和发布目录。_  
@@ -3029,7 +3029,7 @@ Let’s put this to the test by following the steps below:
 *   Analyse the page load.  
     分析页面负载。
 
-[![Analysing page load via lighthouse.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-11%20at%2013.42.45@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-11%20at%2013.42.45@2x.png)
+[![Analysing page load via lighthouse.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2013.42.45@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2013.42.45@2x.png)
 
 _Analysing page load via lighthouse.  
 通过灯塔分析页面负载。_  
@@ -3039,7 +3039,7 @@ _Analysing page load via lighthouse.
 Here’s my result running the test:  
 下面是我运行测试的结果：
 
-[![Lighthouse 100% scores.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch1/CleanShot%202023-05-11%20at%2013.44.24@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch1/CleanShot%202023-05-11%20at%2013.44.24@2x.png)
+[![Lighthouse 100% scores.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2013.44.24@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch1/CleanShot%202023-05-11%20at%2013.44.24@2x.png)
 
 _Lighthouse 100% scores. 灯塔100%得分。_  
   

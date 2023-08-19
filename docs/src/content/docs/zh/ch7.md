@@ -28,12 +28,12 @@ In this chapter, I’ll employ you to see beyond static apps and build fullstack
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/view-project.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/view-project.png)
+[![](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/view-project.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/view-project.png)
 
 [](#what-youll-learn)What you’ll learn 您将学到的内容
 ----------------------------------------------
@@ -78,7 +78,7 @@ npm install && npm run start
 The application should successfully run on one of the local server ports.  
 应用程序应在其中一个本地服务器端口上成功运行。
 
-[![The BeAudible app initialised](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x.png)
+[![The BeAudible app initialised](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x.png)
 
 _The BeAudible app initialised.  
 BeAudible应用程序已初始化。_  
@@ -94,7 +94,7 @@ Our application is for a hypothetical startup, BeAudible, whose mission is to di
 In technical terms, BeAudible lets authorised users create audio recordings, upload them to their servers, and have a timeline where people can listen to everyone’s recordings.  
 在技术上，BeAudible允许授权用户创建音频记录，将其上传到他们的服务器，并有一个时间轴，人们可以收听每个人的录音。
 
-[![An overview of the BeAudible application](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/beaudible-overview.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/beaudible-overview.png)
+[![An overview of the BeAudible application](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/beaudible-overview.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/beaudible-overview.png)
 
 _An overview of the BeAudible application.  
 BeAudible应用程序概述。_  
@@ -112,7 +112,7 @@ Let’s explore the pages in the project.
 Firstly, consider the homepage, i.e., the base route `/`.  
 首先，考虑主页，即，基本路线 `/` 。
 
-[![The sections of the BeAudible application](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x-1.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x-1.png)
+[![The sections of the BeAudible application](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x-1.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2011.59.17@2x-1.png)
 
 _The sections of the BeAudible application.  
 BeAudible应用程序的部分。_  
@@ -133,7 +133,7 @@ BeAudible应用程序的部分。_
 If you click “Record” from the navigation bar, you will be navigated to the `/record` route where a user can record their audio.  
 如果您在导航栏中单击“录制”，您将被导航到 `/record` 路径，用户可以在那里录制音频。
 
-[![The record page](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.24.30.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.24.30.png)
+[![The record page](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.24.30.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.24.30.png)
 
 _The record page. 记录页。_  
   
@@ -147,7 +147,7 @@ Astro应用程序中水合的React组件为记录用户界面元素提供动力�
 Now, go to the `/signup` route.  
 现在，走到 `/signup` 路线。
 
-[![The sign up page](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.22.45.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.22.45.png)
+[![The sign up page](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.22.45.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.22.45.png)
 
 _The sign up page.  
 注册页面。_  
@@ -162,7 +162,7 @@ This is the page to sign up users to BeAudible!
 Finally, visit the `/signin` route.  
 最后，参观 `/signin` 路线。
 
-[![The signin page](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.21.59.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.21.59.png)
+[![The signin page](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.21.59.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2012.21.59.png)
 
 _The signin page. 登录页面。_  
   
@@ -202,7 +202,7 @@ Let’s point our attention to setting up our backend server. Remember, we will 
 Go to the Firebase homepage and visit the Firebase console.  
 转到Firebase主页并访问Firebase控制台。
 
-[![The Firebase homepage](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.35.06@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.35.06@2x.png)
+[![The Firebase homepage](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.35.06@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.35.06@2x.png)
 
 _The Firebase homepage. Firebase主页_  
   
@@ -214,7 +214,7 @@ The process is much smoother if you have (and are signed in to) a Google account
 Next, create a new Firebase project.  
 接下来，创建一个新的Firebase项目。
 
-[![Creating a new Firebase project](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.36.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.36.54@2x.png)
+[![Creating a new Firebase project](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.36.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.36.54@2x.png)
 
 _Creating a new Firebase project.  
 创建新的Firebase项目。_  
@@ -224,7 +224,7 @@ _Creating a new Firebase project.
 Name the project `BeAudible` and choose whether to use Google Analytics in the project.  
 将项目命名为 `BeAudible` 并选择是否在项目中使用Google Analytics。
 
-[![Choosing Google analytics and creating the project](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.41.10@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.41.10@2x.png)
+[![Choosing Google analytics and creating the project](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.41.10@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.41.10@2x.png)
 
 _Choosing Google analytics and creating the project.  
 选择Google Analytics并创建项目。_  
@@ -234,7 +234,7 @@ _Choosing Google analytics and creating the project.
 After successfully creating the project, add a web application to the Firebase project.  
 成功创建项目后，将Web应用程序添加到Firebase项目。
 
-[![Adding a web application to the Firebase project](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/Adding a web application to the Firebase project)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/Adding a web application to the Firebase project)
+[![Adding a web application to the Firebase project](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/Adding a web application to the Firebase project)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/Adding a web application to the Firebase project)
 
 _Adding a web application to the Firebase project.  
 将Web应用程序添加到Firebase项目。_  
@@ -244,7 +244,7 @@ _Adding a web application to the Firebase project.
 Now, continue the web app set-up process by choosing a name (preferably the same as before), setup Firebase hosting and registering the web application.  
 现在，继续Web应用程序设置过程，选择名称（最好与之前相同），设置Firebase托管并注册Web应用程序。
 
-[![Continuing the application set-up](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.53.46@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.53.46@2x.png)
+[![Continuing the application set-up](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.53.46@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.53.46@2x.png)
 
 _Continuing the application set-up.  
 继续应用程序设置。_  
@@ -257,7 +257,7 @@ The next step is critical.
 **Copy your web app’s Firebase configuration**. We’ll use that to initialise the Firebase application client side.  
 复制Web应用的Firebase配置。我们将使用它来初始化Firebase应用程序客户端。
 
-[![Copying the Firebase configuration for the client SDK](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x.png)
+[![Copying the Firebase configuration for the client SDK](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x.png)
 
 _Copying the Firebase configuration for the client SDK.  
 正在复制客户端SDK的Firebase配置。_  
@@ -267,7 +267,7 @@ _Copying the Firebase configuration for the client SDK.
 The next steps are optional. Follow the guided prompt from Firebase and continue to the Firebase console.  
 接下来的步骤是可选的。按照Firebase的指导提示，继续到Firebase控制台。
 
-[![Following the guided prompt from Firebase](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2013.02.36@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2013.02.36@2x.png)
+[![Following the guided prompt from Firebase](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2013.02.36@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2013.02.36@2x.png)
 
 _Following the guided prompt from Firebase.  
 根据Firebase的引导提示。_  
@@ -280,14 +280,14 @@ Upon completion, we’ll be redirected to the Firebase application dashboard.
 Go to the project settings, find the service account section and generate a new private key we’ll leverage in our server application.  
 转到项目设置，找到服务帐户部分，并生成一个新的私钥，我们将在服务器应用程序中使用它。
 
-[![Project overview > Project settings](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2011.26.30.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2011.26.30.png)
+[![Project overview > Project settings](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2011.26.30.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2011.26.30.png)
 
 _Project overview > Project settings.  
 项目概述>项目设置。_  
   
   
 
-[![Generating a new private key](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2011.28.49.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2011.28.49.png)
+[![Generating a new private key](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2011.28.49.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2011.28.49.png)
 
 _Generating a new private key.  
 生成新的私钥。_  
@@ -306,7 +306,7 @@ Generally speaking, authentication is serious business and can take different fo
 Firebase provides an authentication service, so we will leverage its client libraries to authenticate the user client-side.  
 Firebase提供了一个身份验证服务，因此我们将利用它的客户端库来验证用户客户端。
 
-[![Simplified authentication process](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/simple-auth-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/simple-auth-flow.png)
+[![Simplified authentication process](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/simple-auth-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/simple-auth-flow.png)
 
 _Simplified authentication process.  
 简化身份验证过程。_  
@@ -322,7 +322,7 @@ First, set up the Firebase application to receive client authentication requests
 Return to the Firebase console and set up authentication.  
 返回Firebase控制台并设置身份验证。
 
-[![Select authentication from the list of provided services](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.13.50@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.13.50@2x.png)
+[![Select authentication from the list of provided services](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.13.50@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.13.50@2x.png)
 
 _Select authentication from the list of provided services.  
 从提供的服务列表中选择身份验证。_  
@@ -332,7 +332,7 @@ _Select authentication from the list of provided services.
 Firebase provides different sign-in methods. Let’s keep this simple. Enable the Email and password method from the Firebase console.  
 Firebase提供了不同的登录方法。让我们保持简单。从Firebase控制台启用电子邮件和密码方法。
 
-[![Selecting the email / password sign-in method](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.15.36@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.15.36@2x.png)
+[![Selecting the email / password sign-in method](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.15.36@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.15.36@2x.png)
 
 _Selecting the email / password sign-in method.  
 选择电子邮件/密码登录方法。_  
@@ -342,7 +342,7 @@ _Selecting the email / password sign-in method.
 Make sure to enable the option and hit save.  
 确保启用该选项并点击保存。
 
-[![Enabling and saving the Email / Password sign-in method](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.16.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.16.33@2x.png)
+[![Enabling and saving the Email / Password sign-in method](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.16.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.16.33@2x.png)
 
 _Enabling and saving the Email / Password sign-in method.  
 启用并保存电子邮件/密码登录方法。_  
@@ -369,7 +369,7 @@ The script exports the initialised application via `app` and the authentication 
 We must now replace the `firebaseConfig` variable with the object copied while initialising the firebase application.  
 我们现在必须用初始化firebase应用程序时复制的对象替换 `firebaseConfig` 变量。
 
-[![The firebase client configuration](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x-1.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x-1.png)
+[![The firebase client configuration](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x-1.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2012.59.41@2x-1.png)
 
 _The firebase client configuration.  
 firebase客户端配置。_  
@@ -385,7 +385,7 @@ Once this is done, we should have the Firebase client rightly initialised.
 Talking to the production firebase services while testing and developing locally is rather silly.  
 在本地测试和开发时与生产firebase服务交谈是相当愚蠢的。
 
-[![Sending requests to the production Firebase servers while developing locally](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/talk-to-prod-firebase.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/talk-to-prod-firebase.png)
+[![Sending requests to the production Firebase servers while developing locally](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/talk-to-prod-firebase.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/talk-to-prod-firebase.png)
 
 _Sending requests to the production Firebase servers while developing locally.  
 在本地开发时向生产Firebase服务器发送请求。_  
@@ -411,7 +411,7 @@ npm run emulators
 This will start the authentication and storage emulators with a user interface running on `localhost:4001`. We can view the development data in the emulator user interface, e.g., application user signups and uploaded recordings.  
 这将使用在 `localhost:4001` 上运行的用户界面启动身份验证和存储模拟器。我们可以在仿真器用户界面中查看开发数据，例如，应用程序用户注册和上传的录音。
 
-[![Starting the Firebase emulators](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2015.06.19.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2015.06.19.png)
+[![Starting the Firebase emulators](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2015.06.19.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2015.06.19.png)
 
 _Starting the Firebase emulators.  
 启动Firebase模拟器。_  
@@ -426,7 +426,7 @@ So, how are we going to handle user signups?
 Please consider the overall flow diagram below:  
 请考虑以下总体流程图：
 
-[![The signup flow](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/sign-up-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/sign-up-flow.png)
+[![The signup flow](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/sign-up-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/sign-up-flow.png)
 
 _The signup flow. 注册流程。_  
   
@@ -695,7 +695,7 @@ I have loosely referred to this as auth tokens. We will use this ID token to rec
 Consider the flow below:  
 考虑下面的流程：
 
-[![The protected route flow](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/protected-route-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/protected-route-flow.png)
+[![The protected route flow](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/protected-route-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/protected-route-flow.png)
 
 _The protected route flow.  
 受保护的路由流。_  
@@ -766,7 +766,7 @@ try {
   return Astro.redirect("/signin");
 }
 
-[![The token cookie set in the browser response](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2015.41.52.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2015.41.52.png)
+[![The token cookie set in the browser response](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2015.41.52.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2015.41.52.png)
 
 _The token cookie set in the browser response.  
 浏览器响应中设置的令牌cookie。_  
@@ -835,7 +835,7 @@ When we sign out a user using the Firebase client SDK, the issued client `token`
 So, consider the flow for our solution below:  
 因此，考虑下面我们解决方案的流程：
 
-[![The user sign out flow.](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/sign-out-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/sign-out-flow.png)
+[![The user sign out flow.](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/sign-out-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/sign-out-flow.png)
 
 _The user sign out flow..  
 用户注销流程.._  
@@ -925,7 +925,7 @@ Let’s fix this by setting up cloud storage to save user recordings on the serv
 Go to the Firebase console and click “See all build features” to find the cloud storage service.  
 转到Firebase控制台，单击“查看所有构建功能”以查找云存储服务。
 
-[![Viewing all build features on the Firebase console](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.33.40@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.33.40@2x.png)
+[![Viewing all build features on the Firebase console](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.33.40@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.33.40@2x.png)
 
 _Viewing all build features on the Firebase console.  
 查看Firebase控制台上的所有构建功能。_  
@@ -935,7 +935,7 @@ _Viewing all build features on the Firebase console.
 Next, select the Storage service.  
 接下来，选择存储服务。
 
-[![Selecting the storage service](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.33.58@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.33.58@2x.png)
+[![Selecting the storage service](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.33.58@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.33.58@2x.png)
 
 _Selecting the storage service.  
 选择存储服务。_  
@@ -945,7 +945,7 @@ _Selecting the storage service.
 Then begin the setup.  
 然后开始设置。
 
-[![Clicking get started on the Storage service page](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.34.29@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.34.29@2x.png)
+[![Clicking get started on the Storage service page](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.34.29@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.34.29@2x.png)
 
 _Clicking get started on the Storage service page.  
 单击“存储服务”页面上的“开始”。_  
@@ -955,7 +955,7 @@ _Clicking get started on the Storage service page.
 Keep the storage rules as-is:  
 保持存储规则原样：
 
-[![The default storage rule](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.34.40@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.34.40@2x.png)
+[![The default storage rule](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.34.40@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.34.40@2x.png)
 
 _The default storage rule.  
 默认存储规则。_  
@@ -968,7 +968,7 @@ Then select a server location.
 BeAudible is a hypothetical US startup, so I’ll choose a US location here.  
 BeAudible是一家假设的美国初创公司，所以我将在这里选择一个美国地点。
 
-[![Selecting a Storage location](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.35.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.35.33@2x.png)
+[![Selecting a Storage location](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.35.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-26%20at%2015.35.33@2x.png)
 
 _Selecting a Storage location.  
 选择存储位置。_  
@@ -978,7 +978,7 @@ _Selecting a Storage location.
 Once the setup is complete, visit the Storage page and copy the bucket name in the form `gs://{name-of-project}.appspot.com.`  
 设置完成后，请访问Storage页面并以 `gs://{name-of-project}.appspot.com.` 格式复制存储桶名称
 
-[![The Storage bucket name](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2016.43.07.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2016.43.07.png)
+[![The Storage bucket name](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2016.43.07.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-27%20at%2016.43.07.png)
 
 _The Storage bucket name.  
 存储桶名称。_  
@@ -1013,7 +1013,7 @@ Open the `Recorder` component and consider the `onAudioDownload` callback.
 After a user completes the recording, this callback will be invoked. Our first task is to go ahead and upload the audio blob to the server.  
 用户完成录制后，将调用此回调。我们的第一个任务是将音频blob上传到服务器。
 
-[![Sending audio blob to a server endpoint](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/upload-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/upload-flow.png)
+[![Sending audio blob to a server endpoint](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/upload-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/upload-flow.png)
 
 _Sending audio blob to a server endpoint.  
 将音频blob发送到服务器端点。_  
@@ -1029,7 +1029,7 @@ Let’s go ahead and create the API endpoint that’ll receive the audio blob fr
 Consider the flow for our solution below:  
 考虑下面我们解决方案的流程：
 
-[![The save recording endpoint flow diagram](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/save-audio-recording-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/save-audio-recording-flow.png)
+[![The save recording endpoint flow diagram](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/save-audio-recording-flow.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/save-audio-recording-flow.png)
 
 _The save recording endpoint flow diagram.  
 保存记录端点流程图。_  
@@ -1287,7 +1287,7 @@ export const Recorder \= (props: Props) \=> {
 Now, a user should be able to record in the browser, and we will go ahead and save the recording on our backend!  
 现在，用户应该能够在浏览器中记录，我们将继续在后端保存记录！
 
-[![Viewing saved recordings in the Firebase emulator](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.15.22@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.15.22@2x.png)
+[![Viewing saved recordings in the Firebase emulator](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.15.22@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.15.22@2x.png)
 
 _Viewing saved recordings in the Firebase emulator.  
 在Firebase模拟器中查看保存的录音。_  
@@ -1378,7 +1378,7 @@ Now update the component template section to render the “audibles”. We’ll 
 In the code above, we display an `Empty` user interface empty if there are no audibles. Otherwise, we render a sorted list of audibles.  
 在上面的代码中，如果没有声音，我们会显示一个 `Empty` 用户界面为空。否则，我们呈现一个音频的排序列表。
 
-[![Rendering the sorted list of audio recordings](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.06.31@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.06.31@2x.png)
+[![Rendering the sorted list of audio recordings](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.06.31@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.06.31@2x.png)
 
 _Rendering the sorted list of audio recordings.  
 呈现音频录制的排序列表。_  
@@ -1435,7 +1435,7 @@ if (Astro.request.method \=== "POST") {
 I’m keeping this simple by just logging the feedback on the server. However, we could save this value to a database in the real world. The crux here is receiving the form values, as shown above.  
 我只通过在服务器上记录反馈来保持这个简单。但是，我们可以将此值保存到真实的世界中的数据库中。这里的关键是接收表单值，如上所示。
 
-[![The logged feedback data](/understanding-astro/understanding-astro-book/raw/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.14.07@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.14.07@2x.png)
+[![The logged feedback data](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.14.07@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/docs/public/images/ch7/CleanShot%202023-05-29%20at%2019.14.07@2x.png)
 
 _The logged feedback data.  
 记录的反馈数据。_  

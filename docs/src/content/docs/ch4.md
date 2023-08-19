@@ -12,12 +12,12 @@ By [Ohans Emmanuel](https://www.ohansemmanuel.com/)
 <br /> 
 <br />
 
-[![](/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
 <br /> 
 <br />
 
-[![](/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/view-project.png)](https://github.com/understanding-astro/astro-islands-showcase)
+[![](/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/view-project.png)](https://github.com/understanding-astro/astro-islands-showcase)
 
 <br /> 
 <br />
@@ -38,7 +38,7 @@ Component islands are the secret to Astro’s super-fast narrative. It’s time 
 Assume we’ve got an Astro application with static content: a navigation bar, some main content, a footer and a side pane.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/a.png" width="70%" alt="A static astro page structure." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/a.png" width="70%" alt="A static astro page structure." align="center">
     <figcaption><em>A static astro page structure.</em></figcaption>
     <br><br><br>
 </figure>
@@ -46,7 +46,7 @@ Assume we’ve got an Astro application with static content: a navigation bar, s
 If we need to introduce some interactivity content in the side pane of the application, how could we achieve this?
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/b.png" width="70%" alt="Adding interactive content to the static page." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/b.png" width="70%" alt="Adding interactive content to the static page." align="center">
     <figcaption><em>Adding interactive content to the static page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -61,7 +61,7 @@ The second option is the focus of this chapter.
 At the time of writing, Astro lets you use components built with `React`, `Preact`, `Svelte`, `Vue`, `SolidJS`, `AlpineJS` or `Lit` in your Astro components. Moving on, I’ll refer to these as **framework components**.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/framework-components.png" width="70%" alt="Leveraging framework components in Astro." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/framework-components.png" width="70%" alt="Leveraging framework components in Astro." align="center">
     <figcaption><em>Leveraging framework components in Astro.</em></figcaption>
     <br><br><br>
 </figure>
@@ -106,7 +106,7 @@ npm run start
 This will run the project in one of your local ports.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.06.52@2x.png" width="70%" alt="The astro islands visual example project." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.06.52@2x.png" width="70%" alt="The astro islands visual example project." align="center">
     <figcaption><em>The astro islands visual example project.</em></figcaption>
     <br><br><br>
 </figure>
@@ -114,7 +114,7 @@ This will run the project in one of your local ports.
 The project takes the same form as our hypothetical example — it’s got a navigation, main content, footer and side pane.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/a-1.png" width="70%" alt="A static astro page structure." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/a-1.png" width="70%" alt="A static astro page structure." align="center">
     <figcaption><em>A static astro page structure.</em></figcaption>
     <br><br><br>
 </figure>
@@ -154,7 +154,7 @@ pnpm astro add react
 This will automatically add the relevant framework dependencies to our project.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.56.20@2x.png" width="70%" alt="Running astro add react." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.56.20@2x.png" width="70%" alt="Running astro add react." align="center">
     <figcaption><em>Running astro add react.</em></figcaption>
     <br><br><br>
 </figure>
@@ -162,7 +162,7 @@ This will automatically add the relevant framework dependencies to our project.
 The command will also automatically update our project configuration, `astro.config.mjs`, to include the framework integration.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.57.00@2x.png" width="70%" alt="Updating the project config file." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.57.00@2x.png" width="70%" alt="Updating the project config file." align="center">
     <figcaption><em>Updating the project config file.</em></figcaption>
     <br><br><br>
 </figure>
@@ -179,7 +179,7 @@ If we didn’t use the `Astro add` command, we could achieve the same results ma
 Our framework component will be a glorified counter. Assuming the page consists of an article a reader can upvote, we’ll build an upvote button.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/upvote-counter.png" width="50%" alt="The upvote counter illustrated." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/upvote-counter.png" width="50%" alt="The upvote counter illustrated." align="center">
     <figcaption><em>The upvote counter illustrated.</em></figcaption>
     <br><br><br>
 </figure>
@@ -269,7 +269,7 @@ import DefaultIslandLayout from "../layouts/DefaultIslandLayout.astro";
 Now, open the `/none` page in the browser, and we should have the rendered `UpvoteContent` component rendered.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-13%20at%2012.59.52@2x.png" width="70%" alt="Rendering the framework component." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-13%20at%2012.59.52@2x.png" width="70%" alt="Rendering the framework component." align="center">
     <figcaption><em>Rendering the framework component.</em></figcaption>
     <br><br><br>
 </figure>
@@ -285,7 +285,7 @@ By default, when you render a framework component, Astro automatically renders i
 Essentially, you get no interactivity from framework components by default.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/no-js-by-default.png" width="50%" alt="#NoJavscriptByDefault" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/no-js-by-default.png" width="50%" alt="#NoJavscriptByDefault" align="center">
     <figcaption><em>If Astro launched a Twitter campaign, #NoJavscriptByDefault would make an excellent hashtag.</em></figcaption>
     <br><br><br>
 </figure>
@@ -310,7 +310,7 @@ When technical decisions such as this need to be made, they must be made against
 We may represent this on a 2d plane as follows:
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/hydration-plane.png" width="70%" alt="Representing priority and interactivity on a 2d plane." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/hydration-plane.png" width="70%" alt="Representing priority and interactivity on a 2d plane." align="center">
     <figcaption><em>Representing priority and interactivity on a 2d plane.</em></figcaption>
     <br><br><br>
 </figure>
@@ -330,7 +330,7 @@ These attributes are called client directives (or, more generically, template di
 - `client:idle`
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/responsible-hydration-astro-plane.png" width="70%" alt="Representing the client template directives on a priority - interactivity plane." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/responsible-hydration-astro-plane.png" width="70%" alt="Representing the client template directives on a priority - interactivity plane." align="center">
     <figcaption><em>Representing the client template directives on a priority - interactivity plane.</em></figcaption>
     <br><br><br>
 </figure>
@@ -620,7 +620,7 @@ This will install the relevant Vue dependencies and add the integration support 
 Once that’s done, we may view the running application on route `/multiple-frameworks`.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-13%20at%2015.39.40@2x.png" width="70%" alt="The React and Vue component rendered in a single Astro page Route." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-13%20at%2015.39.40@2x.png" width="70%" alt="The React and Vue component rendered in a single Astro page Route." align="center">
     <figcaption><em>The React and Vue component rendered in a single Astro page Route.</em></figcaption>
     <br><br><br>
 </figure>
@@ -632,7 +632,7 @@ As expected, both components are rendered and work just as expected.
 As we work with component islands in Astro, you will inevitably need to share certain application states between component islands.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/islands-share-state.png" width="70%" alt="Sharing state between two upvote islands." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/islands-share-state.png" width="70%" alt="Sharing state between two upvote islands." align="center">
     <figcaption><em>Sharing state between two upvote islands.</em></figcaption>
     <br><br><br>
 </figure>
@@ -659,7 +659,7 @@ At a high level, what we’re trying to achieve is to remove the state values fr
 We’ll create a new `upvoteCounter` state variable within nanostore. We will then propagate changes to this state variable to our framework components.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/nanostore-share-variable.png" width="70%" alt="Propagating state variables from nanostore." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/nanostore-share-variable.png" width="70%" alt="Propagating state variables from nanostore." align="center">
     <figcaption><em>Propagating state variables from nanostore.</em></figcaption>
     <br><br><br>
 </figure>
@@ -769,7 +769,7 @@ Lovely!
 Now, if we try the application, both framework components should have synced upvote values!
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-15%20at%2007.20.20.png" width="70%" alt="Synced upvote state values via nanostores." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-15%20at%2007.20.20.png" width="70%" alt="Synced upvote state values via nanostores." align="center">
     <figcaption><em>Synced upvote state values via nanostores.</em></figcaption>
     <br><br><br>
 </figure>
@@ -781,7 +781,7 @@ Most framework components support receiving data via props and children. These a
 For example, we currently have the upvote button label hardcoded.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-05-19%20at%2018.06.54@2x.png" width="70%" alt="The upvote label." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-05-19%20at%2018.06.54@2x.png" width="70%" alt="The upvote label." align="center">
     <figcaption><em>The upvote label.</em></figcaption>
     <br><br><br>
 </figure>
@@ -840,7 +840,7 @@ export const UpvoteContent = (props: PropsWithChildren<{}>) => {
 ```
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-15%20at%2012.50.27.png" width="70%" alt="Rendering the React component child element." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-15%20at%2012.50.27.png" width="70%" alt="Rendering the React component child element." align="center">
     <figcaption><em>Rendering the React component child element.</em></figcaption>
     <br><br><br>
 </figure>
@@ -912,7 +912,7 @@ export const UpvoteContent = ({ props }) => {
 It is important to note that the `kebab-case` slot names in the Astro component are referenced as `camelCase` values on the `props` object.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/kebab_to_camel_case.png" width="70%" alt="Reference the kebab-case slot names as camelCase in React or Preact." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/kebab_to_camel_case.png" width="70%" alt="Reference the kebab-case slot names as camelCase in React or Preact." align="center">
     <figcaption><em>Reference the kebab-case slot names as camelCase in React or Preact.</em></figcaption>
     <br><br><br>
 </figure>
@@ -929,7 +929,7 @@ In Svelte and Vue, the slots will be referenced using a `<slot>` element with a 
 Please note how the slot `kebab-case` names are preserved.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-16%20at%2008.07.52.png" width="70%" alt="Rendering the React and Vue component children elements." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-16%20at%2008.07.52.png" width="70%" alt="Rendering the React and Vue component children elements." align="center">
     <figcaption><em>Rendering the React and Vue component children elements.</em></figcaption>
     <br><br><br>
 </figure>
@@ -955,7 +955,7 @@ In an Astro file, we may also nest framework components, i.e., pass framework co
 As expected, this renders the nested `UpvoteContent` component:
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-16%20at%2009.00.38.png" width="70%" alt="Rendering nested framework components." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-16%20at%2009.00.38.png" width="70%" alt="Rendering nested framework components." align="center">
     <figcaption><em>Rendering nested framework components.</em></figcaption>
     <br><br><br>
 </figure>
@@ -963,7 +963,7 @@ As expected, this renders the nested `UpvoteContent` component:
 Recursively rendering the same component is rarely the goal we want to achieve. However, rendering nested framework components is powerful because we can compose an entire framework component application as we see fit.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/nesting-framework-component.png" width="50%" alt="Nesting multiple child components to make a more significant application." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/nesting-framework-component.png" width="50%" alt="Nesting multiple child components to make a more significant application." align="center">
     <figcaption><em>Nesting multiple child components to make a more significant application.</em></figcaption>
     <br><br><br>
 </figure>
@@ -995,7 +995,7 @@ const OurReactComponent = () => {
 This is an invalid use. The reason is that the React component is rendered a React “island”. Consequently, the island should contain only valid React code. This is the same for other framework component islands.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/wrong-astro-island-composition.png" width="50%" alt="Do not render an Astro component as a framework component child without a <slot>." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/wrong-astro-island-composition.png" width="50%" alt="Do not render an Astro component as a framework component child without a <slot>." align="center">
     <figcaption><em>Do not render an Astro component as a framework component child without a slot.</em></figcaption>
     <br><br><br>
 </figure>

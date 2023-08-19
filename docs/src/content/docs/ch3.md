@@ -18,7 +18,7 @@ Astro’s fast narrative relies on component islands, which allow using other fr
 <br /> 
 <br />
 
-[![](/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
 <br /> 
 <br />
@@ -52,7 +52,7 @@ In simple terms, there are two main actors in serving an application to a user:
 To display a website, a user requests a resource from an application server.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a.png" width="70%" alt="The web browser requesting article.html from an application server." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/a.png" width="70%" alt="The web browser requesting article.html from an application server." align="center">
     <figcaption><em>The web browser requesting article.html from an application server.</em></figcaption>
     <br><br><br>
 </figure>
@@ -66,7 +66,7 @@ Let’s briefly explore both options.
 ### Client-side rendering (CSR)
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/1.png" width="80%" alt="Choosing client side rendering." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/1.png" width="80%" alt="Choosing client side rendering." align="center">
     <figcaption><em>Choosing client side rendering.</em></figcaption>
     <br><br><br>
 </figure>
@@ -74,7 +74,7 @@ Let’s briefly explore both options.
 By definition, a client-side rendered application renders pages directly in the browser using Javascript. All logic, data-fetching, templating and routing are handled on the client (the user’s browser).
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-1.png" width="70%" alt="An overview of a client-side rendered application." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/a-1.png" width="70%" alt="An overview of a client-side rendered application." align="center">
     <figcaption><em>An overview of a client-side rendered application.</em></figcaption>
     <br><br><br>
 </figure>
@@ -84,7 +84,7 @@ The past years saw the rise of client-side rendering, particularly among single-
 For a practical overview, consider the webpage for a blog article with a like count and a comment section below the initial viewport.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-2.png" width="70%" alt="A blog article with a dynamic sidebar and a comment section below the article." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/a-2.png" width="70%" alt="A blog article with a dynamic sidebar and a comment section below the article." align="center">
     <figcaption><em>A blog article with a dynamic sidebar and a comment section below the article.</em></figcaption>
     <br><br><br>
 </figure>
@@ -99,7 +99,7 @@ If this application was entirely client-side rendered, the simplified rendering 
 6. A fully interactive page is shown to the user.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-3.png" width="70%" alt="Visualising the rendering process from a user's perspective." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/a-3.png" width="70%" alt="Visualising the rendering process from a user's perspective." align="center">
     <figcaption><em>Visualising the rendering process from a user's perspective.</em></figcaption>
     <br><br><br>
 </figure>
@@ -124,7 +124,7 @@ If this application was entirely client-side rendered, the simplified rendering 
 ### Server-side rendering
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/choosing-ssr.png" width="70%" alt="Choosing server-side rendering." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/choosing-ssr.png" width="70%" alt="Choosing server-side rendering." align="center">
     <figcaption><em>Choosing server-side rendering.</em></figcaption>
     <br><br><br>
 </figure>
@@ -143,7 +143,7 @@ In our example, here’s what a simplified flow would look like:
 4. The server sends the client a fully formed `HTML` page.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/aa.png" width="70%" alt="Visualising the rendering process from a user's perspective." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/aa.png" width="70%" alt="Visualising the rendering process from a user's perspective." align="center">
     <figcaption><em>Visualising the rendering process from a user's perspective.</em></figcaption>
     <br><br><br>
 </figure>
@@ -168,7 +168,7 @@ NB: it is assumed that the server sends a mostly static `HTML` page with minimal
 We’ve explored rendering on both sides of the application rendering pole. However, what if there was a way to use server and client-side rendering? Some strategy right in the middle of the hypothetic rendering pole?
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/ssr-with-client-rehydration.png" width="70%" alt="Choosing SSR with client-side hydration." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/ssr-with-client-rehydration.png" width="70%" alt="Choosing SSR with client-side hydration." align="center">
     <figcaption><em>Choosing SSR with client-side hydration.</em></figcaption>
     <br><br><br>
 </figure>
@@ -190,7 +190,7 @@ In our example, here’s what a simplified flow would look like:
 Making an otherwise static page interactive (e.g., attaching event listeners) is called hydration.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/ssr-csr-hydrate-flow.png" width="70%" alt="Visualising the rendering process from a user's perspective." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/ssr-csr-hydrate-flow.png" width="70%" alt="Visualising the rendering process from a user's perspective." align="center">
     <figcaption><em>Visualising the rendering process from a user's perspective.</em></figcaption>
     <br><br><br>
 </figure>
@@ -217,7 +217,7 @@ Combining server-side rendering with client-side hydration has the potential to 
 One way to tackle the heavy delay in time to interactivity (TTI) seems obvious. Instead of hydrating the entire application, why not hydrate only the interactive bits?
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/p-hydration.png" width="70%" alt="Partial hydration vs full-page hydration." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/p-hydration.png" width="70%" alt="Partial hydration vs full-page hydration." align="center">
     <figcaption><em>Partial hydration vs full-page hydration.</em></figcaption>
     <br><br><br>
 </figure>
@@ -231,7 +231,7 @@ We may also take partial hydration further and implement what’s known as lazy 
 In this case, we may hydrate the like button when the page is loaded and hydrate the comment section only when the user scrolls below the initial viewport.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/a-4.png" width="70%" alt="Hydrate the comment section at a later time." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/a-4.png" width="70%" alt="Hydrate the comment section at a later time." align="center">
     <figcaption><em>Hydrate the comment section at a later time.</em></figcaption>
     <br><br><br>
 </figure>
@@ -252,7 +252,7 @@ Talk about flexibility!
 The island architecture is built upon the foundation of partial hydration. Essentially, the islands architecture refers to having “islands of interactivity” on an otherwise static `HTML` page.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/independent-islands.png" width="70%" alt="Islands of interactivity on an otherwise static webpage." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/independent-islands.png" width="70%" alt="Islands of interactivity on an otherwise static webpage." align="center">
     <figcaption><em>Islands of interactivity on an otherwise static webpage.</em></figcaption>
     <br><br><br>
 </figure>
@@ -488,7 +488,7 @@ To view this via a local web server, run the following command from the project 
 By default, this should start a local static web server on port `8000`. We may now view the initial demo page on `http://localhost:8000/demos/initial.html`
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.29.14.png" width="70%" alt="The initial demo page." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/CleanShot%202023-05-14%20at%2007.29.14.png" width="70%" alt="The initial demo page." align="center">
     <figcaption><em>The initial demo page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -509,7 +509,7 @@ Let’s confirm that our custom element `mini-island` is registered rendering th
 This will render the custom element and the `Hello future island` paragraph as expected:
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.27.26.png" width="70%" alt="Rendering the custom element with a child element." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/CleanShot%202023-05-14%20at%2007.27.26.png" width="70%" alt="Rendering the custom element with a child element." align="center">
     <figcaption><em>Rendering the custom element with a child element.</em></figcaption>
     <br><br><br>
 </figure>
@@ -530,7 +530,7 @@ Now, let’s go ahead and add some Javascript within `<mini-island>` as shown be
 If you refresh the page and check the browser console, we should see the warning logged.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-14%20at%2007.32.44.png" width="70%" alt="Console warning from the island." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/CleanShot%202023-05-14%20at%2007.32.44.png" width="70%" alt="Console warning from the island." align="center">
     <figcaption><em>Console warning from the island.</em></figcaption>
     <br><br><br>
 </figure>
@@ -719,7 +719,7 @@ Note that the `<template>` element has the `data-island` attribute. This is how 
 Now, refresh your browser and notice how the `console.warn` is triggered.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.10.42.png" width="70%" alt="Hydrated island script." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/CleanShot%202023-05-15%20at%2007.10.42.png" width="70%" alt="Hydrated island script." align="center">
     <figcaption><em>Hydrated island script.</em></figcaption>
     <br><br><br>
 </figure>
@@ -727,7 +727,7 @@ Now, refresh your browser and notice how the `console.warn` is triggered.
 If you also inspect the elements, you’ll notice that the `<template>` has been replaced with its live child content.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.11.54.png" width="70%" alt="Replaced island <template> element." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/CleanShot%202023-05-15%20at%2007.11.54.png" width="70%" alt="Replaced island <template> element." align="center">
     <figcaption><em>Replaced island template element.</em></figcaption>
     <br><br><br>
 </figure>
@@ -777,7 +777,7 @@ Update the `initial.html` document to consider our first use case. Here’s the 
 ```
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.18.38.png" width="70%" alt="The client:visible demo." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/CleanShot%202023-05-15%20at%2007.18.38.png" width="70%" alt="The client:visible demo." align="center">
     <figcaption><em>The client:visible demo.</em></figcaption>
     <br><br><br>
 </figure>
@@ -789,7 +789,7 @@ With the `client:visible` attribute on the `<mini-island>`, we should not hydrat
 However, test this in your browser.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2007.20.43.png" width="70%" alt="The island is hydrated before being in view" align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/CleanShot%202023-05-15%20at%2007.20.43.png" width="70%" alt="The island is hydrated before being in view" align="center">
     <figcaption><em>The island is hydrated before being in view.</em></figcaption>
     <br><br><br>
 </figure>
@@ -841,7 +841,7 @@ if ("customElements" in window) {
 Within `Conditions`, we will introduce a static property that’s a key-value representation of the `client:` attribute and async methods.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/attr-promise.png" width="80%" alt="An object with key-value corresponding to attribute and promise condition." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/attr-promise.png" width="80%" alt="An object with key-value corresponding to attribute and promise condition." align="center">
     <figcaption><em>An object with key-value corresponding to attribute and promise condition.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1243,14 +1243,14 @@ Now, go to the `initial.html` demo file and update the file as shown below:
 </html>
 ```
 
-Note that we’ve introduced a large `34MB` image from [Effigis](https://effigis.com/en/solutions/satellite-https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagessatellite-image-samples/) and passed a `client:idle` attribute to `<mini-island>`.
+Note that we’ve introduced a large `34MB` image from [Effigis](https://effigis.com/en/solutions/satellite-https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/satellite-image-samples/) and passed a `client:idle` attribute to `<mini-island>`.
 
 > Consider downloading the large image and referencing it locally instead of hitting the GitHub servers repeatedly.
 
 The large image will keep the browser busy for some time. Before testing this in the browser, I suggest disabling the browser cache via developer tools.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch3/CleanShot%202023-05-15%20at%2011.43.31.png" width="70%" alt="The disable cache property in Firefox." align="center">
+    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch3/CleanShot%202023-05-15%20at%2011.43.31.png" width="70%" alt="The disable cache property in Firefox." align="center">
     <figcaption><em>The disable cache property in Firefox.</em></figcaption>
     <br><br><br>
 </figure>

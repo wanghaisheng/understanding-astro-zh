@@ -44,7 +44,7 @@ I percorsi relativi sono supportati per immagini salvate localmente nel tuo prog
 ```md
 // src/content/docs/page-1.md
 
-![Un'astronave nello spazio](../../assets/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesrocket.svg)
+![Un'astronave nello spazio](../../assets/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/rocket.svg)
 ```
 
 ## Titoli

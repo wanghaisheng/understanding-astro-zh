@@ -44,7 +44,7 @@ Markdown 和 MDX 支持用于显示图片的 Markdown 语法，其中包括屏�
 ```md
 // src/content/docs/page-1.md
 
-![A rocketship in space](../../assets/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesrocket.svg)
+![A rocketship in space](../../assets/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/rocket.svg)
 ```
 
 ## 标题

@@ -390,7 +390,7 @@ Establece la ruta del favicon predeterminado para tu sitio web, el cual debería
 
 ```js
 starlight({
-  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg',
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/favicon.svg',
 }),
 ```
 
@@ -398,14 +398,14 @@ Si necesitas establecer variantes adicionales o favicons de respaldo, puedes agr
 
 ```js
 starlight({
-  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.svg'.
+  favicon: '/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/favicon.svg'.
   head: [
     // Agregar un favicon ICO de respaldo para Safari.
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesfavicon.ico',
+        href:'/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/favicon.ico',
         sizes: '32x32',
       },
     },

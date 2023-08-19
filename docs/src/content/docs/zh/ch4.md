@@ -32,7 +32,7 @@ Component islands are the secret to Astro’s super-fast narrative. It’s time 
 Assume we’ve got an Astro application with static content: a navigation bar, some main content, a footer and a side pane.  
 假设我们有一个包含静态内容的Astro应用程序：导航栏、一些主要内容、页脚和侧窗格。
 
-[![A static astro page structure.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/a.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/a.png)
+[![A static astro page structure.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/a.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/a.png)
 
 _A static astro page structure.  
 静态天文页面结构。_  
@@ -42,7 +42,7 @@ _A static astro page structure.
 If we need to introduce some interactivity content in the side pane of the application, how could we achieve this?  
 如果我们需要在应用程序的侧面板中引入一些交互内容，我们如何实现这一点？
 
-[![Adding interactive content to the static page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/b.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/b.png)
+[![Adding interactive content to the static page.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/b.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/b.png)
 
 _Adding interactive content to the static page.  
 向静态页面添加交互式内容。_  
@@ -63,7 +63,7 @@ The second option is the focus of this chapter.
 At the time of writing, Astro lets you use components built with `React`, `Preact`, `Svelte`, `Vue`, `SolidJS`, `AlpineJS` or `Lit` in your Astro components. Moving on, I’ll refer to these as **framework components**.  
 在撰写本文时，Astro允许您在Astro组件中使用使用 `React` 、 `Preact` 、 `Svelte` 、 `Vue` 、 `SolidJS` 、 `AlpineJS` 或 `Lit` 构建的组件。接下来，我将把这些称为框架组件。
 
-[![Leveraging framework components in Astro.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/framework-components.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/framework-components.png)
+[![Leveraging framework components in Astro.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/framework-components.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/framework-components.png)
 
 _Leveraging framework components in Astro.  
 利用Astro中的框架组件。_  
@@ -118,7 +118,7 @@ npm run start
 This will run the project in one of your local ports.  
 这将在您的一个本地端口中运行项目。
 
-[![The astro islands visual example project.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.06.52@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.06.52@2x.png)
+[![The astro islands visual example project.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.06.52@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.06.52@2x.png)
 
 _The astro islands visual example project.  
 阿斯特罗群岛视觉范例项目。_  
@@ -128,7 +128,7 @@ _The astro islands visual example project.
 The project takes the same form as our hypothetical example — it’s got a navigation, main content, footer and side pane.  
 该项目采用与我们假设的示例相同的形式-它有一个导航，主内容，页脚和侧面板。
 
-[![A static astro page structure.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/a-1.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/a-1.png)
+[![A static astro page structure.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/a-1.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/a-1.png)
 
 _A static astro page structure.  
 静态天文页面结构。_  
@@ -173,7 +173,7 @@ pnpm astro add react
 This will automatically add the relevant framework dependencies to our project.  
 这将自动向我们的项目添加相关的框架依赖项。
 
-[![Running astro add react.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.56.20@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.56.20@2x.png)
+[![Running astro add react.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.56.20@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.56.20@2x.png)
 
 _Running astro add react.  
 运行astro add react。_  
@@ -183,7 +183,7 @@ _Running astro add react.
 The command will also automatically update our project configuration, `astro.config.mjs`, to include the framework integration.  
 该命令还将自动更新我们的项目配置 `astro.config.mjs` ，以包含框架集成。
 
-[![Updating the project config file.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.57.00@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-11%20at%2014.57.00@2x.png)
+[![Updating the project config file.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.57.00@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-11%20at%2014.57.00@2x.png)
 
 _Updating the project config file.  
 正在更新项目配置文件。_  
@@ -207,7 +207,7 @@ If we didn’t use the `Astro add` command, we could achieve the same results ma
 Our framework component will be a glorified counter. Assuming the page consists of an article a reader can upvote, we’ll build an upvote button.  
 我们的框架组件将是一个美化的计数器。假设页面包含一篇读者可以支持的文章，我们将构建一个支持按钮。
 
-[![The upvote counter illustrated.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/upvote-counter.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/upvote-counter.png)
+[![The upvote counter illustrated.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/upvote-counter.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/upvote-counter.png)
 
 _The upvote counter illustrated.  
 上投票计数器图示。_  
@@ -301,7 +301,7 @@ import DefaultIslandLayout from "../layouts/DefaultIslandLayout.astro";
 Now, open the `/none` page in the browser, and we should have the rendered `UpvoteContent` component rendered.  
 现在，在浏览器中打开 `/none` 页面，我们应该已经呈现了渲染的 `UpvoteContent` 组件。
 
-[![Rendering the framework component.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-13%20at%2012.59.52@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-13%20at%2012.59.52@2x.png)
+[![Rendering the framework component.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-13%20at%2012.59.52@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-13%20at%2012.59.52@2x.png)
 
 _Rendering the framework component.  
 呈现框架组件。_  
@@ -323,7 +323,7 @@ By default, when you render a framework component, Astro automatically renders i
 Essentially, you get no interactivity from framework components by default.  
 本质上，默认情况下，您不会从框架组件中获得交互性。
 
-[![#NoJavscriptByDefault](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/no-js-by-default.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/no-js-by-default.png)
+[![#NoJavscriptByDefault](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/no-js-by-default.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/no-js-by-default.png)
 
 _If Astro launched a Twitter campaign, #NoJavscriptByDefault would make an excellent hashtag.  
 如果Astro发起了Twitter活动，#NoJavscriptByDefault将成为一个很好的标签。_  
@@ -359,7 +359,7 @@ When technical decisions such as this need to be made, they must be made against
 We may represent this on a 2d plane as follows:  
 我们可以在2D平面上表示这一点如下：
 
-[![Representing priority and interactivity on a 2d plane.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/hydration-plane.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/hydration-plane.png)
+[![Representing priority and interactivity on a 2d plane.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/hydration-plane.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/hydration-plane.png)
 
 _Representing priority and interactivity on a 2d plane.  
 在二维平面上表示优先级和交互性。_  
@@ -380,7 +380,7 @@ These attributes are called client directives (or, more generically, template di
 *   `client:media`
 *   `client:idle`
 
-[![Representing the client template directives on a priority - interactivity plane.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/responsible-hydration-astro-plane.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/responsible-hydration-astro-plane.png)
+[![Representing the client template directives on a priority - interactivity plane.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/responsible-hydration-astro-plane.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/responsible-hydration-astro-plane.png)
 
 _Representing the client template directives on a priority - interactivity plane.  
 在优先级交互平面上表示客户端模板指令。_  
@@ -706,7 +706,7 @@ This will install the relevant Vue dependencies and add the integration support 
 Once that’s done, we may view the running application on route `/multiple-frameworks`.  
 完成后，我们可以查看路由 `/multiple-frameworks` 上运行的应用程序。
 
-[![The React and Vue component rendered in a single Astro page Route.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-13%20at%2015.39.40@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-13%20at%2015.39.40@2x.png)
+[![The React and Vue component rendered in a single Astro page Route.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-13%20at%2015.39.40@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-13%20at%2015.39.40@2x.png)
 
 _The React and Vue component rendered in a single Astro page Route.  
 React和Vue组件呈现在单个Astro页面Route中。_  
@@ -723,7 +723,7 @@ As expected, both components are rendered and work just as expected.
 As we work with component islands in Astro, you will inevitably need to share certain application states between component islands.  
 当我们在Astro中使用组件岛时，您将不可避免地需要在组件岛之间共享某些应用程序状态。
 
-[![Sharing state between two upvote islands.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/islands-share-state.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/islands-share-state.png)
+[![Sharing state between two upvote islands.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/islands-share-state.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/islands-share-state.png)
 
 _Sharing state between two upvote islands.  
 在两个上投票岛之间共享状态。_  
@@ -763,7 +763,7 @@ At a high level, what we’re trying to achieve is to remove the state values fr
 We’ll create a new `upvoteCounter` state variable within nanostore. We will then propagate changes to this state variable to our framework components.  
 我们将在nanostore中创建一个新的 `upvoteCounter` 状态变量。然后，我们将对这个状态变量的更改传播到我们的框架组件。
 
-[![Propagating state variables from nanostore.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/nanostore-share-variable.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/nanostore-share-variable.png)
+[![Propagating state variables from nanostore.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/nanostore-share-variable.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/nanostore-share-variable.png)
 
 _Propagating state variables from nanostore.  
 从纳米存储区传播状态变量。_  
@@ -882,7 +882,7 @@ Lovely! 太好了！
 Now, if we try the application, both framework components should have synced upvote values!  
 现在，如果我们尝试这个应用程序，两个框架组件应该已经同步了upvote值！
 
-[![Synced upvote state values via nanostores.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-15%20at%2007.20.20.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-15%20at%2007.20.20.png)
+[![Synced upvote state values via nanostores.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-15%20at%2007.20.20.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-15%20at%2007.20.20.png)
 
 _Synced upvote state values via nanostores.  
 通过nanostores同步upvote状态值。_  
@@ -899,7 +899,7 @@ Most framework components support receiving data via props and children. These a
 For example, we currently have the upvote button label hardcoded.  
 例如，我们目前已经硬编码了upvote按钮标签。
 
-[![The upvote label.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-05-19%20at%2018.06.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-05-19%20at%2018.06.54@2x.png)
+[![The upvote label.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-05-19%20at%2018.06.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-05-19%20at%2018.06.54@2x.png)
 
 _The upvote label. 上投票标签。_  
   
@@ -957,7 +957,7 @@ export const UpvoteContent \= (props: PropsWithChildren<{}\>) \=> {
   );
 };
 
-[![Rendering the React component child element.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-15%20at%2012.50.27.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-15%20at%2012.50.27.png)
+[![Rendering the React component child element.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-15%20at%2012.50.27.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-15%20at%2012.50.27.png)
 
 _Rendering the React component child element.  
 渲染React组件子元素。_  
@@ -1029,7 +1029,7 @@ export const UpvoteContent \= ({ props }) \=> {
 It is important to note that the `kebab-case` slot names in the Astro component are referenced as `camelCase` values on the `props` object.  
 需要注意的是，Astro组件中的 `kebab-case` 插槽名称被引用为 `props` 对象上的 `camelCase` 值。
 
-[![Reference the kebab-case slot names as camelCase in React or Preact.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/kebab_to_camel_case.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/kebab_to_camel_case.png)
+[![Reference the kebab-case slot names as camelCase in React or Preact.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/kebab_to_camel_case.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/kebab_to_camel_case.png)
 
 _Reference the kebab-case slot names as camelCase in React or Preact.  
 在React或Preact中引用kebab-case插槽名称作为camelCase。_  
@@ -1047,7 +1047,7 @@ In Svelte and Vue, the slots will be referenced using a `<slot>` element with a 
 Please note how the slot `kebab-case` names are preserved.  
 请注意插槽 `kebab-case` 名称是如何保留的。
 
-[![Rendering the React and Vue component children elements.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-16%20at%2008.07.52.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-16%20at%2008.07.52.png)
+[![Rendering the React and Vue component children elements.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-16%20at%2008.07.52.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-16%20at%2008.07.52.png)
 
 _Rendering the React and Vue component children elements.  
 渲染React和Vue组件子元素。_  
@@ -1075,7 +1075,7 @@ In an Astro file, we may also nest framework components, i.e., pass framework co
 As expected, this renders the nested `UpvoteContent` component:  
 正如预期的那样，这将呈现嵌套的 `UpvoteContent` 组件：
 
-[![Rendering nested framework components.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-16%20at%2009.00.38.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/CleanShot%202023-03-16%20at%2009.00.38.png)
+[![Rendering nested framework components.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-16%20at%2009.00.38.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/CleanShot%202023-03-16%20at%2009.00.38.png)
 
 _Rendering nested framework components.  
 呈现嵌套框架组件。_  
@@ -1085,7 +1085,7 @@ _Rendering nested framework components.
 Recursively rendering the same component is rarely the goal we want to achieve. However, rendering nested framework components is powerful because we can compose an entire framework component application as we see fit.  
 递归渲染同一个组件很少是我们想要达到的目标。然而，呈现嵌套框架组件是非常强大的，因为我们可以根据需要组合整个框架组件应用程序。
 
-[![Nesting multiple child components to make a more significant application.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/nesting-framework-component.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/nesting-framework-component.png)
+[![Nesting multiple child components to make a more significant application.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/nesting-framework-component.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/nesting-framework-component.png)
 
 _Nesting multiple child components to make a more significant application.  
 嵌套多个子组件以生成更重要的应用程序。_  
@@ -1119,7 +1119,7 @@ const OurReactComponent \= () \=> {
 This is an invalid use. The reason is that the React component is rendered a React “island”. Consequently, the island should contain only valid React code. This is the same for other framework component islands.  
 这是无效的用法。原因是React组件被渲染为React“孤岛”。因此，这个岛应该只包含有效的React代码。这对于其他框架组件岛是相同的。
 
-[![Do not render an Astro component as a framework component child without a <slot>.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/wrong-astro-island-composition.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/imagesch4/wrong-astro-island-composition.png)
+[![Do not render an Astro component as a framework component child without a <slot>.](/understanding-astro/understanding-astro-book/raw/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/wrong-astro-island-composition.png)](/understanding-astro/understanding-astro-book/blob/master/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch4/wrong-astro-island-composition.png)
 
 _Do not render an Astro component as a framework component child without a slot.  
 不要将Astro组件渲染为没有插槽的框架组件子组件。_  

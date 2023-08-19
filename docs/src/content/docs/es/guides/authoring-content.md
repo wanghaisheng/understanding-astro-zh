@@ -44,7 +44,7 @@ También se admiten rutas de imágenes relativas para imágenes almacenadas loca
 ```md
 // src/content/docs/page-1.md
 
-![Una nave espacial en el espacio](../../assets/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/rocket.svg)
+![Una nave espacial en el espacio](../../assets/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/rocket.svg)
 ```
 
 ## Encabezados

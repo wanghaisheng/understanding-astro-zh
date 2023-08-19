@@ -90,7 +90,7 @@ The mix of these different chapter types will keep you engaged and make your lea
 ### Concept chapters
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/concept@2x.png" width="70%" alt="Learn new concepts." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/concept@2x.png" width="70%" alt="Learn new concepts." align="center">
     <figcaption><em>Learn new concepts.</em></figcaption>
     <br><br><br>
 </figure>
@@ -100,7 +100,7 @@ In concept chapters, we’ll learn the core concepts of Astro. These chapters wi
 ### Project chapters
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/build.png" width="70%" alt="Build real world projects." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/build.png" width="70%" alt="Build real world projects." align="center">
     <figcaption><em>Build real world projects.</em></figcaption>
     <br><br><br>
 </figure>
@@ -110,7 +110,7 @@ In project chapters, we’ll apply previous concepts we’ve learned towards bui
 ### Concept and project chapters
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/concept%20and%20build.png" width="70%" alt="Building and learning new concepts." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/concept%20and%20build.png" width="70%" alt="Building and learning new concepts." align="center">
     <figcaption><em>Building and learning new concepts.</em></figcaption>
     <br><br><br>
 </figure>

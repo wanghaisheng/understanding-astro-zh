@@ -44,7 +44,7 @@ Relative image paths are also supported for images stored locally in your projec
 ```md
 // src/content/docs/page-1.md
 
-![A rocketship in space](../../assets/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/rocket.svg)
+![A rocketship in space](../../assets/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/rocket.svg)
 ```
 
 ## Headings

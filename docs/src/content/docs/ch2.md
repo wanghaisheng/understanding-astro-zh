@@ -28,7 +28,7 @@ Consider the Pareto principle:
 > The Pareto principle, also known as the 80/20 rule, states that 20% of the input can significantly impact 80% of the outcome in a particular situation or system.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/pareto.png" width="50%" alt="The pareto principle illustrated" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/pareto.png" width="50%" alt="The pareto principle illustrated" align="center">
     <figcaption>
       <em>The pareto principle illustrated</em>
     </figcaption>
@@ -48,7 +48,7 @@ At the time of writing, consider the definition of Astro components from the off
 The first part of the sentence is clear as daylight: _Astro components are the basic building blocks of any Astro project._
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/building-blocks.png" width="70%" alt="Tetris blocks" align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/building-blocks.png" width="70%" alt="Tetris blocks" align="center">
     <figcaption><em>Like a fun game of Tetris, Astro components are how we build Astro applications.</em></figcaption>
     <br><br><br>
 </figure>
@@ -74,7 +74,7 @@ npx create-react-app test-react-app
 This utilises the [create-react-app](https://create-react-app.dev/) utility.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.28.51@2x.png" width="70%" alt="Creating a new React project from the terminal." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.28.51@2x.png" width="70%" alt="Creating a new React project from the terminal." align="center">
     <figcaption><em>Creating a new React project from the terminal.</em></figcaption>
     <br><br><br>
 </figure>
@@ -88,7 +88,7 @@ cd test-react-app && npm install && npm run start
 ```
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.30.17@2x.png" width="70%" alt="Starting the test React application." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.30.17@2x.png" width="70%" alt="Starting the test React application." align="center">
     <figcaption><em>Starting the test React application.</em></figcaption>
     <br><br><br>
 </figure>
@@ -96,7 +96,7 @@ cd test-react-app && npm install && npm run start
 This will start a trivial React application on `http://localhost:3000/` or any other available local port.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.31.38@2x.png" width="70%" alt="The React test application running in the browser." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.31.38@2x.png" width="70%" alt="The React test application running in the browser." align="center">
     <figcaption><em>The React test application running in the browser.</em></figcaption>
     <br><br><br>
 </figure>
@@ -112,7 +112,7 @@ npm run build
 ```
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.34.26@2x.png" width="70%" alt="Building the test React application for production." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.34.26@2x.png" width="70%" alt="Building the test React application for production." align="center">
     <figcaption><em>Building the test React application for production.</em></figcaption>
     <br><br><br>
 </figure>
@@ -176,7 +176,7 @@ Well, let’s not panic. Instead, let’s explore the Javascript referenced here
 If we unwrap the minified file, we should have a file that’s a little short of `9500` lines of Javascript!
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.46.05@2x.png" width="70%" alt="Unwrapping the minified Javascript asset for the trivial React application." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-04-28%20at%2012.46.05@2x.png" width="70%" alt="Unwrapping the minified Javascript asset for the trivial React application." align="center">
     <figcaption><em>Unwrapping the minified Javascript asset for the trivial React application.</em></figcaption>
     <br><br><br>
 </figure>
@@ -215,7 +215,7 @@ npm create astro@latest -- --template ohansemmanuel/astrojs-ditch-the-runtime-re
 We use the same `create astro` command to create a new project. The difference here is the `--template` argument that points to `ohansemmanuel/astrojs-ditch-the-runtime-react` and the `--yes` argument to skip all prompts and accept the defaults.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-05-09%20at%2007.40.44.png" width="70%" alt="Creating a new Astro project with a template." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-05-09%20at%2007.40.44.png" width="70%" alt="Creating a new Astro project with a template." align="center">
     <figcaption><em>Creating a new Astro project with a template.</em></figcaption>
     <br><br><br>
 </figure>
@@ -227,7 +227,7 @@ npm run start
 ```
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-01-14%20at%2009.31.23@2x.png" width="70%" alt="The new Astro project running on localhost." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-01-14%20at%2009.31.23@2x.png" width="70%" alt="The new Astro project running on localhost." align="center">
     <figcaption><em>The new Astro project running on localhost.</em></figcaption>
     <br><br><br>
 </figure>
@@ -245,7 +245,7 @@ This will build the Astro application and generate static in the `dist/` directo
 Explore the build output and find the main `HTML`, `CSS` and Image files in `dist/assets`.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-04-28%20at%2013.04.29@2x.png" width="70%" alt="The Astro project build output." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-04-28%20at%2013.04.29@2x.png" width="70%" alt="The Astro project build output." align="center">
     <figcaption><em>The Astro project build output.</em></figcaption>
     <br><br><br>
 </figure>
@@ -267,7 +267,7 @@ Before defining Astro components, let’s consider a more generic question. In s
 My straightforward answer would be: a website is a set of related `HTML` pages under a single domain.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/2.png" width="70%" alt="A multi page website." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/2.png" width="70%" alt="A multi page website." align="center">
     <figcaption><em>A multi page website.</em></figcaption>
     <br><br><br>
 </figure>
@@ -307,7 +307,7 @@ We won’t win any design awards with this page, but it suffices for our learnin
 In the `HTML` above, notice how we’ve produced a paragraph with the text `Hello world`, styled it with some `CSS` and logged a message to the console using `Javascript`.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-02-02%20at%2006.19.40.png" width="70%" alt="The basic HTML page." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-02-02%20at%2006.19.40.png" width="70%" alt="The basic HTML page." align="center">
     <figcaption><em>The basic HTML page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -350,7 +350,7 @@ This file must be in the `src/pages` directory as `pages` are the entry point to
 Now we should have a project structure similar to the following:
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-02-02%20at%2007.30.52.png" width="70%" alt="The hello-astro project structure." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-02-02%20at%2007.30.52.png" width="70%" alt="The hello-astro project structure." align="center">
     <figcaption><em>The hello-astro project structure.</em></figcaption>
     <br><br><br>
 </figure>
@@ -389,7 +389,7 @@ npx astro dev
 ```
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-02-04%20at%2007.09.03.png" width="70%" alt="The hello astro application." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-02-04%20at%2007.09.03.png" width="70%" alt="The hello astro application." align="center">
     <figcaption><em>The hello astro application.</em></figcaption>
     <br><br><br>
 </figure>
@@ -415,7 +415,7 @@ However, composability is vital to structuring complex user interfaces.
 Astro components are composable, which makes them highly flexible and reusable.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c.png" width="70%" alt="The parent child component relationship." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c.png" width="70%" alt="The parent child component relationship." align="center">
     <figcaption><em>The parent child component relationship.</em></figcaption>
     <br><br><br>
 </figure>
@@ -438,7 +438,7 @@ Astro builds upon the same mental model.
 So, essentially, an Astro website comprises pages that eventually get compiled into `HTML`.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c-1.png" width="70%" alt="A website made of Astro pages." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c-1.png" width="70%" alt="A website made of Astro pages." align="center">
     <figcaption><em>A website made of Astro pages.</em></figcaption>
     <br><br><br>
 </figure>
@@ -477,7 +477,7 @@ Consider the starting `index.astro` page below:
 
 Conceptually, we could compose the `index.astro` component from two smaller components: `Head` and `Body`.
 
-![Composing the index page from the Head and Body components](https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c-2.png width=300)
+![Composing the index page from the Head and Body components](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c-2.png width=300)
 
 Here’s how:
 
@@ -534,7 +534,7 @@ The level of composition we build our pages from is entirely up to us. For examp
 Let’s consider introducing isolated components for the `meta`, `title`, `style` and script elements.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c-3.png" width="70%" alt="Composing the Head component from other smaller components." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c-3.png" width="70%" alt="Composing the Head component from other smaller components." align="center">
     <figcaption><em>Composing the Head component from other smaller components.</em></figcaption>
     <br><br><br>
 </figure>
@@ -569,7 +569,7 @@ For example, we had a red paragraph when we started with all the `HTML` content 
 Now we’ve lost the paragraph style after our composition.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-02-04%20at%2013.04.36.png" width="70%" alt="The red paragraph style lost after the composition." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-02-04%20at%2013.04.36.png" width="70%" alt="The red paragraph style lost after the composition." align="center">
     <figcaption><em>The red paragraph style lost after the composition.</em></figcaption>
     <br><br><br>
 </figure>
@@ -579,7 +579,7 @@ What’s gone wrong?
 To understand this, we must determine where the style seats in the component composition.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c-4.png" width="70%" alt="Styles in Astro components are local by default and do not leak over." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c-4.png" width="70%" alt="Styles in Astro components are local by default and do not leak over." align="center">
     <figcaption><em>Styles in Astro components are local by default and do not leak over.</em></figcaption>
     <br><br><br>
 </figure>
@@ -638,7 +638,7 @@ The `HTML` page will be rendered with a reasonable default:
 ```
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-01-17%20at%2006.40.58@2x.png" width="70%" alt="The rendered page with a reasonable default." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-01-17%20at%2006.40.58@2x.png" width="70%" alt="The rendered page with a reasonable default." align="center">
     <figcaption><em>The rendered page with a reasonable default.</em></figcaption>
     <br><br><br>
 </figure>
@@ -652,7 +652,7 @@ For accessibility reasons, include a `<html>` element. This is relevant to provi
 Our page’s `<script>` and `<style>` elements exist in the associated `Script` and `Style` components.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c-5.png" width="70%" alt="The Style and Script child components." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c-5.png" width="70%" alt="The Style and Script child components." align="center">
     <figcaption><em>The Style and Script child components.</em></figcaption>
     <br><br><br>
 </figure>
@@ -700,7 +700,7 @@ From the composition above, you may expect a render markup similar to the follow
 However, inspect the rendered Astro page, and you’ll find the `style` and `script` elements still placed within the `<head>` of the document.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-02-04%20at%2013.50.39.png" width="70%" alt="The hoisted script and style elements." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-02-04%20at%2013.50.39.png" width="70%" alt="The hoisted script and style elements." align="center">
     <figcaption><em>The hoisted script and style elements.</em></figcaption>
     <br><br><br>
 </figure>
@@ -708,7 +708,7 @@ However, inspect the rendered Astro page, and you’ll find the `style` and `scr
 This is because in Astro, we can freely use the `<style>` and `<script>` elements within our components, and they’ll be hoisted to the `<head>` of the rendered document. This is regardless of the component composition.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c-6.png" width="70%" alt="<style> and <script> are hoisted to the <head> of our page." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c-6.png" width="70%" alt="<style> and <script> are hoisted to the <head> of our page." align="center">
     <figcaption><em>style and script are hoisted to the head of our page.</em></figcaption>
     <br><br><br>
 </figure>
@@ -744,7 +744,7 @@ import Script from "../components/Script.astro";
 Adding a new `<head>` element to the bottom of the page is a silly composition. However, browsers are forgiving of bad `HTML` markup, so in this case, the extra `<head>` element is ignored, and its content is rendered within the `<body>` element of the page.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/CleanShot%202023-01-17%20at%2007.50.01@2x.png" width="70%" alt="The browser trying to make sense of the wrong composition." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/CleanShot%202023-01-17%20at%2007.50.01@2x.png" width="70%" alt="The browser trying to make sense of the wrong composition." align="center">
     <figcaption><em>The browser trying to make sense of the wrong composition.</em></figcaption>
     <br><br><br>
 </figure>
@@ -759,7 +759,7 @@ Astro isn’t different.
 
 Astro provides powerful templating by splitting a component into two main parts: the component script and the component template sections.
 
-![The make-up of an Astro component](https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c-7.png width=230)
+![The make-up of an Astro component](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c-7.png width=230)
 
 It is important to note that technically, an Astro component is still valid with one or none of the sections present, i.e., an empty (yet valid) Astro component will have none of these sections.
 
@@ -776,7 +776,7 @@ The component script section is identified with a code fence `(---)`.
 Typically, the component script section is where we write the Javascript code we need to reference within our template.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/c-8.png" width="70%" alt="Leverage values from the component script section in the component template." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/c-8.png" width="70%" alt="Leverage values from the component script section in the component template." align="center">
     <figcaption><em>Leverage values from the component script section in the component template.</em></figcaption>
     <br><br><br>
 </figure>
@@ -965,7 +965,7 @@ Run the production build with `npm run build` and preview the production applica
 
 The variables created, imports made, and data fetched in the component script section exist primarily for one reason: to be consumed in the component template section the component[^3].
 
-![Consuming variables in the component template section](https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/d.png width=300)
+![Consuming variables in the component template section](https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/d.png width=300)
 
 If Astro components are eventually built to `HTML`, the template section defines the markup of the said `HTML` page. However, the component template section lets us do this dynamically, i.e., leveraging the power of Javascript expressions.
 
@@ -1068,7 +1068,7 @@ If we pass a lower cased variable, Astro will try to render the variable name as
 If you want to easily add external HTML content to your component template, the `<slot />` element is your friend! Any child elements you include will be automatically rendered in a component’s `<slot />`.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/slot.png" width="70%" alt="Extra white spaces in coloured text backgrounds." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/slot.png" width="70%" alt="Extra white spaces in coloured text backgrounds." align="center">
     <figcaption><em>Using the <slot/> element.</em></figcaption>
     <br><br><br>
 </figure>
@@ -1222,7 +1222,7 @@ Consider the `Code.astro` component shown below:
 Including the `Code` component within a paragraph will result in highlighted white spaces.
 
 <figure>
-    <img src="https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/ch2/white-space.png" width="70%" alt="Extra white spaces in coloured text backgrounds." align="center">
+    <img src="https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/ch2/white-space.png" width="70%" alt="Extra white spaces in coloured text backgrounds." align="center">
     <figcaption><em>Extra white spaces in coloured text backgrounds.</em></figcaption>
     <br><br><br>
 </figure>

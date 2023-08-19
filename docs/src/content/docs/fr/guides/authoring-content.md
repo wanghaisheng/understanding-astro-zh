@@ -44,7 +44,7 @@ Les chemins d'accès relatifs aux images sont également supportés pour les ima
 ```md
 // src/content/docs/page-1.md
 
-![Une fusée dans l'espace](../../assets/https://github.com/wanghaisheng/understanding-astro-zh/docs/main/public/images/rocket.svg)
+![Une fusée dans l'espace](../../assets/https://raw.githubusercontent.com/wanghaisheng/understanding-astro-zh/main/public/images/rocket.svg)
 ```
 
 ## En-têtes

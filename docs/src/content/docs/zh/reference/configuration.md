@@ -388,7 +388,7 @@ interface HeadConfig {
 
 ```js
 starlight({
-  favicon: '/images/favicon.svg',
+  favicon: '/../../images/favicon.svg',
 }),
 ```
 
@@ -396,14 +396,14 @@ starlight({
 
 ```js
 starlight({
-  favicon: '/images/favicon.svg'.
+  favicon: '/../../images/favicon.svg'.
   head: [
     // 为 Safari 添加 ICO favicon 回退。
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/images/favicon.ico',
+        href:'/../../images/favicon.ico',
         sizes: '32x32',
       },
     },

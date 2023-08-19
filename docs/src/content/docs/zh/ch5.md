@@ -21,12 +21,12 @@ Everything you need to know to develop rich content websites with real-world bes
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/images/ch5/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
+[![](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/watch-instead@3x.png)](https://ohans.me/understanding-astro-udemy)
 
   
   
 
-[![](/understanding-astro/understanding-astro-book/raw/master/images/ch5/view-project.png)](https://github.com/understanding-astro/react.dev-astro)
+[![](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/view-project.png)](https://github.com/understanding-astro/react.dev-astro)
 
 * * *
 
@@ -54,7 +54,7 @@ We’ve spent ample time learning the ins and outs of building static websites w
 Instead, we’ll begin with a basic static project we’ll build upon throughout the chapter.  
 相反，我们将从一个基本的静态项目开始，我们将在整个章节中建立。
 
-[![Building from a starter project.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/project-shell.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/project-shell.png)
+[![Building from a starter project.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/project-shell.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/project-shell.png)
 
 _Building from a starter project.  
 从启动项目生成。_  
@@ -64,7 +64,7 @@ _Building from a starter project.
 In this chapter, we will adopt a solution-oriented approach similar to that of detectives. We aim to solve various `TODOs` scattered throughout the starter project.  
 在这一章中，我们将采用一种类似于侦探的以解决方案为导向的方法。我们的目标是解决分散在整个启动项目中的各种 `TODOs` 。
 
-[![Solving small isolated problems.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/todos.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/todos.png)
+[![Solving small isolated problems.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/todos.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/todos.png)
 
 _Solving small isolated problems.  
 解决孤立的小问题。_  
@@ -108,7 +108,7 @@ When prompted, type “y” to accept each prompt. “y” means “yes”!
 The complete installation will add all relevant react dependencies and updates the `astro.config.mjs` project configuration file.  
 完整的安装将添加所有相关的react依赖项并更新 `astro.config.mjs` 项目配置文件。
 
-[![Installing the React integration and dependencies.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-23%20at%2008.11.48.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-23%20at%2008.11.48.png)
+[![Installing the React integration and dependencies.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-23%20at%2008.11.48.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-23%20at%2008.11.48.png)
 
 _Installing the React integration and dependencies.  
 安装React集成和依赖项。_  
@@ -123,7 +123,7 @@ npx astro add mdx
 This will install the `@astrojs/mdx` integration and also update the `astro.config.mjs` project configuration file.  
 这将安装 `@astrojs/mdx` 集成并更新 `astro.config.mjs` 项目配置文件。
 
-[![Installing the MDX integration.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-23%20at%2008.13.42.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-23%20at%2008.13.42.png)
+[![Installing the MDX integration.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-23%20at%2008.13.42.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-23%20at%2008.13.42.png)
 
 _Installing the MDX integration.  
 安装MDX集成。_  
@@ -141,7 +141,7 @@ This will run the application in an available local port e.g., the default `loca
 Visit the local server and you’ll find the base unstyled application running in the browser as shown below:  
 访问本地服务器，您会发现在浏览器中运行的基本无样式应用程序，如下所示：
 
-[![The unstyled homepage.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-23%20at%2008.16.14.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-23%20at%2008.16.14.png)
+[![The unstyled homepage.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-23%20at%2008.16.14.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-23%20at%2008.16.14.png)
 
 _The unstyled homepage. 无样式的主页。_  
   
@@ -181,7 +181,7 @@ npx astro add tailwind
 This will install the Astro tailwind integration in the project and update the project configuration.  
 这将在项目中安装Astro tailwind集成并更新项目配置。
 
-[![Installing the Astro Tailwind integration.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-24%20at%2008.16.12.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-24%20at%2008.16.12.png)
+[![Installing the Astro Tailwind integration.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-24%20at%2008.16.12.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-24%20at%2008.16.12.png)
 
 _Installing the Astro Tailwind integration.  
 安装Astro Tailwind集成。_  
@@ -191,7 +191,7 @@ _Installing the Astro Tailwind integration.
 Once the installation is complete, the existing application styles will now take effect. Visit the application on your local port to see the styled application.  
 安装完成后，现有的应用程序样式现在将生效。访问本地端口上的应用程序以查看样式化的应用程序。
 
-[![The styled application.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-24%20at%2008.17.17.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-24%20at%2008.17.17.png)
+[![The styled application.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-24%20at%2008.17.17.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-24%20at%2008.17.17.png)
 
 _The styled application. 样式化的应用程序。_  
   
@@ -212,7 +212,7 @@ Using Tailwind in Astro is straightforward. Install the Tailwind integration and
 For example, consider the styled text “The library for web and native user interfaces” on the project homepage:  
 例如，考虑项目主页上的样式文本“The library for web and native user interfaces”：
 
-[![The homepage subtitle.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-03%20at%2006.50.11@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-03%20at%2006.50.11@2x.png)
+[![The homepage subtitle.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-03%20at%2006.50.11@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-03%20at%2006.50.11@2x.png)
 
 _The homepage subtitle. 主页字幕。_  
   
@@ -242,7 +242,7 @@ Firstly, most Tailwind utility classes are well-named and you can infer what the
 If you’re coding along in VSCode, I recommend installing the official Tailwind integration:  
 如果你在VSCode中编码，我建议你安装官方的Tailwind集成：
 
-[![Installing the official VSCode Tailwind plugin.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-03%20at%2006.55.50@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-03%20at%2006.55.50@2x.png)
+[![Installing the official VSCode Tailwind plugin.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-03%20at%2006.55.50@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-03%20at%2006.55.50@2x.png)
 
 _Installing the official VSCode Tailwind plugin.  
 安装官方VSCode Tailwind插件。_  
@@ -262,7 +262,7 @@ For example, hovering over the `max-w-lg` displays the css property value for th
   max-width: 32rem /\* 512px \*/;
 }
 
-[![Hovering over Tailwind classes.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-03%20at%2006.58.37@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-03%20at%2006.58.37@2x.png)
+[![Hovering over Tailwind classes.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-03%20at%2006.58.37@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-03%20at%2006.58.37@2x.png)
 
 _Hovering over Tailwind classes.  
 盘旋在顺风班上空。_  
@@ -363,7 +363,7 @@ We’ve learned that appropriate file types in the `src/pages` directory get tra
 However, what if we need to have some files collocated in the `src/pages` directory without being transformed into accompanying `HTML` pages?  
 但是，如果我们需要将一些文件放在 `src/pages` 目录中，而不被转换为附带的 `HTML` 页面，该怎么办？
 
-[![Colocating files in the pages directory.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/exclude_page_intro.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/exclude_page_intro.png)
+[![Colocating files in the pages directory.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/exclude_page_intro.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/exclude_page_intro.png)
 
 _Colocating files in the pages directory.  
 在pages目录中共置文件。_  
@@ -379,7 +379,7 @@ Well, there’s a solution for that.
 To exclude a valid page file type in the `src/pages` directory from being compiled into an associating HTML page, prefix the file name with an underscore `_`.  
 要排除 `src/pages` 目录中的有效页面文件类型，使其无法编译到关联的HTML页面中，请在文件名前面加上下划线 `_` 。
 
-[![Prefix file name with a underscore to not transform into HTML pages.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/prefix_exclude_page.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/prefix_exclude_page.png)
+[![Prefix file name with a underscore to not transform into HTML pages.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/prefix_exclude_page.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/prefix_exclude_page.png)
 
 _Prefix file name with a underscore to not transform into HTML pages.  
 在文件名前面加上下划线，以避免转换为HTML页面。_  
@@ -407,7 +407,7 @@ Take a look at the `index.astro` and consider the `TODO` to render the `Video` R
 // 📂 src/pages/index.astro
 ❗️ <Code class\="text-white"\>TODO:</Code> (Astro Island): Render the ...
 
-[![TODO: Render the Video React component island.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-05%20at%2008.40.18@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-05%20at%2008.40.18@2x.png)
+[![TODO: Render the Video React component island.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-05%20at%2008.40.18@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-05%20at%2008.40.18@2x.png)
 
 _TODO: Render the Video React component island.  
 TODO：渲染Video React组件岛。_  
@@ -438,7 +438,7 @@ import { Video } from "./\_components/home/Video";
 *   Finally pass the required `video` object props to the `Video` component: `{title: "my video", description: "Video description"}`.  
     最后将所需的 `video` 对象props传递给 `Video` 组件： `{title: "my video", description: "Video description"}` 。
 
-[![The rendered video island.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-05%20at%2008.39.19@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-05%20at%2008.39.19@2x.png)
+[![The rendered video island.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-05%20at%2008.39.19@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-05%20at%2008.39.19@2x.png)
 
 _The rendered video island.  
 渲染的视频岛。_  
@@ -451,7 +451,7 @@ Similarly, let’s resolve the second TODO. This time around we’ll render mult
 // 📂 src/pages/index.astro
 ❗️ <Code class\="text-white"\>TODO:</Code> (Astro Island): Render two ...
 
-[![TODO: Render two React component islands.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-05%20at%2008.43.18@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-05%20at%2008.43.18@2x.png)
+[![TODO: Render two React component islands.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-05%20at%2008.43.18@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-05%20at%2008.43.18@2x.png)
 
 _TODO: Render two React component islands.  
 TODO：渲染两个React组件岛。_  
@@ -476,7 +476,7 @@ Consider the solution below:
   </div\>
 </ExampleResultPanel\>
 
-[![The rendered Astro islands.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-05%20at%2008.45.15@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-05%20at%2008.45.15@2x.png)
+[![The rendered Astro islands.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-05%20at%2008.45.15@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-05%20at%2008.45.15@2x.png)
 
 _The rendered Astro islands.  
 阿童木群岛_  
@@ -507,7 +507,7 @@ Let’s have a look at these.
 Astro ships with a `<Code />` component that provides syntax highlights at build time.  
 Astro附带了一个 `<Code />` 组件，在构建时提供语法突出显示。
 
-[![The Code component renders to HTML and inline styles without any Javascript.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/code_component.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/code_component.png)
+[![The Code component renders to HTML and inline styles without any Javascript.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/code_component.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/code_component.png)
 
 _The Code component renders to HTML and inline styles without any Javascript.  
 Code组件渲染为HTML和内联样式，而不使用任何JavaScript。_  
@@ -520,7 +520,7 @@ By implication, there’s no runtime overhead to this method of syntax highlight
 This is powered by Shiki.  
 这是由Shiki提供的。
 
-[![Sample syntax highlighted DOM output.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-25%20at%2008.35.52.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-25%20at%2008.35.52.png)
+[![Sample syntax highlighted DOM output.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-25%20at%2008.35.52.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-25%20at%2008.35.52.png)
 
 _Sample syntax highlighted DOM output.  
 示例语法突出显示的DOM输出。_  
@@ -535,7 +535,7 @@ Let’s go back to our starter project and resolve another TODO.
 // ...
 ❗️ <Code class\="text-white"\>TODO:</Code> Replace with Syntax highlighted code
 
-[![TODO: Add syntax highlighted code block.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-05%20at%2016.06.25@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-05%20at%2016.06.25@2x.png)
+[![TODO: Add syntax highlighted code block.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-05%20at%2016.06.25@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-05%20at%2016.06.25@2x.png)
 
 _TODO: Add syntax highlighted code block.  
 TODO：添加语法突出显示的代码块。_  
@@ -574,7 +574,7 @@ import { Code as AstroCode } from "astro/components";
    /\>
 </div\>
 
-[![The syntax highlighted code block.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-25%20at%2013.04.02@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-25%20at%2013.04.02@2x.png)
+[![The syntax highlighted code block.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.04.02@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.04.02@2x.png)
 
 _The syntax highlighted code block.  
 语法突出显示了代码块。_  
@@ -597,7 +597,7 @@ This will reduce the size of the font, reduce the type leading and make the code
 See the results below:  
 请参见下面的结果：
 
-[![Better styled syntax highlighted code block.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-25%20at%2013.03.25@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-25%20at%2013.03.25@2x.png)
+[![Better styled syntax highlighted code block.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.03.25@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.03.25@2x.png)
 
 _Better styled syntax highlighted code block.  
 更好的样式化语法突出显示代码块。_  
@@ -640,7 +640,7 @@ Consider the identical solution below:
    lang\="jsx"
  /\>
 
-[![The syntax highlighted code block.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-25%20at%2013.05.02@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-25%20at%2013.05.02@2x.png)
+[![The syntax highlighted code block.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.05.02@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.05.02@2x.png)
 
 _The syntax highlighted code block.  
 语法突出显示了代码块。_  
@@ -656,7 +656,7 @@ The default `Code` component also supports all the official Shiki [themes](https
   theme\="poimandres"
 /\>
 
-[![The poimandres theme.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-25%20at%2013.15.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-25%20at%2013.15.33@2x.png)
+[![The poimandres theme.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.15.33@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.15.33@2x.png)
 
 _The poimandres theme. Poimandres主题。_  
   
@@ -762,7 +762,7 @@ import Shiki from "@components/Shiki.astro";
 And there we go! We’ve successfully loaded a custom theme.  
 好了我们已成功加载自定义主题。
 
-[![Comparing the previous highlighted code with the new Night Owl theme.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-06-25%20at%2013.55.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-06-25%20at%2013.55.54@2x.png)
+[![Comparing the previous highlighted code with the new Night Owl theme.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.55.54@2x.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-06-25%20at%2013.55.54@2x.png)
 
 _Comparing the previous highlighted code with the new Night Owl theme.  
 将以前突出显示的代码与新的Night Owl主题进行比较。_  
@@ -854,7 +854,7 @@ One solution to best organise the project’s content could be to save the conte
 We may visually model these as collections of data saved in a database with a predefined data schema.  
 我们可以将这些可视化地建模为保存在具有预定义数据模式的数据库中的数据集合。
 
-[![Modelling data with a predefined schema in a database.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/predefined_schema_db.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/predefined_schema_db.png)
+[![Modelling data with a predefined schema in a database.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/predefined_schema_db.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/predefined_schema_db.png)
 
 _Modelling data with a predefined schema in a database.  
 使用数据库中的预定义模式对数据建模。_  
@@ -876,7 +876,7 @@ So, what’s a content collection?
 A content collection is any top-level directory in the `src/content` folder of an Astro project.  
 内容集合是Astro项目的 `src/content` 文件夹中的任何顶级目录。
 
-[![Content collections - top directories in src/content.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/content_collections.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/content_collections.png)
+[![Content collections - top directories in src/content.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/content_collections.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/content_collections.png)
 
 _Content collections - top directories in src/content.  
 内容集合-src/content中的顶级目录。_  
@@ -889,7 +889,7 @@ Note that the `src/content` directory is strictly reserved for content collectio
 Now that we know what a content collection is, the individual documents or entries within a collection are referred to as collection entries.  
 现在我们知道了什么是内容集合，集合中的各个文档或条目被称为集合条目。
 
-[![Collection entries within a single collection.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/collection_entries.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/collection_entries.png)
+[![Collection entries within a single collection.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/collection_entries.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/collection_entries.png)
 
 _Collection entries within a single collection.  
 单个集合中的集合项。_  
@@ -923,7 +923,7 @@ Now, content collections aim to address three main problems:
 When working with content collections, note that only top-level directories in `src/content` count as collections. For example, with multiple collections such as `blogs`, `authors` and `comments`, we could accurately represent these distinct content types with three top-level directories within `src/content`.  
 使用内容集合时，请注意，只有 `src/content` 中的顶级目录才算作集合。例如，对于 `blogs` 、 `authors` 和 `comments` 等多个集合，我们可以使用 `src/content` 中的三个顶级目录准确地表示这些不同的内容类型。
 
-[![Organising different content collections.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/content_collection_example.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/content_collection_example.png)
+[![Organising different content collections.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/content_collection_example.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/content_collection_example.png)
 
 _Organising different content collections.  
 组织不同的内容集合。_  
@@ -933,7 +933,7 @@ _Organising different content collections.
 If there’s a need to further organise content via subdirectories within a collection, that’s entirely acceptable! For example. The `blogs` content collection may have subdirectories to organise content via languages e.g., `en`, `fr`, etc.  
 如果需要通过集合中的子目录进一步组织内容，这是完全可以接受的！比如说。 `blogs` 内容集合可以具有子目录以经由语言（例如， `en` 、 `fr` 等
 
-[![Subdirectories within content collections.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/collection_subdirectories.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/collection_subdirectories.png)
+[![Subdirectories within content collections.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/collection_subdirectories.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/collection_subdirectories.png)
 
 _Subdirectories within content collections.  
 内容集合中的子目录。_  
@@ -952,7 +952,7 @@ What do you see?
 You should find a `blog` collection in `src/content/blog` with a handful of `.mdx` files.  
 您应该在 `src/content/blog` 中找到一个 `blog` 集合，其中包含少数 `.mdx` 文件。
 
-[![Entries in the blog collection.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-11%20at%2006.44.39.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-11%20at%2006.44.39.png)
+[![Entries in the blog collection.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-11%20at%2006.44.39.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-11%20at%2006.44.39.png)
 
 _Entries in the blog collection.  
 博客集合中的条目。_  
@@ -1196,7 +1196,7 @@ Find the next TODO on the `blog/index.astro` page:
 The goal is to fetch all the blogs in the blog content collection and render visual cards for each entry. Also, note that clicking each card should point to the actual blog.  
 目标是获取博客内容集合中的所有博客，并为每个条目呈现可视卡片。另外，请注意，单击每张卡片应该指向实际的博客。
 
-[![Rendering blog post cards.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-10%20at%2005.49.23.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-10%20at%2005.49.23.png)
+[![Rendering blog post cards.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-10%20at%2005.49.23.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-10%20at%2005.49.23.png)
 
 _Rendering blog post cards.  
 渲染博客明信片。_  
@@ -1390,7 +1390,7 @@ const { title, year, month, day } \= Astro.params;
 Clicking on the _data fetching with react server components_ and _introducing react dev blog_ cards should now render their accompanying page.  
 点击使用react服务器组件的数据获取并引入react dev博客卡片现在应该会呈现它们的附带页面了。
 
-[![Rendered blog markup.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-02%20at%2007.41.17.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-02%20at%2007.41.17.png)
+[![Rendered blog markup.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-02%20at%2007.41.17.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-02%20at%2007.41.17.png)
 
 _Rendered blog markup. 渲染的博客标记。_  
   
@@ -1441,7 +1441,7 @@ const { path } \= Astro.params;
 Clicking on the _data fetching with react server components_ and _introducing react dev blog_ cards should now render their accompanying page.  
 点击使用react服务器组件的数据获取并引入react dev博客卡片现在应该会呈现它们的附带页面了。
 
-[![Rendered blog markup.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-02%20at%2007.40.03.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-02%20at%2007.40.03.png)
+[![Rendered blog markup.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-02%20at%2007.40.03.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-02%20at%2007.40.03.png)
 
 _Rendered blog markup. 渲染的博客标记。_  
   
@@ -1464,7 +1464,7 @@ Well, Astro needs to make a decision, and that’s following the priority list b
 4.  Following the above, any ties will be resolved alphabetically.  
     按照上述步骤，任何领带将按字母顺序解决。
 
-[![Route priority order from first to last.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/route_priority.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/route_priority.png)
+[![Route priority order from first to last.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/route_priority.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/route_priority.png)
 
 _Route priority order from first to last.  
 从第一个到最后一个路由优先级顺序。_  
@@ -1484,7 +1484,7 @@ Right now, we’re manually adding objects to the exported `getStaticPaths` func
 However, our desired solution is to generate these from the blog content collection.  
 然而，我们想要的解决方案是从博客内容集合中生成这些内容。
 
-[![Automatically generate routes for each collection entry](/understanding-astro/understanding-astro-book/raw/master/images/ch5/auto_entry_route.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/auto_entry_route.png)
+[![Automatically generate routes for each collection entry](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/auto_entry_route.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/auto_entry_route.png)
 
 _Automatically generate routes for each collection entry.  
 自动为每个收集条目生成路由。_  
@@ -1527,7 +1527,7 @@ const { path } \= Astro.params;
 Now, every single blog entry now has an associating path defined. Give this a try by clicking any blog link from the home page.  
 现在，每个博客条目都定义了一个关联路径。给予着点击主页上的任何博客链接。
 
-[![All blog paths now automatically handled.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-02%20at%2007.51.47.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-02%20at%2007.51.47.png)
+[![All blog paths now automatically handled.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-02%20at%2007.51.47.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-02%20at%2007.51.47.png)
 
 _All blog paths now automatically handled.  
 所有的博客路径现在自动处理。_  
@@ -1594,7 +1594,7 @@ const { Content } \= await blogEntry.render();
 //...
 <Content /\>;
 
-[![The rendered blog content.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-02%20at%2008.48.36.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-02%20at%2008.48.36.png)
+[![The rendered blog content.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-02%20at%2008.48.36.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-02%20at%2008.48.36.png)
 
 _The rendered blog content.  
 渲染的博客内容。_  
@@ -1690,7 +1690,7 @@ import { mdxComponents } from "@components/mdxComponents";
 With this, we should now have properly styled components in place of the bland HTML elements.  
 这样，我们现在应该有适当样式的组件来代替乏味的HTML元素。
 
-[![Leveraging custom components for the MDX HTML output.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-10%20at%2006.39.24.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-10%20at%2006.39.24.png)
+[![Leveraging custom components for the MDX HTML output.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-10%20at%2006.39.24.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-10%20at%2006.39.24.png)
 
 _Leveraging custom components for the MDX HTML output.  
 利用自定义组件进行MDX HTML输出。_  
@@ -1708,7 +1708,7 @@ Components can also be imported and directly rendered within MDX. That’s part 
 Go ahead and open the first blog route in `/blog/2020/12/21/data-fetching-with-react-server-components` and find the first `TODO` on the page.  
 继续，打开 `/blog/2020/12/21/data-fetching-with-react-server-components` 中的第一个博客路径，并在页面上找到第一个 `TODO` 。
 
-[![TODO: add the Intro component.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-10%20at%2006.42.47.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-10%20at%2006.42.47.png)
+[![TODO: add the Intro component.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-10%20at%2006.42.47.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-10%20at%2006.42.47.png)
 
 _TODO: add the Intro component.  
 TODO：添加Intro组件。_  
@@ -1734,7 +1734,7 @@ import Intro from "@components/Intro.astro";
 </Intro\>
 \--\-
 
-[![The rendered Intro component.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-02%20at%2009.07.29.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-02%20at%2009.07.29.png)
+[![The rendered Intro component.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-02%20at%2009.07.29.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-02%20at%2009.07.29.png)
 
 _The rendered Intro component.  
 渲染的简介组件。_  
@@ -1760,7 +1760,7 @@ import Note from "@components/Note.astro";
 }
 <Note\>React Server Components are still in research and development.</Note\>;
 
-[![The rendered Note component.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-02%20at%2010.43.07.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-02%20at%2010.43.07.png)
+[![The rendered Note component.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-02%20at%2010.43.07.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-02%20at%2010.43.07.png)
 
 _The rendered Note component.  
 渲染的Note组件。_  
@@ -1812,7 +1812,7 @@ import { YouTube } from "astro-embed";
 
 <YouTube id\="https://youtu.be/TQQPAU21ZUw" />
 
-[![The rendered Youtube component.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-10%20at%2007.05.09.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-10%20at%2007.05.09.png)
+[![The rendered Youtube component.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-10%20at%2007.05.09.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-10%20at%2007.05.09.png)
 
 _The rendered Youtube component.  
 渲染的Youtube组件。_  
@@ -1959,7 +1959,7 @@ import { SEO } from "astro-seo";
         basic: {
           title,
           type: "website",
-          image: "https://react.dev/images/og-home.png",
+          image: "https://react.dev/../../images/og-home.png",
         },
       }}
       twitter\={{
@@ -1969,7 +1969,7 @@ import { SEO } from "astro-seo";
         meta: \[
           {
             name: "twitter:image",
-            content: "https://react.dev/images/og-home.png",
+            content: "https://react.dev/../../images/og-home.png",
           },
           { name: "twitter:title", content: "@reactjs" },
           {
@@ -2023,7 +2023,7 @@ It renders a blank page via `<BaseLayout />` and automatically redirects the use
 Give this a try by visiting the API reference link on the homepage.  
 通过访问主页上的API参考链接来给予一下。
 
-[![The API reference link.](/understanding-astro/understanding-astro-book/raw/master/images/ch5/CleanShot%202023-07-10%20at%2007.28.40.png)](/understanding-astro/understanding-astro-book/blob/master/images/ch5/CleanShot%202023-07-10%20at%2007.28.40.png)
+[![The API reference link.](/understanding-astro/understanding-astro-book/raw/master/../../images/ch5/CleanShot%202023-07-10%20at%2007.28.40.png)](/understanding-astro/understanding-astro-book/blob/master/../../images/ch5/CleanShot%202023-07-10%20at%2007.28.40.png)
 
 _The API reference link.  
 API参考链接。_  

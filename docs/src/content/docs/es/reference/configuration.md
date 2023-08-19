@@ -390,7 +390,7 @@ Establece la ruta del favicon predeterminado para tu sitio web, el cual debería
 
 ```js
 starlight({
-  favicon: '/images/favicon.svg',
+  favicon: '/../../images/favicon.svg',
 }),
 ```
 
@@ -398,14 +398,14 @@ Si necesitas establecer variantes adicionales o favicons de respaldo, puedes agr
 
 ```js
 starlight({
-  favicon: '/images/favicon.svg'.
+  favicon: '/../../images/favicon.svg'.
   head: [
     // Agregar un favicon ICO de respaldo para Safari.
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/images/favicon.ico',
+        href:'/../../images/favicon.ico',
         sizes: '32x32',
       },
     },

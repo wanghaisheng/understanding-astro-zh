@@ -384,7 +384,7 @@ interface HeadConfig {
 
 ```js
 starlight({
-  favicon: '/images/favicon.svg',
+  favicon: '/../../images/favicon.svg',
 }),
 ```
 
@@ -392,14 +392,14 @@ starlight({
 
 ```js
 starlight({
-  favicon: '/images/favicon.svg'.
+  favicon: '/../../images/favicon.svg'.
   head: [
     // Safari用にICOファビコンのフォールバックを追加します。
     {
       tag: 'link',
       attrs: {
         rel: 'icon',
-        href:'/images/favicon.ico',
+        href:'/../../images/favicon.ico',
         sizes: '32x32',
       },
     },

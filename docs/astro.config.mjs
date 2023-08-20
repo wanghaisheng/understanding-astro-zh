@@ -12,7 +12,7 @@ export const locales = {
 	'pt-br': { label: 'Português do Brasil', lang: 'pt-BR' },
 };
 
-const site = 'https://starlight.astro.build/';
+const site = 'https://understanding-astro-zh-docs.vercel.app';
 
 export default defineConfig({
 	site,
@@ -25,10 +25,10 @@ export default defineConfig({
 				replacesTitle: true,
 			},
 			editLink: {
-				baseUrl: 'https://github.com/withastro/starlight/edit/main/docs/',
+				baseUrl: 'https://github.com/wanghaisheng/understanding-astro-zh/edit/main/docs/',
 			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/wanghaisheng/understanding-astro-zh',
 				discord: 'https://astro.build/chat',
 			},
 			head: [
@@ -197,96 +197,7 @@ export default defineConfig({
 
 					],
 				},
-				{
-					label: 'Start Here',
-					translations: {
-						de: 'Beginne hier',
-						es: 'Comienza aqui',
-						ja: 'ここからはじめる',
-						fr: 'Commencez ici',
-						it: 'Inizia qui',
-						zh: '从这里开始',
-						'pt-BR': 'Comece Aqui',
-					},
-					items: [
-						{
-							label: 'Getting Started',
-							link: 'getting-started',
-							translations: {
-								de: 'Erste Schritte',
-								es: 'Empezando',
-								ja: '入門',
-								fr: 'Mise en route',
-								it: 'Iniziamo',
-								zh: '开始使用',
-								'pt-BR': 'Introdução',
-							},
-						},
-						{
-							label: 'Manual Setup',
-							link: 'manual-setup',
-							translations: {
-								de: 'Manuelle Einrichtung',
-								es: 'Configuración Manual',
-								ja: '手動セットアップ',
-								// fr: 'Manual Setup',
-								// it: 'Manual Setup',
-								zh: '手动配置',
-								'pt-BR': 'Instalação Manual',
-							},
-						},
-						{
-							label: 'Environmental Impact',
-							link: 'environmental-impact',
-							translations: {
-								// de: '',
-								es: 'Documentación ecológica',
-								ja: '環境への負荷',
-								fr: 'Impact environnemental',
-								it: 'Impatto ambientale',
-								zh: '环境影响',
-								'pt-BR': 'Impacto Ambiental',
-							},
-						},
-						{
-							label: 'Showcase',
-							link: 'showcase',
-							translations: {
-								// de: '',
-								// es: '',
-								ja: 'ショーケース',
-								// fr: '',
-								// it: '',
-							},
-						},
-					],
-				},
-				{
-					label: 'Guides',
-					translations: {
-						de: 'Anleitungen',
-						es: 'Guías',
-						ja: 'ガイド',
-						fr: 'Guides',
-						it: 'Guide',
-						zh: '指南',
-						'pt-BR': 'Guias',
-					},
-					autogenerate: { directory: 'guides' },
-				},
-				{
-					label: 'Reference',
-					translations: {
-						de: 'Referenz',
-						es: 'Referencias',
-						ja: 'リファレンス',
-						fr: 'Référence',
-						it: 'Riferimenti',
-						zh: '参考',
-						'pt-BR': 'Referência',
-					},
-					autogenerate: { directory: 'reference' },
-				},
+
 			],
 			lastUpdated: true,
 		}),

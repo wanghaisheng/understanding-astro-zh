@@ -1,6 +1,6 @@
 ---
 title: The story behind the  book by Ohans Emmanuel
-description: 
+description: The story behind the  book by Ohans Emmanuel
 ---
 
 The story behind the  book by Ohans Emmanuel

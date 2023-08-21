@@ -65,6 +65,19 @@ export default defineConfig({
 					},
 					items: [
 						{
+							label: 'intro',
+							link: 'intro',
+							translations: {
+								de: 'Erste Schritte',
+								es: 'Empezando',
+								ja: '入門',
+								fr: 'Mise en route',
+								it: 'Iniziamo',
+								zh: 'preface',
+								'pt-BR': 'Introdução',
+							},
+						},
+						{
 							label: 'preface',
 							link: 'preface',
 							translations: {
